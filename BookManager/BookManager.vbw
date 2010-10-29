@@ -1,0 +1,13 @@
+frmMain = 66, 75, 905, 383, Z, 66, 75, 887, 385, C
+FileBox = 110, 125, 949, 433, C, 88, 100, 927, 408, C
+KeyValueEditor = 110, 125, 949, 433, C, 0, 0, 839, 308, C
+MSSReader = 110, 125, 949, 433, C
+MFileSystem = 66, 75, 905, 383, C
+MStrings = 88, 100, 927, 408, C
+CBookInfo = 110, 125, 949, 433, C
+VSpliter = 22, 25, 861, 333, C, 110, 125, 949, 433, C
+MZlib = 0, 0, 839, 308, C
+frmOptions = 44, 50, 895, 359, C, 110, 125, 949, 433, C
+MForms = 110, 125, 949, 433, C
+CCommonDialogLite = 0, 0, 0, 0, C
+CLiNInI = 132, 150, 983, 457, C

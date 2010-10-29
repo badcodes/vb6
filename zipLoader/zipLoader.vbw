@@ -1,0 +1,5 @@
+MShell32 = 0, 0, 0, 0, C
+MApp = 0, 0, 0, 0, C
+zipLoaderMain = 27, 29, 488, 375, 
+MUseZipProtocol = 66, 84, 636, 515, Z
+MAlgorithms = 54, 58, 487, 394, 

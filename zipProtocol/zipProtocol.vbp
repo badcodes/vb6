@@ -1,0 +1,56 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{2FE02733-E254-4B2E-AC69-A20AFBC0A92F}#1.0#0#D:\MYPLACE\DLL\LUseZip.dll#LUseZipDll
+Reference=*\G{3181A65A-CC39-4CDE-A4DF-2E889E6F1AF1}#1.51#0#olelib.tlb#Edanmo's OLE interfaces & functions v1.81
+Reference=*\G{C88FCAC2-DE90-11D3-9876-8517F6B99C68}#1.6#0#olelib2.tlb#Edanmo's OLE interfaces for Implements v1.51
+Class=clsZipHandler; zipHandler.cls
+Module=modReturnfunc; modReadFunc.bas
+Module=MUseZipProtocol; ..\[Code]\MUseZipProtocol.bas
+Module=MString; ..\[Code]\MString.bas
+Module=MFileSystem; ..\[Code]\MFileSystem.bas
+Startup="(None)"
+HelpFile=""
+NoControlUpgrade=1
+Title="zipProtocol"
+ExeName32="zipProtocol.dll"
+Path32="D:\MYPLACE\DLL"
+Command32=""
+Name="zipProtocol"
+HelpContextID="0"
+CompatibleMode="2"
+CompatibleEXE32="D:\MYPLACE\DLL\Compatibility\zipProtocol.dll"
+VersionCompatible32="1"
+MajorVer=1
+MinorVer=2
+RevisionVer=26
+AutoIncrementVer=0
+ServerSupportFiles=0
+DllBaseAddress=&H17f00000
+VersionCompanyName="MYPLACE"
+VersionFileDescription="zip Asynchronous Pluggable Protocol"
+VersionLegalCopyright="Copyright LiN MYPLACE"
+VersionProductName="zipProtocol"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=-1
+MaxNumberOfThreads=1
+ThreadingModel=1
+DebugStartupOption=0
+UseExistingBrowser=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[CodeSMART]
+Task_UID=20_10_05_19_59_04

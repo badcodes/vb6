@@ -1,0 +1,16 @@
+body {
+        background-color: #FFFFFF;
+        margin-left:8;
+        margin-top:8;
+        margin-right:8;
+        margin-bottom:8;
+        line-height: 120%;
+     }
+body,p,tr,td,.m_text {
+        font-family:"MS Sans Serif";
+        color: #000000;
+}
+A {
+        font-family:"MS Sans Serif";
+        color: #000000;
+}

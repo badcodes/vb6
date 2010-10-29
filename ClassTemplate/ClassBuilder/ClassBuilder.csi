@@ -1,0 +1,18 @@
+[History]
+1=#P0#=mb	#P1#=cmdAction_Click	#P2#=TemplateClassBuilder/frmMain/cmdAction_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225062740	#P7#=0	#P8#=8	.
+2=#P0#=mb	#P1#=BuildClass	#P2#=TemplateClassBuilder/frmMain/BuildClass	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225062756	#P7#=0	#P8#=15	.
+3=#P0#=mb	#P1#=typeList_DblClick	#P2#=TemplateClassBuilder/frmMain/typeList_DblClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225062445	#P7#=0	#P8#=4	.
+4=#P0#=mb	#P1#=Form_Load	#P2#=TemplateClassBuilder/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225031429	#P7#=0	#P8#=11	.
+5=#P0#=mb	#P1#=WritePropValue	#P2#=TemplateClassBuilder/CVBSetting/WritePropValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225031150	#P7#=0	#P8#=1	.
+6=#P0#=mb	#P1#=ReadPropList	#P2#=TemplateClassBuilder/CVBSetting/ReadPropList	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225031138	#P7#=0	#P8#=-1	.
+7=#P0#=mb	#P1#=ReadPropValue	#P2#=TemplateClassBuilder/CVBSetting/ReadPropValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225031105	#P7#=0	#P8#=3	.
+8=#P0#=mb	#P1#=AddTypeItemByFilename	#P2#=TemplateClassBuilder/frmMain/AddTypeItemByFilename	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225062054	#P7#=0	#P8#=24	.
+9=#P0#=mb	#P1#=txtFilename_Change	#P2#=TemplateClassBuilder/frmMain/txtFilename_Change	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225061738	#P7#=0	#P8#=1	.
+10=#P0#=mb	#P1#=TypeStyleFrom	#P2#=TemplateClassBuilder/frmMain/TypeStyleFrom	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225025941	#P7#=0	#P8#=3	.
+11=#P0#=mb	#P1#=EditListItem	#P2#=TemplateClassBuilder/frmMain/EditListItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225025848	#P7#=0	#P8#=30	.
+12=#P0#=mb	#P1#=cmdProcess_Click	#P2#=TemplateClassBuilder/frmMain/cmdProcess_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225025415	#P7#=0	#P8#=62	.
+13=#P0#=mb	#P1#=cmdList_Click	#P2#=TemplateClassBuilder/frmMain/cmdList_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225025354	#P7#=0	#P8#=4	.
+14=#P0#=mb	#P1#=ITemplateFilter_Process	#P2#=TemplateClassBuilder/CFilterTypeOP/ITemplateFilter_Process	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225024605	#P7#=0	#P8#=84	.
+15=#P0#=mb	#P1#=WriteOperator	#P2#=TemplateClassBuilder/CFilterTypeOP/WriteOperator	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224191819	#P7#=0	#P8#=9	.
+16=#P0#=mb	#P1#=Process	#P2#=TemplateClassBuilder/CTemplateBuilder/Process	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224191108	#P7#=0	#P8#=17	.
+17=#P0#=mb	#P1#=ISetting_CompareMethod	#P2#=TemplateClassBuilder/CVBSetting/ISetting_CompareMethod [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081224185300	#P7#=0	#P8#=1	.

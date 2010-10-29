@@ -1,0 +1,8 @@
+[History]
+1=#P0#=mb	#P1#=ExtractResource	#P2#=Santa/fraMain/ExtractResource	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225185411	#P7#=0	#P8#=5	.
+2=#P0#=mb	#P1#=ExtractJpg	#P2#=Santa/fraMain/ExtractJpg	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225184240	#P7#=0	#P8#=0	.
+3=#P0#=mb	#P1#=FileExists	#P2#=Santa/fraMain/FileExists	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225184227	#P7#=0	#P8#=-3	.
+4=#P0#=mb	#P1#=ExtractResouce	#P2#=Santa/fraMain/ExtractResouce	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225184244	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=Form_Load	#P2#=Santa/fraMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225185430	#P7#=0	#P8#=7	.
+6=#P0#=mb	#P1#=ExtractMovie	#P2#=Santa/fraMain/ExtractMovie	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225184214	#P7#=0	#P8#=1	.
+7=#P0#=mb	#P1#=Form_Resize	#P2#=Santa/fraMain/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225184705	#P7#=0	#P8#=2	.

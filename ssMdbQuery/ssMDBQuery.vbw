@@ -1,0 +1,13 @@
+CAutoSetting = 0, 0, 0, 0, C
+CSetting = 0, 0, 0, 0, C
+CLiNInI = 0, 0, 0, 0, C
+CIniText = 0, 0, 0, 0, C
+Dialog = 0, 0, 0, 0, C, 44, 58, 797, 544, C
+MainFrm = 0, 0, 0, 0, C, 22, 29, 775, 515, C
+CCommonDialogLite = 0, 0, 0, 0, C
+MDAO = 0, 0, 0, 0, C
+MgCShell32 = 0, 0, 0, 0, C
+MComboboxHelper = 0, 0, 0, 0, C
+MFORM = 0, 0, 0, 0, C
+MgCString = 0, 0, 0, 0, C
+CMenuArrHandle = 0, 0, 0, 0, C

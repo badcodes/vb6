@@ -1,0 +1,8 @@
+frmMain = 44, 58, 721, 392, Z, 22, 29, 703, 389, C
+CCommonDialogLite = 0, 0, 0, 0, C
+CFolderBrowser = 66, 87, 743, 421, C
+MFolderBrowser = 44, 58, 721, 392, 
+MShell = 88, 116, 765, 450, 
+CLiNInI = 110, 145, 787, 479, C
+MForms = 0, 0, 677, 334, 
+MAppSetting = 22, 29, 699, 363, 

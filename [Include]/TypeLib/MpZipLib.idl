@@ -1,0 +1,231 @@
+// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: MpZipLib.dll
+
+[
+  uuid(5B275F9C-704A-4DF4-BAAA-13E3999D81A5),
+  helpstring("xrLiN@MYPLACE Zip And Unzip Interface."),
+  version(1.0)
+]
+library MpZipLib
+{
+    // TLib :     // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+	importlib("STDOLE2.TLB");
+    // TLib : Visual Basic For Applications : {000204EF-0000-0000-C000-000000000046}
+    importlib("msvbvm60.dll");
+
+    // Forward declare all types defined in this typelib
+
+    interface _IUnzip;
+    interface _IArchiveItems;
+    interface _IArchiveItem;
+	
+	typedef [uuid(20264313-AA69-49DB-8823-F91ECF0F77E4), helpcontext(0x0010fddb)]
+	enum {
+	    MpArchiveItem_Normal = 0,
+	    MpArchiveItem_ReadOnly = 1,
+	    MpArchiveItem_Hidden = 2,
+	    MpArchiveItem_System = 4,
+	    MpArchiveItem_Volume = 8,
+	    MpArchiveItem_Directory = 16,
+	    MpArchiveItem_Archive = 32,
+	    MpArchiveItem_Alias = 64
+	} MpArchiveItemAttribute;
+
+    typedef [uuid(C1C2D51D-2276-4688-8B45-F141822AA4B9), version(1.0)]
+    enum {
+        MpUnzip_AllMessages = 0,
+        MpUnzip_PartialMessages = 1,
+        MpUnzip_NoMessages = 2
+    } MpUnzipMsgLevel;
+
+    typedef [uuid(20264313-AA69-49DB-8823-F91ECF0F77E3), version(1.0)]
+    enum {
+        MpUnzip_OK = 0,
+        MpUnzip_COOL = 1,
+        MpUnzip_WARN = 2,
+        MpUnzip_ERR = 3,
+        MpUnzip_BADERR = 4,
+        MpUnzip_MEM = 5,
+        MpUnzip_MEM2 = 6,
+        MpUnzip_MEM3 = 7,
+        MpUnzip_MEM4 = 8,
+        MpUnzip_MEM5 = 9,
+        MpUnzip_NOZIP = 10,
+        MpUnzip_PARAM = 11,
+        MpUnzip_FIND = 12,
+        MpUnzip_DISK = 13,
+        MpUnzip_EOF = 14,
+        MpUnzip_CTRLC = 15,
+        MpUnzip_UNSUP = 16,
+        MpUnzip_BADPWD = 17
+    } MpUnzipReturnCode;
+	
+    [
+      odl,
+      uuid(985442BD-74AB-4E40-AFE5-AE912EB67454),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Unzip Interface."),
+      hidden,
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface _IUnzip : IDispatch {
+        [id(0x6003000c)]
+        HRESULT AddFilesToExclude(
+                        [in] BSTR strFilename, 
+                        [in, out, optional, defaultvalue(",")] BSTR* strListSeparator);
+        [id(0x6003000d)]
+        HRESULT AddFileToPreocess(
+                        [in] BSTR sFilename, 
+                        [in, out, optional, defaultvalue(",")] BSTR* strListSeparator);
+        [id(0x6803000b), propput]
+        HRESULT CaseSensitive([in] VARIANT_BOOL );
+        [id(0x6803000b), propget]
+        HRESULT CaseSensitive([out, retval] VARIANT_BOOL* );
+        [id(0x6803000a), propput]
+        HRESULT Comment([in] BSTR );
+        [id(0x6803000a), propget]
+        HRESULT Comment([out, retval] BSTR* );
+        [id(0x68030009), propput]
+        HRESULT ConvertCRToCRLF([in] VARIANT_BOOL );
+        [id(0x68030009), propget]
+        HRESULT ConvertCRToCRLF([out, retval] VARIANT_BOOL* );
+        [id(0x68030008), propput]
+        HRESULT ExtractOnlyNewer([in] VARIANT_BOOL );
+        [id(0x68030008), propget]
+        HRESULT ExtractOnlyNewer([out, retval] VARIANT_BOOL* );
+        [id(0x68030007), propput]
+        HRESULT FilesToExclude([in] BSTR );
+        [id(0x68030007), propget]
+        HRESULT FilesToExclude([out, retval] BSTR* );
+        [id(0x68030006), propput]
+        HRESULT FilesToProcess([in] BSTR );
+        [id(0x68030006), propget]
+        HRESULT FilesToProcess([out, retval] BSTR* );
+        [id(0x6003000e)]
+        HRESULT getZipItems(
+                        [in, out] _IArchiveItems** zipItems, 
+                        [out, retval] MpUnzipReturnCode* );
+        [id(0x68030005), propget]
+        HRESULT MessageLevel([out, retval] MpUnzipMsgLevel* );
+        [id(0x68030005), propput]
+        HRESULT MessageLevel([in] MpUnzipMsgLevel );
+        [id(0x68030004), propput]
+        HRESULT OverwriteExisting([in] VARIANT_BOOL );
+        [id(0x68030004), propget]
+        HRESULT OverwriteExisting([out, retval] VARIANT_BOOL* );
+        [id(0x68030003), propput]
+        HRESULT PromptToOverwrite([in] VARIANT_BOOL );
+        [id(0x68030003), propget]
+        HRESULT PromptToOverwrite([out, retval] VARIANT_BOOL* );
+        [id(0x68030002), propput]
+        HRESULT UnzipToFolder([in] BSTR );
+        [id(0x68030002), propget]
+        HRESULT UnzipToFolder([out, retval] BSTR* );
+        [id(0x68030001), propput]
+        HRESULT UseFolderNames([in] VARIANT_BOOL );
+        [id(0x68030001), propget]
+        HRESULT UseFolderNames([out, retval] VARIANT_BOOL* );
+        [id(0x6003000f)]
+        HRESULT Test([out, retval] VARIANT_BOOL* );
+        [id(0x60030010)]
+        HRESULT Validate([out, retval] VARIANT_BOOL* );
+        [id(0x60030011)]
+        HRESULT GetComment([out, retval] BSTR* );
+        [id(0x60030012)]
+        HRESULT Unzip([out, retval] MpUnzipReturnCode* );
+        [id(0x68030000), propput]
+        HRESULT Filename([in] BSTR );
+        [id(0x68030000), propget]
+        HRESULT Filename([out, retval] BSTR* );
+    };
+
+    [
+      uuid(6B1ABFD7-09EC-47C5-8B44-1DC52399516C),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Unzip Interface."),	  
+      noncreatable
+    ]
+    coclass IUnzip {
+        [default] interface _IUnzip;
+    };
+
+    [
+      odl,
+      uuid(6AA41C04-7385-4F39-9DEA-6FE5336806B5),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Archive Item Collection Interface."),	  
+      hidden,
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface _IArchiveItems : IDispatch {
+        [id(00000000)]
+        HRESULT ItembyIndex(
+                        [in, out] long* Index, 
+                        [out, retval] _IArchiveItem** );
+        [id(0x60030002)]
+        HRESULT ItembyKey(
+                        [in] BSTR bValue, 
+                        [out, retval] _IArchiveItem** );
+        [id(0x68030000), propget]
+        HRESULT Count([out, retval] long* );
+        [id(0xfffffffc)]
+        HRESULT NewEnum([out, retval] IUnknown** );
+    };
+
+    [
+      uuid(733A02CA-DA04-430F-8561-E4C5159D4844),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Archive Item Collection Interface."),	  	  
+      noncreatable
+    ]
+    coclass IArchiveItems {
+        [default] interface _IArchiveItems;
+    };
+
+    [
+      odl,
+      uuid(82ECC627-1A37-449E-B1B0-54D3B8001A86),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Archive Item Interface."),	  	  
+      hidden,
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface _IArchiveItem : IDispatch {
+        [id(0x68030008), propget]
+        HRESULT Crc([out, retval] long* );
+        [id(0x68030007), propget]
+        HRESULT CreatedDate([out, retval] DATE* );
+        [id(0x68030006), propget]
+        HRESULT Encrypted([out, retval] VARIANT_BOOL* );
+        [id(0x68030005), propget]
+        HRESULT Factor([out, retval] long* );
+        [id(0x68030004), propget]
+        HRESULT Filename([out, retval] BSTR* );
+        [id(0x68030003), propget]
+        HRESULT FileType([out, retval] MpArchiveItemAttribute* );
+        [id(0x68030002), propget]
+        HRESULT Method([out, retval] BSTR* );
+        [id(0x68030001), propget]
+        HRESULT PackedSize([out, retval] long* );
+        [id(0x68030000), propget]
+        HRESULT Size([out, retval] long* );
+    };
+
+    [
+      uuid(87919134-3CCC-4E29-9C16-E45411018240),
+      version(1.0),
+	  helpstring("xrLiN@MYPLACE Archive Item Interface."),	 	  
+      noncreatable
+    ]
+    coclass IArchiveItem {
+        [default] interface _IArchiveItem;
+    };
+
+};

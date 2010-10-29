@@ -1,0 +1,5 @@
+VBGROUP 5.0
+Project=Components\VBCore.vbp
+Project=Controls\PictureGlass.vbp
+StartupProject=FunNGame.vbp
+Project=Components\VisualCore.vbp

@@ -1,0 +1,15 @@
+MainFrm = 125, 39, 932, 562, , 44, 50, 1010, 564, C
+frmOptions = 0, 0, 0, 0, C, 88, 100, 1032, 615, C
+MStdFonts = 0, 0, 0, 0, C
+frmBookmark = 0, 0, 0, 0, C, 110, 125, 1054, 640, C
+MAlgorithms = 88, 104, 930, 489, C
+MZhReaderViaHttpServer = 110, 125, 998, 648, 
+frmServer = 0, 0, 0, 0, C, 132, 150, 1076, 665, C
+CLocalizer = 198, 225, 1005, 748, C
+MWindows = 66, 75, 976, 533, C
+CZhComment = 0, 0, 807, 523, C
+MZbook = 66, 78, 886, 451, 
+MHtmlWeb = 0, 0, 0, 0, C
+CMenuArrHandle = 220, 250, 1027, 773, C
+MInfoZipShared = 88, 100, 976, 623, C
+MVBExe = 132, 150, 1024, 610, C

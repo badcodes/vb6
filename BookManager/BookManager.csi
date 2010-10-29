@@ -1,0 +1,63 @@
+[History]
+1=#P0#=mb	#P1#=pdgformat	#P2#=BookManager/MSSReader/pdgformat	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081207225252	#P7#=0	#P8#=33	.
+2=#P0#=mb	#P1#=RenameFolder	#P2#=BookManager/frmMain/RenameFolder	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081127021020	#P7#=0	#P8#=20	.
+3=#P0#=mb	#P1#=SaveBook	#P2#=BookManager/frmMain/SaveBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081127020929	#P7#=0	#P8#=12	.
+4=#P0#=mb	#P1#=UpdateFileBox	#P2#=BookManager/frmMain/UpdateFileBox	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081126082852	#P7#=0	#P8#=11	.
+5=#P0#=mb	#P1#=cmdApply_Click	#P2#=BookManager/frmOptions/cmdApply_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126081031	#P7#=0	#P8#=4	.
+6=#P0#=mb	#P1#=FormatString	#P2#=BookManager/frmOptions/FormatString [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081126081018	#P7#=0	#P8#=0	.
+7=#P0#=mb	#P1#=mnuOption_Click	#P2#=BookManager/frmMain/mnuOption_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080945	#P7#=0	#P8#=6	.
+8=#P0#=mb	#P1#=Form_Unload	#P2#=BookManager/frmMain/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080901	#P7#=0	#P8#=8	.
+9=#P0#=mb	#P1#=Form_Load	#P2#=BookManager/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080839	#P7#=0	#P8#=16	.
+10=#P0#=mb	#P1#=Form_Load	#P2#=BookManager/frmOptions/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080749	#P7#=0	#P8#=4	.
+11=#P0#=mb	#P1#=VSplit_Moving	#P2#=BookManager/frmMain/VSplit_Moving	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080311	#P7#=0	#P8#=3	.
+12=#P0#=mb	#P1#=cmdA_Click	#P2#=BookManager/frmMain/cmdA_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126080250	#P7#=0	#P8#=8	.
+13=#P0#=mb	#P1#=ParseFile	#P2#=BookManager/CLiNInI/ParseFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081126070925	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=SaveToFile	#P2#=BookManager/CBookInfo/SaveToFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081126070856	#P7#=0	#P8#=6	.
+15=#P0#=mb	#P1#=LoadBook	#P2#=BookManager/frmMain/LoadBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081126065935	#P7#=0	#P8#=8	.
+16=#P0#=mb	#P1#=FileBox_PathClick	#P2#=BookManager/frmMain/FileBox_PathClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125050822	#P7#=0	#P8#=3	.
+17=#P0#=mb	#P1#=FileSelected	#P2#=BookManager/FileBox/FileSelected [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125050645	#P7#=0	#P8#=-15	.
+18=#P0#=mb	#P1#=MyPath_Click	#P2#=BookManager/FileBox/MyPath_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125050627	#P7#=0	#P8#=2	.
+19=#P0#=mb	#P1#=GetText	#P2#=BookManager/KeyValueEditor/GetText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125050355	#P7#=0	#P8#=8	.
+20=#P0#=mb	#P1#=QuoteString	#P2#=BookManager/MStrings/QuoteString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125050126	#P7#=0	#P8#=2	.
+21=#P0#=mb	#P1#=rdel	#P2#=BookManager/MStrings/rdel	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125050107	#P7#=0	#P8#=-1	.
+22=#P0#=mb	#P1#=mnuExit_Click	#P2#=BookManager/frmMain/mnuExit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125045738	#P7#=0	#P8#=-1	.
+23=#P0#=mb	#P1#=cmdSelect_Click	#P2#=BookManager/frmOptions/cmdSelect_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125045335	#P7#=0	#P8#=1	.
+24=#P0#=mb	#P1#=FileBox_PathChange	#P2#=BookManager/frmMain/FileBox_PathChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125044819	#P7#=0	#P8#=0	.
+25=#P0#=mb	#P1#=Drive	#P2#=BookManager/FileBox/Drive [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125044431	#P7#=0	#P8#=4	.
+26=#P0#=mb	#P1#=path	#P2#=BookManager/FileBox/path [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125044357	#P7#=0	#P8#=3	.
+27=#P0#=mb	#P1#=FileName	#P2#=BookManager/FileBox/FileName [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125044319	#P7#=0	#P8#=3	.
+28=#P0#=mb	#P1#=ControlStateFromString	#P2#=BookManager/MForms/ControlStateFromString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125043732	#P7#=0	#P8#=8	.
+29=#P0#=mb	#P1#=ControlStateToString	#P2#=BookManager/MForms/ControlStateToString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125043701	#P7#=0	#P8#=1	.
+30=#P0#=mb	#P1#=FormStateToString	#P2#=BookManager/MForms/FormStateToString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125043627	#P7#=0	#P8#=0	.
+31=#P0#=mb	#P1#=FileBox_MouseMove	#P2#=BookManager/frmMain/FileBox_MouseMove	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125043349	#P7#=0	#P8#=1	.
+32=#P0#=mb	#P1#=LoadControl	#P2#=BookManager/KeyValueEditor/LoadControl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125042129	#P7#=0	#P8#=5	.
+33=#P0#=mb	#P1#=UserControl_Resize	#P2#=BookManager/KeyValueEditor/UserControl_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125041815	#P7#=0	#P8#=1	.
+34=#P0#=mb	#P1#=GetValueControl	#P2#=BookManager/KeyValueEditor/GetValueControl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125041608	#P7#=0	#P8#=15	.
+35=#P0#=mb	#P1#=AddItem	#P2#=BookManager/KeyValueEditor/AddItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125041120	#P7#=0	#P8#=16	.
+36=#P0#=mb	#P1#=Reset	#P2#=BookManager/KeyValueEditor/Reset	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125040907	#P7#=0	#P8#=15	.
+37=#P0#=mb	#P1#=SetText	#P2#=BookManager/KeyValueEditor/SetText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125040730	#P7#=0	#P8#=8	.
+38=#P0#=mb	#P1#=SetItemStyle	#P2#=BookManager/KeyValueEditor/SetItemStyle	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125040623	#P7#=0	#P8#=-1	.
+39=#P0#=mb	#P1#=SetValueControl	#P2#=BookManager/KeyValueEditor/SetValueControl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125040500	#P7#=0	#P8#=5	.
+40=#P0#=mb	#P1#=GetKeyControl	#P2#=BookManager/KeyValueEditor/GetKeyControl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125035724	#P7#=0	#P8#=-1	.
+41=#P0#=mb	#P1#=SetFieldStyle	#P2#=BookManager/KeyValueEditor/SetFieldStyle	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125033019	#P7#=0	#P8#=3	.
+42=#P0#=mb	#P1#=SetKeyControlProperty	#P2#=BookManager/KeyValueEditor/SetKeyControlProperty	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125032733	#P7#=0	#P8#=-1	.
+43=#P0#=mb	#P1#=Appearance	#P2#=BookManager/KeyValueEditor/Appearance [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125032121	#P7#=0	#P8#=10	.
+44=#P0#=mb	#P1#=UserControl_ReadProperties	#P2#=BookManager/KeyValueEditor/UserControl_ReadProperties	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125031958	#P7#=0	#P8#=0	.
+45=#P0#=mb	#P1#=Result	#P2#=BookManager/KeyValueEditor/Result [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125031306	#P7#=0	#P8#=-2	.
+46=#P0#=mb	#P1#=FieldEnabled	#P2#=BookManager/KeyValueEditor/FieldEnabled [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125030455	#P7#=0	#P8#=6	.
+47=#P0#=mb	#P1#=FieldEnabled	#P2#=BookManager/KeyValueEditor/FieldEnabled [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125030349	#P7#=0	#P8#=5	.
+48=#P0#=mb	#P1#=SetField	#P2#=BookManager/KeyValueEditor/SetField	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081125024550	#P7#=0	#P8#=4	.
+49=#P0#=mb	#P1#=UserControl_WriteProperties	#P2#=BookManager/KeyValueEditor/UserControl_WriteProperties	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081125023010	#P7#=0	#P8#=14	.
+50=#P0#=mb	#P1#=Enabled	#P2#=BookManager/KeyValueEditor/Enabled [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081125022952	#P7#=0	#P8#=2	.
+51=#P0#=mb	#P1#=FileIndex	#P2#=BookManager/FileBox/FileIndex [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124071138	#P7#=0	#P8#=2	.
+52=#P0#=mb	#P1#=Form_Initialize	#P2#=BookManager/frmMain/Form_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124071049	#P7#=0	#P8#=1	.
+53=#P0#=mb	#P1#=UserControl_LostFocus	#P2#=BookManager/VSpliter/UserControl_LostFocus	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124070426	#P7#=0	#P8#=2	.
+54=#P0#=mb	#P1#=UserControl_MouseMove	#P2#=BookManager/VSpliter/UserControl_MouseMove	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124070243	#P7#=0	#P8#=2	.
+55=#P0#=mb	#P1#=UserControl_MouseDown	#P2#=BookManager/VSpliter/UserControl_MouseDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124065854	#P7#=0	#P8#=2	.
+56=#P0#=mb	#P1#=UserControl_MouseUp	#P2#=BookManager/VSpliter/UserControl_MouseUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124065619	#P7#=0	#P8#=2	.
+57=#P0#=mb	#P1#=Form_Resize	#P2#=BookManager/frmMain/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124065545	#P7#=0	#P8#=5	.
+58=#P0#=mb	#P1#=UserControl_Resize	#P2#=BookManager/VSpliter/UserControl_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124065132	#P7#=0	#P8#=2	.
+59=#P0#=mb	#P1#=UserControl_Initialize	#P2#=BookManager/KeyValueEditor/UserControl_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124062233	#P7#=0	#P8#=1	.
+[Workbench]
+1=#P0#=mb	#P1#=SetItemStyle	#P2#=BookManager/KeyValueEditor/SetItemStyle	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=	#P7#=-2147483640	#P8#=0	.
+2=#P0#=mb	#P1#=AddItem	#P2#=BookManager/KeyValueEditor/AddItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=	#P7#=-2147483640	#P8#=0	.

@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=tpalette.vbp
+Project=Components\VBCore.vbp
+Project=Components\VisualCore.vbp

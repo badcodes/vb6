@@ -1,0 +1,16 @@
+[History]
+B0=LUseZipDll/mUnzip/VBUnzip
+B1=LUseZipDll/mZip/ZipCommentCallback
+B2=LUseZipDll/cZip/ZipComment
+B3=LUseZipDll/mUnzip/UnzipReplaceCallback
+B4=LUseZipDll/cUnzip/GetComment
+B5=LUseZipDll/mUnzip/UnzipPrintCallback
+B6=LUseZipDll/cUnzip/getZipItems
+B7=LUseZipDll/mUnzip/UnzipMessageCallBack
+B8=LUseZipDll/CZipItems/Add
+B9=LUseZipDll/cUnzip/AddZipItem
+B10=LUseZipDll/cUnzip/Service
+B11=LUseZipDll/mUnzip/UnzipPasswordCallBack
+B12=LUseZipDll/cUnzip/CaseSensitiveFileNames
+B13=LUseZipDll/cUnzip/MessageLevel
+B14=LUseZipDll/cUnzip/UseFolderNames

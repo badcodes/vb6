@@ -1,0 +1,14 @@
+frmMain = 110, 150, 899, 631, Z, 66, 90, 855, 571, C
+MFileSystem = 66, 90, 851, 526, C
+MApiTime = 154, 210, 983, 696, C
+MApiHelper = 132, 180, 961, 666, C
+MApiFileSystem = 110, 150, 939, 636, C
+frmAbout = 22, 30, 807, 466, C, 0, 0, 785, 436, C
+CCommonDialogLite = 66, 90, 895, 576, C
+MDebug = 0, 0, 785, 436, C
+MCHM = 0, 0, 785, 436, C
+MString = 22, 30, 851, 466, C
+frmOptions = 154, 210, 939, 646, C, 132, 180, 917, 616, C
+CMenuArrHandle = 22, 30, 807, 466, C
+CFolderBrowser = 22, 30, 851, 516, C
+MFolderBrowser = 66, 90, 895, 576, C

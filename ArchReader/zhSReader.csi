@@ -1,0 +1,16 @@
+[History]
+B0=zhSReader/CReader/AfterViewed
+B1=zhSReader/CReader/StatusChanged
+B2=zhSReader/MainFrm/IEView_DocumentComplete
+B3=zhSReader/MainFrm/IEView_BeforeNavigate2
+B4=zhSReader/MainFrm/IEView_NavigateError
+B5=zhSReader/CReader/BeforeViewing
+B6=zhSReader/CReader/SaveHistory
+B7=zhSReader/CReader/OpenDocument
+B8=zhSReader/MApp/SaveHistory
+B9=zhSReader/MApp
+B10=zhSReader/CReader
+B11=zhSReader/MApp/OpenHistory
+B12=zhSReader/MApp/OpenFile
+B13=zhSReader/MZHTM
+B14=zhSReader/IViewer

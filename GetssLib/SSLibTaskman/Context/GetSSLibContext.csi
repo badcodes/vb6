@@ -1,0 +1,5 @@
+[History]
+1=#P0#=mb	#P1#=Class_Initialize	#P2#=GetSSLibContext/CNetConnection/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081106075058	#P7#=0	#P8#=3	.
+2=#P0#=mb	#P1#=Init	#P2#=GetSSLibContext/CHttpHeader/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081106074056	#P7#=0	#P8#=22	.
+3=#P0#=mb	#P1#=GetTempName	#P2#=GetSSLibContext/Handler/GetTempName	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081106071904	#P7#=0	#P8#=5	.
+4=#P0#=mb	#P1#=OnContext	#P2#=GetSSLibContext/Handler/OnContext	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081106074541	#P7#=0	#P8#=57	.

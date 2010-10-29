@@ -1,0 +1,7 @@
+[History]
+B0=Cleaner/mainfrm/Form_Load
+B1=Cleaner/mainfrm/cmdClear_Click
+B2=Cleaner/mainfrm
+B3=Cleaner/mainfrm/DeleteFolder
+B4=Cleaner/mainfrm/AddLog
+B5=Cleaner/mainfrm/Form_Unload

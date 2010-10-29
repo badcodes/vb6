@@ -1,0 +1,16 @@
+[History]
+B0=VbIDE_Extender/modIDESpace/ShowLinkedWindows
+B1=VbIDE_Extender/modIDESpace/CountLinkedWindows
+B2=VbIDE_Extender/frmAddIn/Check2_Click
+B3=VbIDE_Extender/cTablePrint/DrawTable
+B4=VbIDE_Extender/IDEExtender/AddinInstance_Terminate
+B5=VbIDE_Extender/IDEExtender/AddinInstance_OnConnection
+B6=VbIDE_Extender/IDEExtender/AddinInstance_OnBeginShutdown
+B7=VbIDE_Extender/frmAddIn/WindowTextFromWnd
+B8=VbIDE_Extender/modStack/AddProcedureToStack
+B9=VbIDE_Extender/cStack/PushOverSelection
+B10=VbIDE_Extender/Connect/eProjectEvents_ItemAdded
+B11=VbIDE_Extender/Connect/ButtonStackR_ev_Click
+B12=VbIDE_Extender/Connect/ButtonStackL_ev_Click
+B13=VbIDE_Extender/modStack/ActivateProcedureFromStack
+B14=VbIDE_Extender/cStack/ReturnForeItem

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<meta name="MS.LOCALE" content="EN-US">
+<meta name="DESCRIPTION" content="This page is from the Hardcore Visual Basic book, version 5.0, in the Technical Languages Book section of the MSDN OnLine Library.">
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Pointers to Integers</title>
+
+</HEAD>
+
+<script language="JavaScript" type="text/javascript" src="prevnext.js"></script>
+
+<BODY>
+	
+<!--CSS_START-->
+
+<script language="JavaScript" src='MS-ITS:dsmsdn.chm::/html/msdn_header.js'></script>
+<!--CSS_END-->
+
+<P>
+<font face="verdana,arial,helvetica" size="2"><h1><a name="pointerstointegers"></a>Pointers to Integers</h1>
+<P>
+Basic programmers can pass by reference without really knowing how or why, but C programmers don’t have this luxury. The C language doesn’t have an automatic way to specify that a variable should be passed by reference instead of by value (although C++ and Pascal do). Instead, C programmers pass by reference by explicitly passing a pointer to the variable. In other words, C programmers do on purpose what Basic programmers do by accident. But when you mix the two approaches by accessing the Windows API, Basic must defer to C.</P>
+<P>
+The only reason the Windows API uses pointers to integers is to return them. You can put only one value in the function return, so if you need to return more than one value, you have to use by-reference parameters. For a few procedures, you put a meaningful value into the variable before passing it and then get a modified version back. More commonly, you simply pass an empty variable; the return is all that matters.</P>
+<P>
+Windows API documentation usually shows pointers with defined pointer types such as LPDWORD and LPHWND. (See Table 2-3.) These are actually aliases (called typedefs in C) for DWORD * and HWND *. The LP in the type names (and lp as a Hungarian prefix for parameter names) apparently meant long pointer, which is what everyone in the world except the author of this strange convention called far pointers. Almost all pointers were far, even in the 16-bit world, so there was never any need to qualify them, but we’re probably stuck with the notation forever. You might also occasionally see FAR * in the API documentation, but you should ignore the FAR. It’s just an alias for nothing, retained for theoretical compatibility with mythical ancient operating systems.</P>
+<table>
+<tr valign=top>
+<td><b>Windows API</b></td>
+<td><b>32-Bit Basic</b></td>
+</tr>
+<tr valign=top>
+<td>LPINT, int *</td>
+<td>Long</td>
+</tr>
+<tr valign=top>
+<td>LPUINT, UINT *</td>
+<td>Long</td>
+</tr>
+<tr valign=top>
+<td>LPBOOL, BOOL *</td>
+<td>Long</td>
+</tr>
+<tr valign=top>
+<td>LPBYTE, BYTE *</td>
+<td>Byte</td>
+</tr>
+<tr valign=top>
+<td>LPWORD, WORD *</td>
+<td>Integer</td>
+</tr>
+<tr valign=top>
+<td>LPDWORD, DWORD *</td>
+<td>Long</td>
+</tr>
+<tr valign=top>
+<td>LPHANDLE, HANDLE *, </td>
+<td>Long</td>
+</tr>
+<tr valign=top>
+<td>and friends</td>
+<td></td>
+</tr>
+</table><P>
+<BR>
+<b>Table 2-3. Pointers to integers in the Windows API.</b></P>
+<P>
+The GetScrollRange function illustrates how and why to pass integers by reference. It needs to return two Longs—the top and bottom of the scroll range—so it uses pointers to Longs to return them. The Windows API documentation shows this:</P>
+<pre><code>BOOL GetScrollRange(<BR>    HWND hwnd,          // Handle of window with scroll bar<BR>    int nBar,           // Scroll bar flags<BR>    LPINT lpMinPos,     // Receives minimum position<BR>    LPINT lpMaxPos      // Receives maximum position<BR>);</code></pre>
+<P>
+The Basic declaration looks like this:</P>
+<pre><code>Declare Function GetScrollRange Lib “User32?( _<BR>    ByVal hWnd As Long, ByVal nBar As Long, _<BR>    lpMinPos As Long, lpMaxPos As Long) As Long</code></pre>
+<P>
+Calling the function is simple:</P>
+<pre><code>Dim iMin As Long, iMax As Long<BR>f = GetScrollRange(txtTest.hWnd, SB_HORZ, iMin, iMax)</code></pre>
+<P>
+Of course, there’s no reason to ever declare the variables any differently than this (although there was a very good reason back in the 16-bit days). But for the sake of argument, let’s say you declared those variables as integers.</P>
+<pre><code>Dim iMin As Integer, iMax As Integer</code></pre>
+<P>
+After all, any number you would use as a scroll range would easily fit in an Integer. But if you do this, you’ll see the message <i>ByRef argument type mismatch</i>. To understand why this error occurs, consider what would happen if Basic allowed you to pass Integer variables to GetScrollRange. Once Basic passes the address of the variable to Windows, it has no control over what Windows does to that variable. For example, Windows might decide to write 1 into <i>iMin </i>and 100 into <i>iMax</i>. But it will write that 1 as a Long. If <i>iMin </i>is an Integer variable, Windows will write zero (the high word) into <i>iMin </i>and 1 (the low word) into the next word in memory, which happens to be <i>iMax</i>. When it tries to write 100 into <i>iMax</i>, it will actually write a Long 100 into the two words of memory beginning at <i>iMax</i>. The results of this operation might actually be a little different because the order in which GetScrollRange decides to fill the values is undefined. In any case, the results are unlikely to be pleasant. To prevent random behavior, the API contract insists that all arguments passed by reference must be the exact size specified in the declaration. In fact, the rule goes beyond the API contract and applies to procedures written in Basic, for the same reasons. Basic is very picky about by-reference arguments because it has to be. If you want type conversion of input-only parameters, declare them ByVal.</P>
+</font>
+
+<!--FOOTER_START-->
+<script language="JavaScript" src='MS-ITS:dsmsdn.chm::/html/msdn_footer.js'></script>
+<!--FOOTER_END--></body>
+</HTML>

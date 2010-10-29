@@ -1,0 +1,93 @@
+[History]
+1=#P0#=mb	#P1#=AddBatchTasks	#P2#=GetSSLib/frmMain/AddBatchTasks	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220084517	#P7#=0	#P8#=2	.
+2=#P0#=mb	#P1#=cmd_Click	#P2#=GetSSLib/frmMain/cmd_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220084500	#P7#=0	#P8#=18	.
+3=#P0#=mb	#P1#=cmdOK_Click	#P2#=GetSSLib/frmTask/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220083625	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=Form_Load	#P2#=GetSSLib/frmTask/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220083335	#P7#=0	#P8#=30	.
+5=#P0#=mb	#P1#=UpdateJpgBook	#P2#=GetSSLib/frmMain/UpdateJpgBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220080610	#P7#=0	#P8#=6	.
+6=#P0#=mb	#P1#=CheckTaskIncoming	#P2#=GetSSLib/frmMain/CheckTaskIncoming	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220080516	#P7#=0	#P8#=26	.
+7=#P0#=mb	#P1#=SSLIB_UpdateTaskOnNeed	#P2#=GetSSLib/MSSReader/SSLIB_UpdateTaskOnNeed	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220075009	#P7#=0	#P8#=1	.
+8=#P0#=mb	#P1#=mHttpConnection_Completed	#P2#=GetSSLib/CTaskDownloader/mHttpConnection_Completed	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220073105	#P7#=0	#P8#=14	.
+9=#P0#=mb	#P1#=GetUrl	#P2#=GetSSLib/CTaskDownloader/GetUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220055017	#P7#=0	#P8#=32	.
+10=#P0#=mb	#P1#=ConfigLoadFrom	#P2#=GetSSLib/frmMain/ConfigLoadFrom	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220053430	#P7#=0	#P8#=66	.
+11=#P0#=mb	#P1#=ConfigSaveTo	#P2#=GetSSLib/frmMain/ConfigSaveTo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220053316	#P7#=0	#P8#=36	.
+12=#P0#=mb	#P1#=Form_Unload	#P2#=GetSSLib/frmMain/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220053254	#P7#=0	#P8#=1	.
+13=#P0#=mb	#P1#=UpdateDownloadInfo	#P2#=GetSSLib/frmMain/UpdateDownloadInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052718	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=mDownloader_ProgressError	#P2#=GetSSLib/CTaskRunner/mDownloader_ProgressError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220052656	#P7#=0	#P8#=6	.
+15=#P0#=mb	#P1#=Abort	#P2#=GetSSLib/CTaskDownloader/Abort	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052632	#P7#=0	#P8#=18	.
+16=#P0#=mb	#P1#=WaitConnections	#P2#=GetSSLib/CTaskDownloader/WaitConnections	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052519	#P7#=0	#P8#=17	.
+17=#P0#=mb	#P1#=GetJpgBook	#P2#=GetSSLib/CTaskDownloader/GetJpgBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052406	#P7#=0	#P8#=8	.
+18=#P0#=mb	#P1#=GetNormalPdg	#P2#=GetSSLib/CTaskDownloader/GetNormalPdg	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052348	#P7#=0	#P8#=1	.
+19=#P0#=mb	#P1#=TestComplete	#P2#=GetSSLib/CTaskDownloader/TestComplete	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220052332	#P7#=0	#P8#=1	.
+20=#P0#=mb	#P1#=GetFreeTaskRunner	#P2#=GetSSLib/frmMain/GetFreeTaskRunner	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220050918	#P7#=0	#P8#=4	.
+21=#P0#=mb	#P1#=ProcessQueue	#P2#=GetSSLib/frmMain/ProcessQueue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220050833	#P7#=0	#P8#=11	.
+22=#P0#=mb	#P1#=InitTaskRunner	#P2#=GetSSLib/frmMain/InitTaskRunner	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220050813	#P7#=0	#P8#=1	.
+23=#P0#=mb	#P1#=Execute	#P2#=GetSSLib/CTaskRunner/Execute	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220050740	#P7#=0	#P8#=10	.
+24=#P0#=mb	#P1#=cmdApply_Click	#P2#=GetSSLib/frmOptions/cmdApply_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220050148	#P7#=0	#P8#=13	.
+25=#P0#=mb	#P1#=Form_Load	#P2#=GetSSLib/frmOptions/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220050132	#P7#=0	#P8#=5	.
+26=#P0#=mb	#P1#=ThreadUrlBaseName	#P2#=GetSSLib/CTaskDownloader/ThreadUrlBaseName	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220045534	#P7#=0	#P8#=6	.
+27=#P0#=mb	#P1#=Download	#P2#=GetSSLib/CTaskDownloader/Download	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220045244	#P7#=0	#P8#=13	.
+28=#P0#=mb	#P1#=Report	#P2#=GetSSLib/CBookTester/Report	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220045223	#P7#=0	#P8#=6	.
+29=#P0#=mb	#P1#=Test	#P2#=GetSSLib/CBookTester/Test	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220045156	#P7#=0	#P8#=10	.
+30=#P0#=mb	#P1#=ActionOnSingleItem	#P2#=GetSSLib/frmMain/ActionOnSingleItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220044758	#P7#=0	#P8#=50	.
+31=#P0#=mb	#P1#=CallBack_EditTask	#P2#=GetSSLib/frmMain/CallBack_EditTask	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220044637	#P7#=0	#P8#=6	.
+32=#P0#=mb	#P1#=AddTask	#P2#=GetSSLib/frmMain/AddTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220044525	#P7#=0	#P8#=2	.
+33=#P0#=mb	#P1#=LstTasks_MouseDown	#P2#=GetSSLib/frmMain/LstTasks_MouseDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220043801	#P7#=0	#P8#=3	.
+34=#P0#=mb	#P1#=LstTasks_ItemClick	#P2#=GetSSLib/frmMain/LstTasks_ItemClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220043431	#P7#=0	#P8#=8	.
+35=#P0#=mb	#P1#=LstTasks_KeyDown	#P2#=GetSSLib/frmMain/LstTasks_KeyDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220043331	#P7#=0	#P8#=-1	.
+36=#P0#=mb	#P1#=ActionOnAllTask	#P2#=GetSSLib/frmMain/ActionOnAllTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220043207	#P7#=0	#P8#=22	.
+37=#P0#=mb	#P1#=ActionOnTaskItem	#P2#=GetSSLib/frmMain/ActionOnTaskItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220043141	#P7#=0	#P8#=0	.
+38=#P0#=mb	#P1#=cmdEdit_Click	#P2#=GetSSLib/frmMain/cmdEdit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220042340	#P7#=0	#P8#=14	.
+39=#P0#=mb	#P1#=mnuTaskAction_Click	#P2#=GetSSLib/frmMain/mnuTaskAction_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220040705	#P7#=0	#P8#=2	.
+40=#P0#=mb	#P1#=mnuTask_Click	#P2#=GetSSLib/frmMain/mnuTask_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220040651	#P7#=0	#P8#=7	.
+41=#P0#=mb	#P1#=mnuTaskClear_Click	#P2#=GetSSLib/frmMain/mnuTaskClear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220040406	#P7#=0	#P8#=25	.
+42=#P0#=mb	#P1#=GetSelectedTask	#P2#=GetSSLib/frmMain/GetSelectedTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220035817	#P7#=0	#P8#=1	.
+43=#P0#=mb	#P1#=TaskToTaskListItem	#P2#=GetSSLib/frmMain/TaskToTaskListItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220035630	#P7#=0	#P8#=1	.
+44=#P0#=mb	#P1#=IsJpgBook	#P2#=GetSSLib/CTask/IsJpgBook [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220034337	#P7#=0	#P8#=4	.
+45=#P0#=mb	#P1#=IsJpgBook	#P2#=GetSSLib/CTask/IsJpgBook [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220034300	#P7#=0	#P8#=2	.
+46=#P0#=mb	#P1#=SSLIB_Init	#P2#=GetSSLib/MSSReader/SSLIB_Init	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220034159	#P7#=0	#P8#=60	.
+47=#P0#=mb	#P1#=GetJpgBookInfoUrl	#P2#=GetSSLib/MSSReader/GetJpgBookInfoUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220020554	#P7#=0	#P8#=0	.
+48=#P0#=mb	#P1#=SSLibraryLogin	#P2#=GetSSLib/MSSReader/SSLibraryLogin	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220020246	#P7#=0	#P8#=43	.
+49=#P0#=mb	#P1#=GetJpgBookParamA	#P2#=GetSSLib/MSSReader/GetJpgBookParamA	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220014840	#P7#=0	#P8#=21	.
+50=#P0#=mb	#P1#=GetJpgBook	#P2#=GetSSLib/MSSReader/GetJpgBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220014809	#P7#=0	#P8#=59	.
+51=#P0#=mb	#P1#=UrlCompleted	#P2#=GetSSLib/CTaskDownloader/UrlCompleted	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220014205	#P7#=0	#P8#=1	.
+52=#P0#=mb	#P1#=testFile	#P2#=GetSSLib/CBookTester/testFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220013622	#P7#=0	#P8#=12	.
+53=#P0#=mb	#P1#=mRealHttp_OnTestCompleted	#P2#=GetSSLib/CBookTester/mRealHttp_OnTestCompleted	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220013554	#P7#=0	#P8#=-2	.
+54=#P0#=mb	#P1#=TmpFileName	#P2#=GetSSLib/CTaskDownloader/TmpFileName	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220000630	#P7#=0	#P8#=3	.
+55=#P0#=mb	#P1#=LoginSSlib	#P2#=GetSSLib/frmMain/LoginSSlib	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219211424	#P7#=0	#P8#=3	.
+56=#P0#=mb	#P1#=OpenExplorer	#P2#=GetSSLib/frmMain/OpenExplorer	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219211126	#P7#=0	#P8#=-1	.
+57=#P0#=mb	#P1#=SetCookie	#P2#=GetSSLib/frmMain/SetCookie	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219210111	#P7#=0	#P8#=2	.
+58=#P0#=mb	#P1#=EditConfig	#P2#=GetSSLib/frmMain/EditConfig	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219201926	#P7#=0	#P8#=22	.
+59=#P0#=mb	#P1#=mnuPreference_Click	#P2#=GetSSLib/frmMain/mnuPreference_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219201906	#P7#=0	#P8#=2	.
+60=#P0#=mb	#P1#=PostUrl	#P2#=GetSSLib/frmOptions/PostUrl [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081219201058	#P7#=0	#P8#=1	.
+61=#P0#=mb	#P1#=PostUrl	#P2#=GetSSLib/frmOptions/PostUrl [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081219201051	#P7#=0	#P8#=1	.
+62=#P0#=mb	#P1#=UserName	#P2#=GetSSLib/frmOptions/UserName [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081219201041	#P7#=0	#P8#=2	.
+63=#P0#=mb	#P1#=Password	#P2#=GetSSLib/frmOptions/Password [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081219201035	#P7#=0	#P8#=0	.
+64=#P0#=mb	#P1#=LoadFromFile	#P2#=GetSSLib/CBookInfo/LoadFromFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219185928	#P7#=0	#P8#=15	.
+65=#P0#=mb	#P1#=Zlib_FileExist	#P2#=GetSSLib/MZlib/Zlib_FileExist	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219044525	#P7#=0	#P8#=12	.
+66=#P0#=mb	#P1#=Zlib_Uncompress	#P2#=GetSSLib/MZlib/Zlib_Uncompress	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219042404	#P7#=0	#P8#=24	.
+67=#P0#=mb	#P1#=Zlib_UncompressFile	#P2#=GetSSLib/MZlib/Zlib_UncompressFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219042348	#P7#=0	#P8#=11	.
+68=#P0#=mb	#P1#=Zlib_UncompressFileAs	#P2#=GetSSLib/MZlib/Zlib_UncompressFileAs	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219042319	#P7#=0	#P8#=17	.
+69=#P0#=mb	#P1#=SSLIB_EncodeBookContents	#P2#=GetSSLib/MSSReader/SSLIB_EncodeBookContents	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219033949	#P7#=0	#P8#=8	.
+70=#P0#=mb	#P1#=Zlib_UncompressFileToString	#P2#=GetSSLib/MZlib/Zlib_UncompressFileToString	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219033837	#P7#=0	#P8#=4	.
+71=#P0#=mb	#P1#=SSLIB_HTMLContentToBookContent	#P2#=GetSSLib/MSSReader/SSLIB_HTMLContentToBookContent	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219032810	#P7#=0	#P8#=19	.
+72=#P0#=mb	#P1#=SSLIB_ParseHTMLContent	#P2#=GetSSLib/MSSReader/SSLIB_ParseHTMLContent	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219032753	#P7#=0	#P8#=9	.
+73=#P0#=mb	#P1#=SSLIB_HTMLContentEntryOutput	#P2#=GetSSLib/MSSReader/SSLIB_HTMLContentEntryOutput	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219032737	#P7#=0	#P8#=32	.
+74=#P0#=mb	#P1#=SSLIB_HtmlContentRootOutput	#P2#=GetSSLib/MSSReader/SSLIB_HtmlContentRootOutput	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219032451	#P7#=0	#P8#=1	.
+75=#P0#=mb	#P1#=WriteBookInfo	#P2#=GetSSLib/CTask/WriteBookInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219030335	#P7#=0	#P8#=7	.
+76=#P0#=mb	#P1#=SSLIB_ConvertBookContentFile	#P2#=GetSSLib/MSSReader/SSLIB_ConvertBookContentFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219025739	#P7#=0	#P8#=6	.
+77=#P0#=mb	#P1#=FS_WriteFile	#P2#=GetSSLib/MFileSystem/FS_WriteFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219025653	#P7#=0	#P8#=20	.
+78=#P0#=mb	#P1#=SSLIB_HtmlContentCleanSource	#P2#=GetSSLib/MSSReader/SSLIB_HtmlContentCleanSource	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219023128	#P7#=0	#P8#=15	.
+79=#P0#=mb	#P1#=SSLIB_DecodeBookContents	#P2#=GetSSLib/MSSReader/SSLIB_DecodeBookContents	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219023127	#P7#=0	#P8#=2	.
+80=#P0#=mb	#P1#=Zlib_UncompressToString	#P2#=GetSSLib/MZlib/Zlib_UncompressToString	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219022936	#P7#=0	#P8#=5	.
+81=#P0#=mb	#P1#=FS_ReadFile	#P2#=GetSSLib/MFileSystem/FS_ReadFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219022847	#P7#=0	#P8#=25	.
+82=#P0#=mb	#P1#=Zlib_CompressFileAs	#P2#=GetSSLib/MZlib/Zlib_CompressFileAs	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219021638	#P7#=0	#P8#=23	.
+83=#P0#=mb	#P1#=Zlib_CompressFile	#P2#=GetSSLib/MZlib/Zlib_CompressFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219021535	#P7#=0	#P8#=28	.
+84=#P0#=mb	#P1#=Zlib_CompressString	#P2#=GetSSLib/MZlib/Zlib_CompressString	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219015521	#P7#=0	#P8#=9	.
+85=#P0#=mb	#P1#=Zlib_UncompressString	#P2#=GetSSLib/MZlib/Zlib_UncompressString	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219015400	#P7#=0	#P8#=7	.
+86=#P0#=mb	#P1#=Zlib_Compress	#P2#=GetSSLib/MZlib/Zlib_Compress	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219014951	#P7#=0	#P8#=28	.
+87=#P0#=mb	#P1#=FS_CloseFile	#P2#=GetSSLib/MFileSystem/FS_CloseFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219010624	#P7#=0	#P8#=-2	.
+88=#P0#=mb	#P1#=FS_OpenFile	#P2#=GetSSLib/MFileSystem/FS_OpenFile	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219005650	#P7#=0	#P8#=26	.
+89=#P0#=mb	#P1#=WriteToFile	#P2#=GetSSLib/MFileSystem/WriteToFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219005251	#P7#=0	#P8#=25	.
+90=#P0#=mb	#P1#=StrNum	#P2#=GetSSLib/MStrings/StrNum	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081218204413	#P7#=0	#P8#=4	.
+91=#P0#=mb	#P1#=SSLIB_ParseHTMLBookInfo	#P2#=GetSSLib/MSSReader/SSLIB_ParseHTMLBookInfo	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081218183935	#P7#=0	#P8#=48	.
+92=#P0#=mb	#P1#=GetJPGPage	#P2#=GetSSLib/CTask/GetJPGPage [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081218074639	#P7#=0	#P8#=0	.

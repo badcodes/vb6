@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=Components\VisualCore.vbp
+StartupProject=TColorPick.vbp
+Project=Controls\ColorPicker.vbp

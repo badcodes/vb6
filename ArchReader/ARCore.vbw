@@ -1,0 +1,6 @@
+CReader = 88, 120, 746, 574, C
+CDocument = 66, 90, 724, 544, Z
+MDefinition = 110, 150, 768, 604, 
+IReaderHandler = 132, 180, 790, 634, 
+IViewerHandler = 154, 210, 812, 664, 
+IDocumentHandler = 0, 0, 658, 454, 

@@ -1,0 +1,16 @@
+[History]
+B0=PackChm/frmMain/LoadGuiPrograme
+B1=PackChm/frmMain/LoadConsolePrograme
+B2=PackChm/frmMain/LoadSettingFromFile
+B3=PackChm/frmMain/cmdCompile_Click
+B4=PackChm/frmMain
+B5=PackChm/MCHM/newProject
+B6=PackChm/MCHM
+B7=PackChm/frmMain/cmdSelectFolder_Click
+B8=PackChm/frmMain/RefreshFileList
+B9=PackChm/CCommonDialogLite
+B10=PackChm/MFileSystem/RGetFolderContent
+B11=PackChm/MFileSystem/DirEx
+B12=PackChm/frmMain/mnuHHW_Click
+B13=PackChm/MString/Quote
+B14=PackChm/frmMain/mnuHHC_Click

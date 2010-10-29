@@ -1,0 +1,9 @@
+MainFrm = 66, 87, 839, 573, , 66, 87, 857, 576, C
+frmOptions = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmBookmark = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmServer = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CProcesser = 88, 116, 879, 605, C
+CArchive = 110, 145, 901, 634, C
+CURLInfo = 132, 174, 923, 663, C
+CDeclaration = 22, 29, 813, 518, C
+MZhReaderViaHttpServer = 0, 0, 626, 523, Z

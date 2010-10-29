@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=zhPReader.vbp
+Project=..\..\lUseZip\Source\lUseZip.vbp
+Project=..\..\LiNVBLib\LiNVBLib.vbp

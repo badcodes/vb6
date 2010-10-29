@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<rss xmlns="http://backend.userland.com/rss093" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="0.93"><channel><title>Entertainment</title><link>http://abcnews.go.com/Entertainment/index</link><description>RSS FEED FOR ABCNEWS Entertainment INDEX</description></channel></rss>

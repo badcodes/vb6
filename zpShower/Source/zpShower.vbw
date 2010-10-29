@@ -1,0 +1,10 @@
+MainFrm = 81, 105, 612, 433, Z, 54, 70, 652, 398, C
+frmOptions = 54, 70, 691, 378, C, 0, 0, 637, 308, C
+MainMOD = 54, 70, 585, 398, C
+frmBookmark = 0, 0, 0, 0, C, 27, 35, 664, 343, C
+CRecentFile = 0, 0, 0, 0, C
+MAlgorithms = 81, 105, 691, 438, C
+CLocalize = 0, 0, 0, 0, C
+MWindows = 0, 0, 0, 0, C
+CCommonDialogLite = 0, 0, 0, 0, C
+CMenuArrHandle = 0, 0, 0, 0, C

@@ -1,0 +1,17 @@
+ModString = 41, 70, 561, 437, C
+frmOptions = 0, 197, 545, 561, , 0, 0, 699, 476, C
+ModIni = 110, 135, 630, 502, C
+ModFont = 0, 0, 520, 367, C
+modSort = 22, 29, 515, 352, C
+ModFile = -117, 80, 517, 478, C
+ModDirDialog = 89, 89, 509, 446, C
+clsRecentFile = 0, 0, 518, 263, C
+modShell32 = 44, 48, 521, 298, C
+clsFileSystem = 44, 48, 521, 298, C
+modLanguage = 0, 0, 559, 305, C
+modFullScreen = 81, 87, 640, 392, C
+MainFrm = -106, 166, 598, 530, Z, 34, 57, 615, 420, C
+clsFiles = 0, 0, 0, 0, C
+modtxtReader = 108, 116, 601, 434, 
+frmBookmark = 81, 87, 575, 405, , 0, 0, 494, 318, C
+modApp = 108, 116, 602, 434, C

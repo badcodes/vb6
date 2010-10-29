@@ -1,0 +1,56 @@
+<script language="VBScript">
+'Great thanks to Vladimir Romanov(Author of ReGet Pro)
+'Download selected link
+
+Sub AddLink(Url,Info) 
+	set JetCarCatch=CreateObject("NextPage.JetCar")
+	if err<>0 then
+		MsgBox("FlashGet not properly installed!"+ vbCrLf+"Please install FlashGet again")
+	else
+		call JetCarCatch.AddUrl(Url)
+        end if
+end sub
+
+Sub OnContextMenu()
+	set srcEvent = external.menuArguments.event
+	set EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.clientX, srcEvent.clientY )
+	if srcEvent.type = "MenuExtAnchor" then 
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText)
+	elseif srcEvent.type="MenuExtImage" then
+		if TypeName(EventElement)="HTMLAreaElement" then
+			Call AddLink(EventElement.href,EventElement.Alt)
+		else 
+			set srcImage = EventElement
+			set srcAnchor = srcImage.parentElement
+			do until TypeName(srcAnchor)="HTMLAnchorElement"
+				set srcAnchor=srcAnchor.parentElement
+				if TypeName(srcAnchor)="Nothing" then 
+					call AddLink(srcImage.href,srcImage.Alt)
+					exit sub
+				end if
+			Loop
+			Call AddLink(srcAnchor.href,srcImage.Alt)
+		end if
+	elseif srcEvent.type="MenuExtUnknown" then
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+			if TypeName(srcAnchor)="Nothing" then 
+				Call AddLink(EventElement.href,EventElement.innerText)
+				exit sub
+			end if
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText)
+	elseif 1=1 then
+		MsgBox("Unknown Event Source """ + srcEvent.type + """" + vbCrLf + "Please send description of error to jetcar@163.net")
+	end if
+end sub
+
+call OnContextMenu()
+
+</script>
+

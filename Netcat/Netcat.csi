@@ -1,0 +1,5 @@
+[History]
+1=#P0#=mb	#P1#=cmdGet_Click	#P2#=Netcat/frmMain/cmdGet_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081107212503	#P7#=0	#P8#=16	.
+2=#P0#=mb	#P1#=Retrieve	#P2#=Netcat/CNetConnection/Retrieve	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081107212433	#P7#=0	#P8#=42	.
+3=#P0#=mb	#P1#=cNet_DataArrived	#P2#=Netcat/frmMain/cNet_DataArrived	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081106080932	#P7#=0	#P8#=2	.
+4=#P0#=mb	#P1#=StartDownload	#P2#=Netcat/CNetConnection/StartDownload	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081106075727	#P7#=0	#P8#=49	.

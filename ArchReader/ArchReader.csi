@@ -1,0 +1,37 @@
+[History]
+1=#P0#=mb	#P1#=Main	#P2#=ArchReader/MZHTM/Main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019175314	#P7#=0	#P8#=7	.
+2=#P0#=mb	#P1#=ShowLeft	#P2#=ArchReader/CArchive/ShowLeft [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019173602	#P7#=0	#P8#=0	.
+3=#P0#=mb	#P1#=curFileIndex	#P2#=ArchReader/MainFrm/curFileIndex	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019171746	#P7#=0	#P8#=-3	.
+4=#P0#=mb	#P1#=contents	#P2#=ArchReader/CArchive/contents [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171723	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=entries	#P2#=ArchReader/CArchive/entries [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019174312	#P7#=0	#P8#=3	.
+6=#P0#=mb	#P1#=ShowStatusBar	#P2#=ArchReader/CArchive/ShowStatusBar [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171611	#P7#=0	#P8#=3	.
+7=#P0#=mb	#P1#=ShowMenu	#P2#=ArchReader/CArchive/ShowMenu [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171554	#P7#=0	#P8#=-1	.
+8=#P0#=mb	#P1#=defaultFile	#P2#=ArchReader/CArchive/defaultFile [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171519	#P7#=0	#P8#=0	.
+9=#P0#=mb	#P1#=contentFile	#P2#=ArchReader/CArchive/contentFile [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171145	#P7#=0	#P8#=0	.
+10=#P0#=mb	#P1#=catalog	#P2#=ArchReader/CArchive/catalog [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171122	#P7#=0	#P8#=4	.
+11=#P0#=mb	#P1#=createdDate	#P2#=ArchReader/CArchive/createdDate [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171058	#P7#=0	#P8#=4	.
+12=#P0#=mb	#P1#=created	#P2#=ArchReader/CArchive/created [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171046	#P7#=0	#P8#=0	.
+13=#P0#=mb	#P1#=createDate	#P2#=ArchReader/CArchive/createDate [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171041	#P7#=0	#P8#=0	.
+14=#P0#=mb	#P1#=publiser	#P2#=ArchReader/CArchive/publiser [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019171035	#P7#=0	#P8#=4	.
+15=#P0#=mb	#P1#=author	#P2#=ArchReader/CArchive/author [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019170947	#P7#=0	#P8#=4	.
+16=#P0#=mb	#P1#=a	#P2#=ArchReader/CArchive/a [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019170637	#P7#=0	#P8#=0	.
+17=#P0#=mb	#P1#=title	#P2#=ArchReader/CArchive/title [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019170632	#P7#=0	#P8#=4	.
+18=#P0#=mb	#P1#=DisplayProgress	#P2#=ArchReader/MainFrm/DisplayProgress	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019170240	#P7#=0	#P8#=1	.
+19=#P0#=mb	#P1#=loadzh	#P2#=ArchReader/MainFrm/loadzh	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165955	#P7#=0	#P8#=1	.
+20=#P0#=mb	#P1#=mnufile_Open_Click	#P2#=ArchReader/MainFrm/mnufile_Open_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081019165931	#P7#=0	#P8#=3	.
+21=#P0#=mb	#P1#=CanHandlerURL	#P2#=ArchReader/CProcesser/CanHandlerURL	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165848	#P7#=0	#P8#=3	.
+22=#P0#=mb	#P1#=GetUrlInfo	#P2#=ArchReader/CProcesser/GetUrlInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165837	#P7#=0	#P8#=3	.
+23=#P0#=mb	#P1#=OpenArchive	#P2#=ArchReader/CProcesser/OpenArchive	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165645	#P7#=0	#P8#=3	.
+24=#P0#=mb	#P1#=OpenUrl	#P2#=ArchReader/CProcesser/OpenUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165522	#P7#=0	#P8#=3	.
+25=#P0#=mb	#P1#=OpenFolder	#P2#=ArchReader/CProcesser/OpenFolder	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165424	#P7#=0	#P8#=3	.
+26=#P0#=mb	#P1#=FolderToUrl	#P2#=ArchReader/CProcesser/FolderToUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165329	#P7#=0	#P8#=0	.
+27=#P0#=mb	#P1#=OpenFile	#P2#=ArchReader/CProcesser/OpenFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165241	#P7#=0	#P8#=1	.
+28=#P0#=mb	#P1#=OpenFilFileToUrl	#P2#=ArchReader/CProcesser/OpenFilFileToUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165106	#P7#=0	#P8#=0	.
+29=#P0#=mb	#P1#=OpenFFileToUrl	#P2#=ArchReader/CProcesser/OpenFFileToUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165104	#P7#=0	#P8#=0	.
+30=#P0#=mb	#P1#=OFileToUrl	#P2#=ArchReader/CProcesser/OFileToUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165103	#P7#=0	#P8#=0	.
+31=#P0#=mb	#P1#=OpeFileToUrl	#P2#=ArchReader/CProcesser/OpeFileToUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165103	#P7#=0	#P8#=0	.
+32=#P0#=mb	#P1#=OpenDirectory	#P2#=ArchReader/CProcesser/OpenDirectory	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165046	#P7#=0	#P8#=0	.
+33=#P0#=mb	#P1#=FileToUr	#P2#=ArchReader/CProcesser/FileToUr	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165036	#P7#=0	#P8#=0	.
+34=#P0#=mb	#P1#=FileToU	#P2#=ArchReader/CProcesser/FileToU	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165035	#P7#=0	#P8#=0	.
+35=#P0#=mb	#P1#=FileT	#P2#=ArchReader/CProcesser/FileT	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019165034	#P7#=0	#P8#=0	.
+36=#P0#=mb	#P1#=O	#P2#=ArchReader/CProcesser/O	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019164937	#P7#=0	#P8#=0	.

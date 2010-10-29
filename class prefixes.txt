@@ -1,0 +1,11 @@
+Prefix Type 
+C Class 
+F Form 
+T User-defined type 
+X ActiveX control 
+D ActiveX document 
+P Property page 
+E Enum 
+I Interface class for Implements 
+G Global object class module 
+M Standard module 

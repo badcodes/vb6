@@ -1,0 +1,17 @@
+typedef [public] long HKEY;
+typedef [public] long LPCITEMIDLIST;
+
+[ 
+	uuid(C09D3E09-D8C7-47d4-8862-8D8D661EC329),
+	helpstring("IShellExtInit Interface"),
+	odl
+]
+interface IShellExtInit : IUnknown
+{
+	[helpstring("Initialize")]
+	HRESULT Initialize(
+					[in] LPCITEMIDLIST pidlFolder,
+					[in] IDataObject *pDataObj,
+					[in] HKEY hkeyProgId);
+}
+

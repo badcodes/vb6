@@ -1,0 +1,16 @@
+[History]
+B0=FolderBrowser/CFolderBrowser/Browse
+B1=FolderBrowser/CFolderBrowser/Class_Initialize
+B2=FolderBrowser/CFolderBrowser
+B3=FolderBrowser/MFolderBrowser
+B4=FolderBrowser/MTest/Test
+B5=FolderBrowser/MTest
+B6=FolderBrowser/MFolderBrowser/UnqualifyPath
+B7=FolderBrowser/Module1
+B8=FolderBrowser/Module1/Test
+B9=FolderBrowser/MFolderBrowser/BrowseForFolderByPath
+B10=FolderBrowser/MFolderBrowser/BrowseCallbackProcStr
+B11=FolderBrowser/CFolderBrowser/Owner
+B12=FolderBrowser/CFolderBrowser/Title
+B13=FolderBrowser/CFolderBrowser/InitDirectory
+B14=FolderBrowser/MFolderBrowser/BrowseForFolderByPIDL

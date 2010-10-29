@@ -1,0 +1,9 @@
+[History]
+B0=xUNPack/Mainfrm/myUnzip
+B1=xUNPack/Mainfrm/cmdDstFolder_Click
+B2=xUNPack/Mainfrm
+B3=xUNPack/Mainfrm/AddLog
+B4=xUNPack/Mainfrm/cmdSrcFolder_Click
+B5=xUNPack/Mainfrm/cmdUnpack_Click
+B6=xUNPack/Mainfrm/Form_Unload
+B7=xUNPack/Mainfrm/Form_Load

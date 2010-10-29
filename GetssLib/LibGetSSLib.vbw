@@ -1,0 +1,14 @@
+CTaskDownloader2 = 44, 58, 658, 541, Z
+CBookInfo = 110, 145, 724, 628, 
+CTask = 66, 87, 680, 570, 
+CBookTester = 0, 0, 0, 0, C
+CBookURL = 0, 0, 0, 0, C
+ITaskNotify = 22, 29, 636, 512, 
+MSSReader = 88, 116, 702, 599, 
+CLiNInI = 0, 0, 0, 0, C
+MFileSystem = 0, 0, 0, 0, C
+MStrings = 0, 0, 0, 0, C
+gMSSReader = 154, 203, 768, 686, 
+MHttpHeader = 0, 0, 0, 0, C
+CTaskRunner = 44, 58, 658, 541, 
+MZlib = 0, 0, 0, 0, C

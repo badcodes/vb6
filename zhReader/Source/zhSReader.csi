@@ -1,0 +1,37 @@
+[History]
+1=#P0#=mb	#P1#=Loadlist	#P2#=zhSReader/MainFrm/Loadlist	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090916143244	#P7#=0	#P8#=28	.
+2=#P0#=mb	#P1#=DisplayProgress	#P2#=zhSReader/MainFrm/DisplayProgress	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090916143201	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=Timer_Timer	#P2#=zhSReader/MainFrm/Timer_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090916140810	#P7#=0	#P8#=-1	.
+4=#P0#=mb	#P1#=ShowStatusBar	#P2#=zhSReader/MainFrm/ShowStatusBar	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090916140808	#P7#=0	#P8#=18	.
+5=#P0#=mb	#P1#=List_Expand	#P2#=zhSReader/MainFrm/List_Expand	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090916140621	#P7#=0	#P8#=2	.
+6=#P0#=mb	#P1#=List_Collapse	#P2#=zhSReader/MainFrm/List_Collapse	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090916140619	#P7#=0	#P8#=4	.
+7=#P0#=mb	#P1#=Form_Load	#P2#=zhSReader/MainFrm/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090916140604	#P7#=0	#P8#=147	.
+8=#P0#=mb	#P1#=IEZoom	#P2#=zhSReader/MainFrm/IEZoom	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090916092848	#P7#=0	#P8#=15	.
+9=#P0#=mb	#P1#=IsEXE	#P2#=zhSReader/MVBExe/IsEXE	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090916091417	#P7#=0	#P8#=9	.
+10=#P0#=mb	#P1#=OptionChanged	#P2#=zhSReader/MZhReaderViaHttpServer/OptionChanged	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912154127	#P7#=0	#P8#=0	.
+11=#P0#=mb	#P1#=zipProtocol_ParseURL	#P2#=zhSReader/MZhReaderViaHttpServer/zipProtocol_ParseURL	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090912154056	#P7#=0	#P8#=0	.
+12=#P0#=mb	#P1#=cmdOK_Click	#P2#=zhSReader/frmOptions/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090912153854	#P7#=0	#P8#=12	.
+13=#P0#=mb	#P1#=readyToLoadList	#P2#=zhSReader/MainFrm/readyToLoadList	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912153815	#P7#=0	#P8#=31	.
+14=#P0#=mb	#P1#=loadzh	#P2#=zhSReader/MainFrm/loadzh	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912150806	#P7#=0	#P8#=1	.
+15=#P0#=mb	#P1#=parseZhCommentText	#P2#=zhSReader/CZhComment/parseZhCommentText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912150113	#P7#=0	#P8#=39	.
+16=#P0#=mb	#P1#=parseHHCText	#P2#=zhSReader/CZhComment/parseHHCText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912145726	#P7#=0	#P8#=20	.
+17=#P0#=mb	#P1#=getLI	#P2#=zhSReader/CZhComment/getLI	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912145710	#P7#=0	#P8#=-20	.
+18=#P0#=mb	#P1#=mnufile_Open_Click	#P2#=zhSReader/MainFrm/mnufile_Open_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090912122819	#P7#=0	#P8#=21	.
+19=#P0#=mb	#P1#=Form_Resize	#P2#=zhSReader/MainFrm/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090912122318	#P7#=0	#P8#=67	.
+20=#P0#=mb	#P1#=MGetView	#P2#=zhSReader/MZhReaderViaHttpServer/MGetView	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907220813	#P7#=0	#P8#=31	.
+21=#P0#=mb	#P1#=Main	#P2#=zhSReader/MZbook/Main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907215621	#P7#=0	#P8#=7	.
+22=#P0#=mb	#P1#=rememberBook	#P2#=zhSReader/MZbook/rememberBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907214238	#P7#=0	#P8#=-100	.
+23=#P0#=mb	#P1#=Association	#P2#=zhSReader/MZbook/Association	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907213757	#P7#=0	#P8#=1	.
+24=#P0#=mb	#P1#=ContentText	#P2#=zhSReader/CZhComment/ContentText [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225071321	#P7#=0	#P8#=23	.
+25=#P0#=mb	#P1#=InfoText	#P2#=zhSReader/CZhComment/InfoText [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225071301	#P7#=0	#P8#=11	.
+26=#P0#=mb	#P1#=curFileIndex	#P2#=zhSReader/MainFrm/curFileIndex	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225071255	#P7#=0	#P8#=3	.
+27=#P0#=mb	#P1#=randomView	#P2#=zhSReader/MainFrm/randomView	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225070801	#P7#=0	#P8#=17	.
+28=#P0#=mb	#P1#=myXZip	#P2#=zhSReader/MainFrm/myXZip	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216212752	#P7#=0	#P8#=8	.
+29=#P0#=mb	#P1#=myXUnzip	#P2#=zhSReader/MainFrm/myXUnzip	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216212655	#P7#=0	#P8#=3	.
+30=#P0#=mb	#P1#=skipUntil	#P2#=zhSReader/MHtmlWeb/skipUntil	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216211856	#P7#=-2147483640	#P8#=0	.
+31=#P0#=mb	#P1#=IsWebsiteDefaultFile	#P2#=zhSReader/MHtmlWeb/IsWebsiteDefaultFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216211758	#P7#=0	#P8#=15	.
+32=#P0#=mb	#P1#=findDefaultHtml	#P2#=zhSReader/MHtmlWeb/findDefaultHtml	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216211731	#P7#=0	#P8#=8	.
+33=#P0#=mb	#P1#=saveServerSetting	#P2#=zhSReader/MZhReaderViaHttpServer/saveServerSetting	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216211109	#P7#=0	#P8#=3	.
+34=#P0#=mb	#P1#=mnuBookmark_add_Click	#P2#=zhSReader/MainFrm/mnuBookmark_add_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081216210552	#P7#=0	#P8#=11	.
+35=#P0#=mb	#P1#=mnuhelp_About_Click	#P2#=zhSReader/MainFrm/mnuhelp_About_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081018032759	#P7#=0	#P8#=7	.
+36=#P0#=mb	#P1#=mnuView_ApplyStyleSheet_List_Click	#P2#=zhSReader/MainFrm/mnuView_ApplyStyleSheet_List_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081018032659	#P7#=0	#P8#=20	.

@@ -1,0 +1,12 @@
+frmOptions = 66, 84, 636, 515, C, 27, 29, 520, 347, C
+MFont = 0, 0, 0, 0, C
+MDlgOpenDir = 0, 0, 0, 0, C
+CRecentFile = 132, 168, 702, 599, C
+MLanguage = 0, 0, 0, 0, C
+MainFrm = 4, 38, 497, 357, Z, 81, 87, 574, 405, C
+modtxtReader = 27, 29, 520, 348, 
+frmBookmark = 0, 0, 0, 0, C, 54, 58, 547, 376, C
+MApp = 0, 0, 0, 0, C
+CFiles = 154, 196, 738, 627, 
+MAlgorithms = 0, 0, 0, 0, C
+CMenuArrHandle = 0, 0, 584, 431, 

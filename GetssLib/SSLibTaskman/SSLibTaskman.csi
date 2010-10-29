@@ -1,0 +1,22 @@
+[History]
+1=#P0#=mb	#P1#=TabContent_Click	#P2#=SSLibTaskman/frmMain/TabContent_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128172059	#P7#=0	#P8#=17	.
+2=#P0#=mb	#P1#=SetStatusText	#P2#=SSLibTaskman/frmMain/SetStatusText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128171505	#P7#=0	#P8#=4	.
+3=#P0#=mb	#P1#=ITaskNotify_DownloadStatusChange	#P2#=SSLibTaskman/frmMain/ITaskNotify_DownloadStatusChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128171445	#P7#=0	#P8#=-1	.
+4=#P0#=mb	#P1#=cmdOK_Click	#P2#=SSLibTaskman/frmTask/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128170659	#P7#=0	#P8#=48	.
+5=#P0#=mb	#P1#=cmdCheckClipboard_Click	#P2#=SSLibTaskman/frmMain/cmdCheckClipboard_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128170147	#P7#=0	#P8#=3	.
+6=#P0#=mb	#P1#=ArrayIsEmpty	#P2#=SSLibTaskman/MArrays/ArrayIsEmpty	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128170057	#P7#=0	#P8#=2	.
+7=#P0#=mb	#P1#=SafeLBound	#P2#=SSLibTaskman/MArrays/SafeLBound	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128165949	#P7#=0	#P8#=9	.
+8=#P0#=mb	#P1#=SafeUBound	#P2#=SSLibTaskman/MArrays/SafeUBound	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128165936	#P7#=0	#P8#=5	.
+9=#P0#=mb	#P1#=UpdateFromClipboard	#P2#=SSLibTaskman/frmMain/UpdateFromClipboard	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128165219	#P7#=0	#P8#=0	.
+10=#P0#=mb	#P1#=Form_Load	#P2#=SSLibTaskman/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128165206	#P7#=0	#P8#=-1	.
+11=#P0#=mb	#P1#=UpdateFromClipboard	#P2#=SSLibTaskman/frmTask/UpdateFromClipboard	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128165151	#P7#=0	#P8#=0	.
+12=#P0#=mb	#P1#=LoadConfigFrom	#P2#=SSLibTaskman/frmMain/LoadConfigFrom	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128165024	#P7#=0	#P8#=20	.
+13=#P0#=mb	#P1#=SaveConfigTo	#P2#=SSLibTaskman/frmMain/SaveConfigTo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081128164951	#P7#=0	#P8#=14	.
+14=#P0#=mb	#P1#=cmdAdd_Click	#P2#=SSLibTaskman/frmMain/cmdAdd_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128164220	#P7#=0	#P8#=-7	.
+15=#P0#=mb	#P1#=Form_Load	#P2#=SSLibTaskman/frmTask/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128163743	#P7#=0	#P8#=6	.
+16=#P0#=mb	#P1#=N_	#P2#=SSLibTaskman/frmTask/N_	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128163532	#P7#=0	#P8#=-2	.
+17=#P0#=mb	#P1#=Form_Unload	#P2#=SSLibTaskman/frmTask/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128163517	#P7#=0	#P8#=2	.
+18=#P0#=mb	#P1#=Form_Resize	#P2#=SSLibTaskman/frmTask/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128163458	#P7#=0	#P8#=4	.
+19=#P0#=mb	#P1#=Form_Resize	#P2#=SSLibTaskman/frmMain/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081128163401	#P7#=0	#P8#=82	.
+[Workbench]
+1=#P0#=mb	#P1#=Form_Resize	#P2#=SSLibTaskman/frmMain/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=	#P7#=-2147483640	#P8#=0	.

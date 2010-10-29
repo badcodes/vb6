@@ -1,0 +1,19 @@
+[History]
+B0=fgBookUrl/frmDirSelect/Form_Load
+B1=fgBookUrl/cmdFrm/parseText
+B2=fgBookUrl/cmdFrm/talkToFlashget
+B3=fgBookUrl/frmDirSelect
+B4=fgBookUrl/cmdFrm/cmdDirectlyDown_Click
+B5=fgBookUrl/cmdFrm/Form_Load
+B6=fgBookUrl/cmdFrm
+B7=fgBookUrl/CDownLoad
+B8=fgBookUrl/cmdFrm/cmdFlashget_Click
+B9=fgBookUrl/cmdFrm/httpHND_GetData
+B10=fgBookUrl/CDownLoad/StartDownLoad
+B11=fgBookUrl/cmdFrm/download
+B12=fgBookUrl/cmdFrm/AddUrl
+B13=fgBookUrl/cmdFrm/cmdDownload_Click
+B14=fgBookUrl/CDownLoad/Cancel
+[Workbench]
+0=31   fgBookUrl/cmdFrm/talkToFlashget14   talkToFlashget17   MembMethodPrivate1    01    0
+1=26   fgBookUrl/cmdFrm/Form_Load9    Form_Load20   MembEventProcPrivate1    01    0

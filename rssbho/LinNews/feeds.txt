@@ -1,0 +1,12 @@
+rssfeed:http://lib.verycd.com/music/index.xml,VeryCD 音乐
+rssfeed:http://rss.news.yahoo.com/rss/topstories,Yahoo Top Stories
+rssfeed:http://www.blogchina.com/xml/2_rss2.xml,博客中国热门话题
+rssfeed:http://www.knowsky.com/rss.asp?id=36,动网制作JavaScript
+rssfeed:http://www.microsoft.com/china/msdn/rss.xml,MSDN中文
+rssfeed:http://www.btefnet.net/backend.php,BT-EFNET
+rssfeed:http://www.torrentspy.com/rss.asp,TorrentSpy
+rssfeed:http://my.abcnews.go.com/rsspublic/entertainment_rss093.xml,ABC Entertainment News
+rssfeed:http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml,BBC News - Front Page
+rssfeed:http://sports.espn.go.com/espn/rss/news,ESPN
+rssfeed:http://www.blogcn.com/rss.asp?uid=lovingyvette,Loving Yvette
+rssfeed:http://lib.verycd.com/index.xml,VeryCD 资源共享

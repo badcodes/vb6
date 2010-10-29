@@ -1,0 +1,33 @@
+
+Prefix Variable or Object 
+
+i  integer index (type Integer or Long) 
+h handle 
+ord ordinal (a numeric identification code used when the specific value is unimportant except to distinguish the variable from others) 
+x, y x and y coordinates of points 
+dx, dy delta (or distance) in terms of x and y coordinates (dx is width, dy is height) 
+f Boolean 
+af bit flag (an array of Booleans represented by bits) 
+r real number (either Single or Double) 
+b Byte 
+v Variant 
+cur Currency 
+time time 
+date Date 
+dt Date and time combined 
+s String 
+p pointer (Long variable from or for an API function) 
+cmd button 
+chk check box 
+txt text box 
+pb picture box 
+pic picture 
+lst list box 
+cbo combo box 
+lbl label 
+mnu menu 
+tmr timer 
+opt option button (radio button) 
+c count 
+A array 
+N collection 

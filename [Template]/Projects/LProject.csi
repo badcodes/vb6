@@ -1,0 +1,15 @@
+[History]
+B0=LProject/frmMain
+B1=LProject/frmMain/Form_Resize
+B2=LProject/frmMain/Form_Load
+B3=LProject/THash/ComputeIndex
+B4=LProject/THash/Add
+B5=LProject/MTemplateType
+B6=LProject/MTemplateType/PrintLine
+B7=LProject/MMain/Main
+B8=LProject/MMain
+B9=LProject/CApp/Class_Initialize
+B10=LProject/CApp
+B11=LProject/CApp/SetWindow
+B12=LProject/CApp/Run
+B13=LProject/CApp/Class_Terminate

@@ -1,0 +1,65 @@
+IE奥秘??添加新菜单项
+作者：甘冀平　　来源：　　发布时间：2001.04.28 20:26:00
+　　本文将介绍如何添加一个菜单项到微软Internet Explorer浏览器的“工具”（Tools）下拉菜单中，这个新添加的菜单项表示运行一个Microsoft Win32应用程序，或者表示运行一个脚本程序。
+
+　　需要的基础知识与环境
+　　如果想在Internet Explorer中准确地完成在“工具”菜单下添加菜单项目的功能，你必须要熟悉注册表的操作。
+　　而且，这里讨论的方法，要求浏览器是Internet Explorer 版本5 或者更高版本。
+
+　　通用步骤
+　　这一节描述的步骤必须严格执行，如果省略任何一个步骤（除去可选的），最终都不会达到添加菜单项的目的。
+　　注意：下面描述的添加菜单项的步骤都是针对访问机器的全部用户而言的，如果想为每一个不同用户添加菜单，可以在下面的步骤中用HKEY_CURRENT_USER替换HKEY_LOCAL_MACHINE。
+　　建立一个正确的全局唯一表示符，即GUID。 
+　　使用上面的GUID，在下面的注册表项目下建立一个新的键值： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　（可选步骤）在下面的注册表项目下，建立一个新的字符串数值 MenuCustomize ： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\\MenuCustomize
+　　如果需要添加的新菜单项出现在浏览器的“帮助”（HELP）菜单下，就设置MenuCustomize的数值为“help”。如果设置成其他数值，或者根本没有设置MenuCustomize，菜单项将最终出现在“工具”（Tools）菜单下面。
+　　在下面的注册表项目下，创建一个新的字符串数值 CLSID ： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >\CLSID
+　　设置CLSID的数值为 {1FBA04EE-3024-11d2-8F1F-0000F87ABD16}。
+　　在下面的注册表项目下，创建一个新的字符串数值 MenuText ： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >\MenuText
+　　将MenuText的数值设置为在工具菜单中显示的文字。注意，文字不支持任何为了实现快捷键而需要的下划线。
+　　（可选步骤） 在下面的注册表项目下，创建一个新的字符串数值 MenuStatusBar ： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\\MenuStatusBar
+　　MenuStatusBar中设置的文字，表示当菜单项高亮度选中时，在浏览器的状态栏中显示的信息，为了给用户一个明白的意思，请设置文字为该菜单项执行程序或者执行脚本的确切含义。
+
+　　添加细节
+　　完成了上面的初始步骤后，就需要进一步添加键的数值。具体的数值以及下面的其他步骤要依赖于菜单项表示的实际运行程序的类型。下面将讨论可能的几个程序类型及其添加细节：
+
+　　COM对象
+　　下面的步骤将实现在浏览器的“工具”菜单下创建一个执行COM对象的菜单项。同样，如果省略任何一个步骤（除去可选的），最终都不会达到添加菜单项的目的。而且，描述的步骤都是针对访问机器的全部用户而言的，如果想为每一个不同用户添加菜单，可以在下面的步骤中用HKEY_CURRENT_USER替换HKEY_LOCAL_MACHINE。
+　　注册COM对象。 
+　　在下面的注册表项目下，创建一个新的字符串数值 ClsidExtension ： 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >\ClsidExtension
+　　将ClsidExtension 设置为COM对象的GUID。
+　　而且，COM对象必须执行IOleCommandTarget。如果COM对象需要访问页面上的DHTML对象模型，就必须执行IObjectWithSite。
+
+　　脚本
+　　下面的步骤将实现在浏览器的“工具”菜单下创建一个执行脚本程序的菜单项。同样，如果省略任何一个步骤（除去可选的），最终都不会达到添加菜单项的目的。而且，描述的步骤都是针对访问机器的全部用户而言的，如果想为每一个不同用户添加菜单，可以在下面的步骤中用HKEY_CURRENT_USER替换HKEY_LOCAL_MACHINE。
+　　在下面的注册表项目下，创建一个新的字符串数值 Script : 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >\Script
+　　设置Script的数值为要运行脚本的全路径。
+
+　　执行程序
+　　下面的步骤将实现在浏览器的“工具”菜单下创建一个执行.exe文件的菜单项。同样，如果省略任何一个步骤（除去可选的），最终都不会达到添加菜单项的目的。而且，描述的步骤都是针对访问机器的全部用户而言的，如果想为每一个不同用户添加菜单，可以在下面的步骤中用HKEY_CURRENT_USER替换HKEY_LOCAL_MACHINE。
+　　在下面的注册表项目下，创建一个新的字符串数值 Exec : 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >
+　　建立正确后，就象下面一样：
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions\< Your GUID >\Exec
+　　设置Script的数值为要运行.exe文件的全路径。 

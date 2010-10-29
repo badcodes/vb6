@@ -1,0 +1,136 @@
+
+Build of 'SubTimer.dll' succeeded.
+
+Build of 'VBCore.dll' succeeded.
+
+Build of 'VisualCore.dll' succeeded.
+
+Build of 'NOTIFY.EXE' succeeded.
+
+Build of 'ColorPicker.ocx' succeeded.
+
+Build of 'DropStack.ocx' succeeded.
+
+Build of 'Editor.ocx' succeeded.
+
+Build of 'ListBoxPlus.ocx' succeeded.
+
+Build of 'PictureGlass.ocx' succeeded.
+
+Build of 'SieveBasCtlN.ocx' succeeded.
+
+Build of 'SieveBasCtlP.ocx' succeeded.
+
+Build of 'SieveBasDllN.Dll' succeeded.
+
+Build of 'SieveBasDllP.dll' succeeded.
+
+Build of 'SieveBasExeN.exe' succeeded.
+
+Build of 'SieveBasExeP.exe' succeeded.
+
+Build of 'SieveBasGlobN.dll' succeeded.
+
+Build of 'SieveBasGlobP.dll' succeeded.
+
+Build of 'SieveCli.Exe' succeeded.
+
+Build of 'AddressOMatic.exe' succeeded.
+
+Build of 'AllAbout.exe' succeeded.
+
+Build of 'AppPath.Exe' succeeded.
+
+Build of 'BitBlast.exe' succeeded.
+
+Build of 'Browse.exe' succeeded.
+
+Build of 'BugWiz.exe' succeeded.
+
+Build of 'CollWiz.exe' succeeded.
+
+Could not create reference: 'X:\WORKSP~1\vb6\_SAMPL~1\WINNT\System32\RICHTX32.oca'.
+Build of 'Edwina.exe' succeeded.
+
+Build of 'ErrMsg.exe' succeeded.
+
+File not found: CARDS32.DLL
+Build of 'FunNGame.exe' failed.
+
+Build of 'GlobWiz.exe' succeeded.
+
+Build of 'Hardcore.exe' succeeded.
+
+Build of 'LotAbout.exe' succeeded.
+
+Build of 'Meriwether.exe' succeeded.
+
+Build of 'RegTlb.exe' succeeded.
+
+Build of 'RegTlbOld.exe' succeeded.
+
+Build of 'TBezier.exe' succeeded.
+
+Build of 'TCollect.exe' succeeded.
+
+Build of 'TColorPick.exe' succeeded.
+
+Build of 'TCompletion.exe' succeeded.
+
+Build of 'TDictionary.exe' succeeded.
+
+Build of 'TEdge.exe' succeeded.
+
+Build of 'TEnum.exe' succeeded.
+
+Build of 'TExecute.exe' succeeded.
+
+Build of 'TFolder.exe' succeeded.
+
+Build of 'TIcon.exe' succeeded.
+
+Build of 'TImage.exe' succeeded.
+
+Build of 'TimeIt.exe' succeeded.
+
+Build of 'TMessage.exe' succeeded.
+
+Build of 'TPalette.exe' succeeded.
+
+Build of 'TParse.exe' succeeded.
+
+Build of 'TPaths.exe' succeeded.
+
+Build of 'TReg.exe' succeeded.
+
+Compile Error in File 'X:\WORKSP~1\vb6\_SAMPL~1\HARDCO~1\TRes.frm', Line 22 : Invalid character
+Build of 'TRes.exe' failed.
+
+Compile Error in File 'X:\WORKSP~1\vb6\_SAMPL~1\HARDCO~1\TRes2.frm', Line 22 : Invalid character
+Build of 'TRes2.exe' failed.
+
+Build of 'TShare.exe' succeeded.
+
+Build of 'TShortcut.exe' succeeded.
+
+Build of 'TSort.exe' succeeded.
+
+Build of 'TSplit.exe' succeeded.
+
+Build of 'TSplit2.exe' succeeded.
+
+Build of 'TString.exe' succeeded.
+
+Build of 'TSysMenu.exe' succeeded.
+
+Build of 'TThread.exe' succeeded.
+
+Build of 'TTimer.exe' succeeded.
+
+Build of 'TWhiz.exe' succeeded.
+
+Build of 'TWindow.exe' succeeded.
+
+Build of 'VB6ToVB5.exe' succeeded.
+
+Build of 'WinWatch.exe' succeeded.

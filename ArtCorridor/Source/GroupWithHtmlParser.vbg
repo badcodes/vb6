@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=zhReader.vbp
+Project=..\..\HtmlParser\htmlParser.vbp

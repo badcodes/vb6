@@ -1,0 +1,8 @@
+[History]
+B0=PartitionTextFile/mainFrm/splitFileByText
+B1=PartitionTextFile/mainFrm/cmdPartition_Click
+B2=PartitionTextFile/mainFrm
+B3=PartitionTextFile/mainFrm/cmdSelect_Click
+B4=PartitionTextFile/mainFrm/Form_Load
+B5=PartitionTextFile/mainFrm/Form_Unload
+B6=PartitionTextFile/mainFrm/getLineNotEmpty

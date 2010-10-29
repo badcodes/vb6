@@ -1,0 +1,5 @@
+// VISICORE.RC - Resource script for splitters in VisualCore
+
+//$ Const ordAppCursor = 401
+HSplit  CURSOR  "ho_split.cur"
+VSplit  CURSOR  "ve_split.cur"

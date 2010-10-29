@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=Internet 包 1
+
+
+[Package|Internet 包 1|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=D:\WorkBench\VB\RssDll\包
+
+[Package|Internet 包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Internet 包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Internet 包 1|Files Found]
+
+[Package|Internet 包 1|Files Released]
+
+[Package|Internet 包 1|Missing Dependency Information]
+C:\WINDOWS\system32\msxml4.dll=
+
+[Package|Internet 包 1|Out-of-Date Dependency Information]
+
+[Package|Internet 包 1|Files Added]
+D:\WorkBench\VB\RssDll\IE奥秘添加新菜单项.txt=
+D:\WorkBench\VB\RssDll\MSSCCPRJ.SCC=
+D:\WorkBench\VB\RssDll\Rss.exp=
+D:\WorkBench\VB\RssDll\Rss.lib=
+D:\WorkBench\VB\RssDll\Rss.vbp=
+D:\WorkBench\VB\RssDll\Rss.vbw=
+D:\WorkBench\VB\RssDll\rsstmpl.htm=
+
+[Package|Internet 包 1|Files Removed]
+
+[Package|Internet 包 1|Files In Project]
+D:\WorkBench\VB\RssDll\Rss.dll=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\Designer\MS Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Designer\MS Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Designer\MS Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Designer\MS Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Designer\MS Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6CHS.DLL=Yes
+C:\WINDOWS\system32\msxml4.dll=Yes
+D:\WorkBench\VB\RssDll\IE奥秘添加新菜单项.txt=Yes
+D:\WorkBench\VB\RssDll\MSSCCPRJ.SCC=Yes
+D:\WorkBench\VB\RssDll\Rss.exp=Yes
+D:\WorkBench\VB\RssDll\Rss.lib=Yes
+D:\WorkBench\VB\RssDll\Rss.vbp=Yes
+D:\WorkBench\VB\RssDll\Rss.vbw=Yes
+D:\WorkBench\VB\RssDll\rsstmpl.htm=Yes
+
+[Package|Internet 包 1|Configure Registry Files]
+Applicable=No
+
+[Package|Internet 包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Internet 包 1|Install Locations]
+
+[Package|Internet 包 1|Configure Shared Files]
+Applicable=
+
+[Package|Internet 包 1|ComponentInfo]
+Rss.dll=thiscab
+msvbvm60.dll=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+VB6CHS.DLL=http://activex.microsoft.com/controls/vb6/VB6CHS.cab
+msxml4.dll=thiscab
+IE奥秘添加新菜单项.txt=thiscab
+MSSCCPRJ.SCC=thiscab
+Rss.exp=thiscab
+Rss.lib=thiscab
+Rss.vbp=thiscab
+Rss.vbw=thiscab
+rsstmpl.htm=thiscab
+
+[Package|Internet 包 1|ObjectInfo]
+Crss=false;false
+
+[Package|Internet 包 1|Package]
+PackageFolder=D:\WorkBench\VB\RssDll\包
+ProjectFolder=D:\WorkBench\VB\RssDll
+ServerSideCab=D:\WorkBench\VB\RssDll\包\Rss.CAB
+File1=D:\WorkBench\VB\RssDll\包\Rss.CAB
+File2=D:\WorkBench\VB\RssDll\包\Rss.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz

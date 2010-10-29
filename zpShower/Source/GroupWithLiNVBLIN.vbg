@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=zhSReader.vbp
+Project=..\..\LiNVBLib\LiNVBLib.vbp

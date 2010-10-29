@@ -1,0 +1,25 @@
+<script language="VBScript">
+
+sub OnContextMenu()
+	set curDoc=external.menuArguments.document
+	set RangeSelected=curDoc.selection.createRange
+	sHtml=RangeSelected.htmlText
+	set fso=CreateObject("Scripting.FileSystemObject")
+	TemporaryFolder = 2
+	ftmp=fso.BuildPath(fso.GetSpecialFolder(TemporaryFolder),fso.GetTempName)
+	set ts=fso.CreateTextFile(ftmp + ".htm", true,true)
+	ts.Write("<Html><Head><Title>")
+	ts.Write(curDoc.title)
+	ts.Write("</Title>")
+	ts.Write("<Base Href="+curDoc.Url+">")
+	ts.Write("</Head>")
+	ts.Write("<Body>")
+	ts.Write(sHtml)
+	ts.Write("</Body></Html>")
+	ts.Close()
+	set istl = CreateObject("IeSaveText.loader")
+	istl.LoadHtm(ftmp+".htm")
+	
+end sub
+call OnContextMenu()
+</script>

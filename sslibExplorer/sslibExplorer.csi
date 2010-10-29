@@ -1,0 +1,57 @@
+[History]
+1=#P0#=mb	#P1#=AddBookInfoToList	#P2#=sslibExplorer/frmMain/AddBookInfoToList	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907115608	#P7#=0	#P8#=13	.
+2=#P0#=mb	#P1#=GetBookInfo	#P2#=sslibExplorer/frmMain/GetBookInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907110654	#P7#=0	#P8#=3	.
+3=#P0#=mb	#P1#=FillBookInfoFromElement	#P2#=sslibExplorer/frmMain/FillBookInfoFromElement	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907115831	#P7#=0	#P8#=9	.
+4=#P0#=mb	#P1#=SSLIB_ParseInfoText	#P2#=sslibExplorer/MSSReader/SSLIB_ParseInfoText	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907115854	#P7#=0	#P8#=33	.
+5=#P0#=mb	#P1#=UpdateFromClipboard	#P2#=sslibExplorer/frmTask/UpdateFromClipboard	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906053239	#P7#=0	#P8#=2	.
+6=#P0#=mb	#P1#=DetectClipboard	#P2#=sslibExplorer/frmTask/DetectClipboard	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906053207	#P7#=0	#P8#=8	.
+7=#P0#=mb	#P1#=CallBack_AddTask	#P2#=sslibExplorer/frmMain/CallBack_AddTask	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906023340	#P7#=0	#P8#=15	.
+8=#P0#=mb	#P1#=ClickLinkByText	#P2#=sslibExplorer/frmMain/ClickLinkByText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906023305	#P7#=0	#P8#=9	.
+9=#P0#=mb	#P1#=DoxiuSearch	#P2#=sslibExplorer/frmMain/DoxiuSearch	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907121129	#P7#=0	#P8#=33	.
+10=#P0#=mb	#P1#=CheckUrl	#P2#=sslibExplorer/frmMain/CheckUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906022501	#P7#=0	#P8#=51	.
+11=#P0#=mb	#P1#=TimerCheck	#P2#=sslibExplorer/frmMain/TimerCheck	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906022452	#P7#=0	#P8#=5	.
+12=#P0#=mb	#P1#=Form_Unload	#P2#=sslibExplorer/frmMain/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906022334	#P7#=0	#P8#=2	.
+13=#P0#=mb	#P1#=ResizeObjects	#P2#=sslibExplorer/ctlSplitterEx/ResizeObjects	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906021905	#P7#=0	#P8#=22	.
+14=#P0#=mb	#P1#=UserControl_MouseMove	#P2#=sslibExplorer/ctlSplitterEx/UserControl_MouseMove	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906021853	#P7#=0	#P8#=25	.
+15=#P0#=mb	#P1#=Form_Resize	#P2#=sslibExplorer/frmMain/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906021801	#P7#=0	#P8#=14	.
+16=#P0#=mb	#P1#=Form_Load	#P2#=sslibExplorer/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906020536	#P7#=0	#P8#=1	.
+17=#P0#=mb	#P1#=ctlSplitterEx_Resized	#P2#=sslibExplorer/frmMain/ctlSplitterEx_Resized	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906020131	#P7#=0	#P8#=1	.
+18=#P0#=mb	#P1#=HWND	#P2#=sslibExplorer/ctlSplitterEx/HWND [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20090906015935	#P7#=0	#P8#=-2	.
+19=#P0#=mb	#P1#=GetSelectBook	#P2#=sslibExplorer/frmMain/GetSelectBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906015713	#P7#=0	#P8#=2	.
+20=#P0#=mb	#P1#=AutoLogin	#P2#=sslibExplorer/frmMain/AutoLogin	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906011122	#P7#=0	#P8#=13	.
+21=#P0#=mb	#P1#=IE_DocumentComplete	#P2#=sslibExplorer/frmMain/IE_DocumentComplete	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906010712	#P7#=0	#P8#=0	.
+22=#P0#=mb	#P1#=FillField	#P2#=sslibExplorer/frmMain/FillField	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906010051	#P7#=0	#P8#=0	.
+23=#P0#=mb	#P1#=AddSearchResult	#P2#=sslibExplorer/frmMain/AddSearchResult	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907121145	#P7#=0	#P8#=13	.
+24=#P0#=mb	#P1#=AddTask	#P2#=sslibExplorer/frmMain/AddTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226030100	#P7#=0	#P8#=1	.
+25=#P0#=mb	#P1#=cmdOK_Click	#P2#=sslibExplorer/frmTask/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226030046	#P7#=0	#P8#=1	.
+26=#P0#=mb	#P1#=Form_Activate	#P2#=sslibExplorer/frmTask/Form_Activate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226024711	#P7#=0	#P8#=3	.
+27=#P0#=mb	#P1#=GetBooksInfo	#P2#=sslibExplorer/frmMain/GetBooksInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907121100	#P7#=0	#P8#=7	.
+28=#P0#=mb	#P1#=Form_Load	#P2#=sslibExplorer/frmTask/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226021219	#P7#=0	#P8#=22	.
+29=#P0#=mb	#P1#=mnuBookListCopy_Click	#P2#=sslibExplorer/frmMain/mnuBookListCopy_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219223448	#P7#=0	#P8#=2	.
+30=#P0#=mb	#P1#=ActionOnItem	#P2#=sslibExplorer/frmMain/ActionOnItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219222836	#P7#=0	#P8#=16	.
+31=#P0#=mb	#P1#=lstBooks_MouseDown	#P2#=sslibExplorer/frmMain/lstBooks_MouseDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219221937	#P7#=0	#P8#=2	.
+32=#P0#=mb	#P1#=ParseJPGBookInfoText	#P2#=sslibExplorer/MSSReader/ParseJPGBookInfoText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081218070623	#P7#=0	#P8#=-2	.
+33=#P0#=mb	#P1#=SSLIB_ParseHTMLBookInfo	#P2#=sslibExplorer/MSSReader/SSLIB_ParseHTMLBookInfo	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081218070606	#P7#=0	#P8#=-2	.
+34=#P0#=mb	#P1#=UncompressString	#P2#=sslibExplorer/MSSReader/UncompressString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081218070536	#P7#=0	#P8#=-2	.
+35=#P0#=mb	#P1#=BugLocalMessage	#P2#=sslibExplorer/MDebug/BugLocalMessage	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081217083102	#P7#=0	#P8#=33	.
+36=#P0#=mb	#P1#=IE_NavigateComplete2	#P2#=sslibExplorer/frmMain/IE_NavigateComplete2	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217074044	#P7#=0	#P8#=3	.
+37=#P0#=mb	#P1#=BookEditor_SelectDirectory	#P2#=sslibExplorer/frmTask/BookEditor_SelectDirectory	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217055815	#P7#=0	#P8#=2	.
+38=#P0#=mb	#P1#=mnuPreference_Click	#P2#=sslibExplorer/frmMain/mnuPreference_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217055757	#P7#=0	#P8#=0	.
+39=#P0#=mb	#P1#=cmdSelect_Click	#P2#=sslibExplorer/frmOptions/cmdSelect_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217055338	#P7#=0	#P8#=5	.
+40=#P0#=mb	#P1#=TaskListFile	#P2#=sslibExplorer/frmOptions/TaskListFile [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081217055300	#P7#=0	#P8#=3	.
+41=#P0#=mb	#P1#=Init	#P2#=sslibExplorer/frmMain/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081217053648	#P7#=0	#P8#=-1	.
+42=#P0#=mb	#P1#=Form_Terminate	#P2#=sslibExplorer/frmMain/Form_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217053540	#P7#=0	#P8#=1	.
+43=#P0#=mb	#P1#=mnuExit_Click	#P2#=sslibExplorer/frmMain/mnuExit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217053306	#P7#=0	#P8#=4	.
+44=#P0#=mb	#P1#=cmdApply_Click	#P2#=sslibExplorer/frmOptions/cmdApply_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081217052417	#P7#=0	#P8#=1	.
+45=#P0#=mb	#P1#=UserName	#P2#=sslibExplorer/frmOptions/UserName [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081217015540	#P7#=0	#P8#=3	.
+46=#P0#=mb	#P1#=Password	#P2#=sslibExplorer/frmOptions/Password [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081217015529	#P7#=0	#P8#=3	.
+47=#P0#=mb	#P1#=tbsOptions_Click	#P2#=sslibExplorer/frmOptions/tbsOptions_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081216064625	#P7#=0	#P8#=1	.
+48=#P0#=mb	#P1#=HomePage	#P2#=sslibExplorer/frmOptions/HomePage [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081216063906	#P7#=0	#P8#=1	.
+49=#P0#=mb	#P1#=cmd_Click	#P2#=sslibExplorer/frmMain/cmd_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081216061621	#P7#=0	#P8#=11	.
+50=#P0#=mb	#P1#=Field	#P2#=sslibExplorer/CBookInfo/Field [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081216061555	#P7#=0	#P8#=4	.
+51=#P0#=mb	#P1#=Init	#P2#=sslibExplorer/frmTask/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216052845	#P7#=0	#P8#=32	.
+52=#P0#=mb	#P1#=InitWithBookInfo	#P2#=sslibExplorer/frmTask/InitWithBookInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081216052824	#P7#=0	#P8#=1	.
+53=#P0#=mb	#P1#=SSLIB_Init	#P2#=sslibExplorer/MSSReader/SSLIB_Init	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081216044356	#P7#=0	#P8#=57	.
+54=#P0#=mb	#P1#=Form_KeyDown	#P2#=sslibExplorer/frmOptions/Form_KeyDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081215185125	#P7#=0	#P8#=-13	.
+55=#P0#=mb	#P1#=SSLIB_ParseInfoRule	#P2#=sslibExplorer/MSSReader/SSLIB_ParseInfoRule	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212005203	#P7#=0	#P8#=31	.
+56=#P0#=mb	#P1#=chkDetectClipboard_Click	#P2#=sslibExplorer/frmTask/chkDetectClipboard_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081207232913	#P7#=0	#P8#=6	.

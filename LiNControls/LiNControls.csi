@@ -1,0 +1,9 @@
+[History]
+1=#P0#=mb	#P1#=UserControl_ReadProperties	#P2#=LiNControls/KeyValueEditor/UserControl_ReadProperties	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081124053300	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=Appearance	#P2#=LiNControls/KeyValueEditor/Appearance [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124053221	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=FillStyle	#P2#=LiNControls/KeyValueEditor/FillStyle [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052502	#P7#=0	#P8#=0	.
+4=#P0#=mb	#P1#=FillStyle	#P2#=LiNControls/FileBox/FillStyle [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052141	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=BorderStyle	#P2#=LiNControls/FileBox/BorderStyle [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052040	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=FileIndex	#P2#=LiNControls/FileBox/FileIndex [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052529	#P7#=0	#P8#=1	.
+7=#P0#=mb	#P1#=BorderStyle	#P2#=LiNControls/KeyValueEditor/BorderStyle [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052626	#P7#=0	#P8#=-1	.
+8=#P0#=mb	#P1#=BorderStyle	#P2#=LiNControls/KeyValueEditor/BorderStyle [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081124052628	#P7#=0	#P8#=-3	.

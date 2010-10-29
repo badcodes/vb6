@@ -1,0 +1,5 @@
+Handler = 44, 58, 730, 544, 
+frmContextInfo = 88, 116, 792, 605, , 66, 87, 770, 576, C
+CHttpHeader = 110, 145, 814, 634, C
+CNetConnection = 132, 174, 836, 663, Z
+MgCString = 154, 203, 858, 692, C

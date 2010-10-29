@@ -1,0 +1,62 @@
+[
+	helpstring("VB Shell Library"),
+	uuid(5b76870d-9e99-4c27-933d-e9a10095ca67),
+	version(1.0)
+]
+library VBSHELL {
+	importlib("stdole.tlb");
+	typedef enum {
+	    CF_TEXT             = 1,   //Text format
+	    CF_BITMAP           = 2,   //Handle to a bitmap
+	    CF_METAFILEPICT     = 3,   //Handle to a metafile picture format
+	    CF_SYLK             = 4,   //Microsoft Symbolic Link format
+	    CF_DIF              = 5,   //Software Art//s data interchange format
+	    CF_TIFF             = 6,   //Tagged-image file format
+	    CF_OEMTEXT          = 7,   //Text format in OEM character set
+	    CF_DIB              = 8,   //Memory object containing BITMAPINFO
+	    CF_PALETTE          = 9,   //Handle to a color palette
+	    CF_PENDATA          = 10,  //Data for pen extensions
+	    CF_RIFF             = 11,  //Audio data
+	    CF_WAVE             = 12,  //Audio data in WAV format
+	    CF_UNICODETEXT      = 13,  //Unicode text format
+	    CF_ENHMETAFILE      = 14,  //Handle to enhanced metafile
+	    CF_HDROP            = 15,  //Handle that identifies list of files
+	    CF_LOCALE           = 16,  //Handle to locale identifier
+	    CF_MAX              = 17,  //Undocumented????
+	    CF_OWNERDISPLAY     = 0x0080, //Owner display format
+	    CF_DSPTEXT          = 0x0081, //Text in private format
+	    CF_DSPBITMAP        = 0x0082, //Bitmap display in private format
+	    CF_DSPMETAFILEPICT  = 0x0083, //Metafile in private format
+	    CF_DSPENHMETAFILE   = 0x008E  //Enhanced metafile in private format
+	} CLIPFORMAT;
+
+	typedef [public] long *DVTARGETDEVICE;
+
+	typedef enum tagDVASPECT {
+	    DVASPECT_CONTENT = 1,
+	    DVASPECT_THUMBNAIL = 2,
+	    DVASPECT_ICON = 4,
+	    DVASPECT_DOCPRINT = 8
+	} DVASPECT;
+
+	typedef enum tagTYMED 
+	{ 
+	    TYMED_HGLOBAL     = 1, 
+	    TYMED_FILE        = 2, 
+	    TYMED_ISTREAM     = 4, 
+	    TYMED_ISTORAGE    = 8, 
+	    TYMED_GDI         = 16, 
+	    TYMED_MFPICT      = 32, 
+	    TYMED_ENHMF       = 64, 
+	    TYMED_NULL        = 0 
+	} TYMED; 
+
+	typedef struct tagFORMATETC 
+	{ 
+	    CLIPFORMAT      cfFormat; 
+	    DVTARGETDEVICE  ptd; 
+	    DVASPECT        dwAspect; 
+	    LONG            lindex; 
+	    TYMED           tymed; 
+	}FORMATETC;
+}

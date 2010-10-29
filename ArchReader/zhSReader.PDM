@@ -1,0 +1,169 @@
+[Root]
+Most Recent Package=zhSReader
+
+
+[Package|zhSReader|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Package
+
+[Package|zhSReader|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zhSReader|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zhSReader|Files Found]
+unzip32.dll=L:\app\dll\unzip32.dll
+
+[Package|zhSReader|Files Released]
+
+[Package|zhSReader|Missing Dependency Information]
+E:\WorkBench\VB\HtmlParser\LiNHtmlParser.dll=
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=
+E:\WorkBench\VB\lUseZip\LUseZip.dll=
+E:\WorkBench\VB\[Normal DLL]\unzip32.dll=
+E:\WorkBench\VB\[Normal DLL]\zip32.dll=
+L:\app\dll\unzip32.dll=
+L:\app\dll\zip32.dll=
+L:\app\dll\LUseZip.dll=
+L:\app\dll\LiNVBLib.dll=
+L:\app\dll\LiNHtmlParser.dll=
+C:\WINDOWS\system32\mshtml.tlb=
+C:\WINDOWS\system32\ieframe.dll=
+
+[Package|zhSReader|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|zhSReader|Files Added]
+unzip32.dll=
+zip32.dll=
+
+[Package|zhSReader|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt.dll=
+c:\windows\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|zhSReader|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+L:\app\zhReader\zhSReader.exe=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\VB6CHS.DLL=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\scrrnchs.dll=Yes
+C:\WINDOWS\system32\mshtml.tlb=Yes
+L:\app\dll\LiNHtmlParser.dll=Yes
+L:\app\dll\LiNVBLib.dll=Yes
+L:\app\dll\LUseZip.dll=Yes
+C:\WINDOWS\system32\MSCMCCHS.DLL=Yes
+C:\WINDOWS\system32\WINSKCHS.DLL=Yes
+L:\app\dll\unzip32.dll=Yes
+L:\app\dll\zip32.dll=Yes
+
+[Package|zhSReader|Configure Registry Files]
+Applicable=No
+
+[Package|zhSReader|Configure Remote Servers]
+Applicable=No
+
+[Package|zhSReader|Install Locations]
+E:\WorkBench\VB\zhReader\zhSReader.exe=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(AppPath)
+E:\WorkBench\VB\lUseZip\LUseZip.dll=$(AppPath)
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=$(AppPath)
+E:\WorkBench\VB\HtmlParser\LiNHtmlParser.dll=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(AppPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WorkBench\VB\[Normal DLL]\unzip32.dll=$(AppPath)
+E:\WorkBench\VB\[Normal DLL]\zip32.dll=$(AppPath)
+L:\app\zhReader\zhSReader.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHS.DLL=$(AppPath)
+C:\WINDOWS\system32\ieframe.dll=$(AppPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnchs.dll=$(AppPath)
+C:\WINDOWS\system32\mshtml.tlb=$(AppPath)
+L:\app\dll\LiNHtmlParser.dll=$(AppPath)
+L:\app\dll\LiNVBLib.dll=$(AppPath)
+L:\app\dll\LUseZip.dll=$(AppPath)
+C:\WINDOWS\system32\MSCMCCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\WINSKCHS.DLL=$(AppPath)
+L:\app\dll\unzip32.dll=$(AppPath)
+L:\app\dll\zip32.dll=$(AppPath)
+
+[Package|zhSReader|Configure Shared Files]
+Applicable=Yes
+E:\WorkBench\VB\zhReader\zhSReader.exe=No
+C:\WINDOWS\system32\scrrun.dll=Yes
+E:\WorkBench\VB\lUseZip\LUseZip.dll=Yes
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=Yes
+E:\WorkBench\VB\HtmlParser\LiNHtmlParser.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+E:\WorkBench\VB\[Normal DLL]\unzip32.dll=Yes
+E:\WorkBench\VB\[Normal DLL]\zip32.dll=Yes
+L:\app\zhReader\zhSReader.exe=No
+C:\WINDOWS\system32\VB6CHS.DLL=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\scrrnchs.dll=Yes
+C:\WINDOWS\system32\mshtml.tlb=Yes
+L:\app\dll\LiNHtmlParser.dll=Yes
+L:\app\dll\LiNVBLib.dll=Yes
+L:\app\dll\LUseZip.dll=Yes
+C:\WINDOWS\system32\MSCMCCHS.DLL=Yes
+C:\WINDOWS\system32\WINSKCHS.DLL=Yes
+L:\app\dll\unzip32.dll=Yes
+L:\app\dll\zip32.dll=Yes
+
+[Package|zhSReader|Distribution]
+Type=single
+Size=
+Title=zhSReader
+
+[Package|zhSReader|IconGroups]
+Group0=zhSReader
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|zhSReader|zhSReader]
+Icon1=zhSReader.exe
+Title1=zhSReader
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|zhSReader|Package]
+PackageFolder=E:\Package
+ProjectFolder=L:\dev\vb\zhReader\Source
+ServerSideCab=
+File1=E:\Package\setup.exe
+File2=E:\Package\Setup.Lst
+File3=E:\Package\zhSReader.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,6 @@
+VBGROUP 5.0
+Project=Components\VBCore.vbp
+Project=PictureGlass.vbp
+StartupProject=Funngame.vbp
+Project=Components\VisualCore.vbp
+Project=subtimer.vbp

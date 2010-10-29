@@ -1,0 +1,53 @@
+<script language="VBScript">
+'Great thanks to Vladimir Romanov(Author of ReGet Pro)
+
+
+Sub AddLink(Url,Info) 
+	'On Error Resume Next
+	set forIE=CreateObject("RSSBHO.forIE")
+	forIE.addFavorite Url, Info
+end sub
+
+Sub OnContextMenu()
+	set srcEvent = external.menuArguments.event
+	set EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.clientX, srcEvent.clientY )
+	if srcEvent.type = "MenuExtAnchor" then 
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText)
+	elseif srcEvent.type="MenuExtImage" then
+		if TypeName(EventElement)="HTMLAreaElement" then
+			Call AddLink(EventElement.href,EventElement.Alt)
+		else 
+			set srcImage = EventElement
+			set srcAnchor = srcImage.parentElement
+			do until TypeName(srcAnchor)="HTMLAnchorElement"
+				set srcAnchor=srcAnchor.parentElement
+				if TypeName(srcAnchor)="Nothing" then 
+					call AddLink(srcImage.href,srcImage.Alt)
+					exit sub
+				end if
+			Loop
+			Call AddLink(srcAnchor.href,srcImage.Alt)
+		end if
+	elseif srcEvent.type="MenuExtUnknown" then
+		set srcAnchor = EventElement
+		do until TypeName(srcAnchor)="HTMLAnchorElement"
+			set srcAnchor=srcAnchor.parentElement
+			if TypeName(srcAnchor)="Nothing" then 
+				Call AddLink(EventElement.href,EventElement.innerText)
+				exit sub
+			end if
+		Loop
+		Call AddLink(srcAnchor.href,srcAnchor.innerText)
+	elseif 1=1 then
+		alert "Unknown Event Source !"
+	end if
+end sub
+
+call OnContextMenu()
+
+</script>
+

@@ -1,0 +1,20 @@
+Zip Html File
+
+	顾名,即指用Zip压缩打包的Html文件，所以文件格式与ZIP相同。附加的信息以iNI文本格式，单独存为Comment.LiN文件或直接存为Zip文件的Comment.
+
+Comment.LiN
+	ini文本格式
+
+	[Info]
+	title=
+	author=
+	publisher=
+	date=
+	catalog=
+	defaultfile=
+	[Style]
+	showleft=
+	showmenu=
+	[Content]
+	Name\,Location
+	Name\fdsdf,Location

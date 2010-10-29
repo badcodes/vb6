@@ -1,0 +1,13 @@
+[History]
+B0=IEBHO/CToolKit/IE_BeforeNavigate2
+B1=IEBHO/CToolKit
+B2=IEBHO/cHanderForMimina/IObjectWithSite_SetSite
+B3=IEBHO/MDebug/DebugFPrint
+B4=IEBHO/MDebug
+B5=IEBHO/MgCString/ToPY
+B6=IEBHO/MgCString/startAt
+B7=IEBHO/MgCString/isTypicalFileName
+B8=IEBHO/MgCString
+B9=IEBHO/CToolKit/IObjectWithSite_GetSite
+B10=IEBHO/cHanderForMimina
+B11=IEBHO/cHanderForMimina/IE_DocumentComplete

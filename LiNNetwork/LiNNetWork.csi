@@ -1,0 +1,99 @@
+[History]
+1=#P0#=mb	#P1#=IWinHttp_ClearError	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_ClearError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220013005	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=mNet_OnError	#P2#=LiNNetWork/CWinHttpSimple/mNet_OnError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220012839	#P7#=0	#P8#=3	.
+3=#P0#=mb	#P1#=mNet_OnResponseStart	#P2#=LiNNetWork/CWinHttpSimple/mNet_OnResponseStart	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220012819	#P7#=0	#P8#=20	.
+4=#P0#=mb	#P1#=ArrayUbound	#P2#=LiNNetWork/CWinHttpSimple/ArrayUbound	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220012710	#P7#=0	#P8#=6	.
+5=#P0#=mb	#P1#=WriteData	#P2#=LiNNetWork/CWinHttpSimple/WriteData	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220012403	#P7#=0	#P8#=19	.
+6=#P0#=mb	#P1#=Threads	#P2#=LiNNetWork/CWinHttpDownloadEx/Threads [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220012123	#P7#=0	#P8#=1	.
+7=#P0#=mb	#P1#=IWinHttp_Url	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_Url [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220012001	#P7#=0	#P8#=1	.
+8=#P0#=mb	#P1#=IWinHttp_BufferSize	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_BufferSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220011930	#P7#=0	#P8#=5	.
+9=#P0#=mb	#P1#=IWinHttp_Client	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_Client [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220011923	#P7#=0	#P8#=0	.
+10=#P0#=mb	#P1#=IWinHttp_OpenConnect	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_OpenConnect	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081220011854	#P7#=0	#P8#=8	.
+11=#P0#=mb	#P1#=IWinHttp_IsFree	#P2#=LiNNetWork/CWinHttpSimple/IWinHttp_IsFree [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220011852	#P7#=0	#P8#=1	.
+12=#P0#=mb	#P1#=MaxConnection	#P2#=LiNNetWork/CWinHttpDownloadEx/MaxConnection [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081220010657	#P7#=0	#P8#=1	.
+13=#P0#=mb	#P1#=WriteData	#P2#=LiNNetWork/CWinHTTP/WriteData	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081220002959	#P7#=0	#P8#=10	.
+14=#P0#=mb	#P1#=Send	#P2#=LiNNetWork/CWinHTTP/Send	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219195548	#P7#=0	#P8#=3	.
+15=#P0#=mb	#P1#=OpenConnect	#P2#=LiNNetWork/CWinHTTP/OpenConnect	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219195537	#P7#=0	#P8#=13	.
+16=#P0#=mb	#P1#=mNet_OnResponseFinished	#P2#=LiNNetWork/CWinHTTP/mNet_OnResponseFinished	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081218054128	#P7#=0	#P8#=3	.
+17=#P0#=mb	#P1#=mNet_OnResponseDataAvailable	#P2#=LiNNetWork/CWinHTTP/mNet_OnResponseDataAvailable	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081218053357	#P7#=0	#P8#=16	.
+18=#P0#=mb	#P1#=FlushBuffer	#P2#=LiNNetWork/CWinHTTP/FlushBuffer	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081218050654	#P7#=0	#P8#=6	.
+19=#P0#=mb	#P1#=SetRequestHeader	#P2#=LiNNetWork/CWinHTTP/SetRequestHeader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081217214555	#P7#=0	#P8#=3	.
+20=#P0#=mb	#P1#=ResponeBody	#P2#=LiNNetWork/CWinHTTP/ResponeBody [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081217214029	#P7#=0	#P8#=1	.
+21=#P0#=mb	#P1#=ResponeHeader	#P2#=LiNNetWork/CWinHTTP/ResponeHeader [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081217190702	#P7#=0	#P8#=2	.
+22=#P0#=mb	#P1#=Class_Initialize	#P2#=LiNNetWork/CWinHttpDownloadEx/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213211413	#P7#=0	#P8#=-1	.
+23=#P0#=mb	#P1#=IWinHttpClient_ReportProgress	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_ReportProgress	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213211232	#P7#=0	#P8#=0	.
+24=#P0#=mb	#P1#=IWinHttpClient_ReportComplete	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_ReportComplete	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213211135	#P7#=0	#P8#=1	.
+25=#P0#=mb	#P1#=IWinHttpClient_ReportError	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_ReportError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213211135	#P7#=0	#P8#=1	.
+26=#P0#=mb	#P1#=ReportComplete	#P2#=LiNNetWork/IWinHttpClient/ReportComplete	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081213211010	#P7#=0	#P8#=4	.
+27=#P0#=mb	#P1#=IWinHttpClient_ReportDataAvail	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_ReportDataAvail	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213134531	#P7#=0	#P8#=1	.
+28=#P0#=mb	#P1#=IWinHttpClient_ReportRespone	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_ReportRespone	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081213134514	#P7#=0	#P8#=2	.
+29=#P0#=mb	#P1#=IWinHttpClient_Url	#P2#=LiNNetWork/CWinHttpDownloadEx/IWinHttpClient_Url [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081213134401	#P7#=0	#P8#=-1	.
+30=#P0#=mb	#P1#=GetNewDownloader	#P2#=LiNNetWork/CWinHttpDownloadEx/GetNewDownloader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081213134233	#P7#=0	#P8#=16	.
+31=#P0#=mb	#P1#=Class_Initialize	#P2#=LiNNetWork/CWinHttpDownload/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212170301	#P7#=0	#P8#=2	.
+32=#P0#=mb	#P1#=mNet_OnError	#P2#=LiNNetWork/CWinHTTP/mNet_OnError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212170108	#P7#=0	#P8#=18	.
+33=#P0#=mb	#P1#=mNet_OnResponseStart	#P2#=LiNNetWork/CWinHTTP/mNet_OnResponseStart	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212165948	#P7#=0	#P8#=21	.
+34=#P0#=mb	#P1#=Connect	#P2#=LiNNetWork/CWinHTTP/Connect	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212165908	#P7#=0	#P8#=19	.
+35=#P0#=mb	#P1#=ResetStatus	#P2#=LiNNetWork/CWinHTTP/ResetStatus	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212165848	#P7#=0	#P8#=18	.
+36=#P0#=mb	#P1#=Client	#P2#=LiNNetWork/CWinHTTP/Client [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212165837	#P7#=0	#P8#=1	.
+37=#P0#=mb	#P1#=Client	#P2#=LiNNetWork/CWinHTTP/Client [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212165836	#P7#=0	#P8#=1	.
+38=#P0#=mb	#P1#=ReportRespone	#P2#=LiNNetWork/IWinHttpClient/ReportRespone	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212165739	#P7#=0	#P8#=4	.
+39=#P0#=mb	#P1#=ReportDataAvail	#P2#=LiNNetWork/IWinHttpClient/ReportDataAvail	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212165728	#P7#=0	#P8#=4	.
+40=#P0#=mb	#P1#=ReportError	#P2#=LiNNetWork/IWinHttpClient/ReportError	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212165705	#P7#=0	#P8#=4	.
+41=#P0#=mb	#P1#=ReportError	#P2#=LiNNetWork/IWinHttpClient/ReportError [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212165636	#P7#=0	#P8#=0	.
+42=#P0#=mb	#P1#=Url	#P2#=LiNNetWork/IWinHttpClient/Url [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212165628	#P7#=0	#P8#=4	.
+43=#P0#=mb	#P1#=TestWinHttp	#P2#=LiNNetWork/MHttpHeader/TestWinHttp	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212163155	#P7#=0	#P8#=9	.
+44=#P0#=mb	#P1#=SetHttpHeader	#P2#=LiNNetWork/CWinHTTP/SetHttpHeader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212163152	#P7#=0	#P8#=-1	.
+45=#P0#=mb	#P1#=HttpHeader_Parse	#P2#=LiNNetWork/MHttpHeader/HttpHeader_Parse	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212162643	#P7#=0	#P8#=43	.
+46=#P0#=mb	#P1#=HttpRespone	#P2#=LiNNetWork/CHttpHeader/HttpRespone [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212162302	#P7#=0	#P8#=1	.
+47=#P0#=mb	#P1#=HttpStatus	#P2#=LiNNetWork/CHttpHeader/HttpStatus [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212162220	#P7#=0	#P8#=-5	.
+48=#P0#=mb	#P1#=ResetHeader	#P2#=LiNNetWork/CWinHTTP/ResetHeader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212161633	#P7#=0	#P8#=-1	.
+49=#P0#=mb	#P1#=StatusText	#P2#=LiNNetWork/CWinHTTP/StatusText [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212161551	#P7#=0	#P8#=-1	.
+50=#P0#=mb	#P1#=ClearError	#P2#=LiNNetWork/CWinHTTP/ClearError	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212161340	#P7#=0	#P8#=1	.
+51=#P0#=mb	#P1#=ErrorCount	#P2#=LiNNetWork/CWinHTTP/ErrorCount [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212161333	#P7#=0	#P8#=-1	.
+52=#P0#=mb	#P1#=Init	#P2#=LiNNetWork/CHttpHeader/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212160845	#P7#=0	#P8#=75	.
+53=#P0#=mb	#P1#=HttpRespone	#P2#=LiNNetWork/CHttpHeader/HttpRespone [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212160815	#P7#=0	#P8#=1	.
+54=#P0#=mb	#P1#=SetField	#P2#=LiNNetWork/CHttpHeader/SetField	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212160735	#P7#=0	#P8#=16	.
+55=#P0#=mb	#P1#=SearchFree	#P2#=LiNNetWork/CHttpHeader/SearchFree	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212160710	#P7#=0	#P8#=6	.
+56=#P0#=mb	#P1#=Search	#P2#=LiNNetWork/CHttpHeader/Search	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212160653	#P7#=0	#P8#=1	.
+57=#P0#=mb	#P1#=Abort	#P2#=LiNNetWork/CWinHTTP/Abort	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212155205	#P7#=0	#P8#=1	.
+58=#P0#=mb	#P1#=BytesTotal	#P2#=LiNNetWork/CWinHTTP/BytesTotal [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212155147	#P7#=0	#P8#=2	.
+59=#P0#=mb	#P1#=Class_Initialize	#P2#=LiNNetWork/CWinHTTP/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212155029	#P7#=0	#P8#=7	.
+60=#P0#=mb	#P1#=SetProxy	#P2#=LiNNetWork/CWinHTTP/SetProxy	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212154927	#P7#=0	#P8#=1	.
+61=#P0#=mb	#P1#=SetCredentials	#P2#=LiNNetWork/CWinHTTP/SetCredentials	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212154910	#P7#=0	#P8#=4	.
+62=#P0#=mb	#P1#=SetClientCertificate	#P2#=LiNNetWork/CWinHTTP/SetClientCertificate	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212154834	#P7#=0	#P8#=0	.
+63=#P0#=mb	#P1#=SetAutoLogonPolicy	#P2#=LiNNetWork/CWinHTTP/SetAutoLogonPolicy	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212154823	#P7#=0	#P8#=5	.
+64=#P0#=mb	#P1#=Class_Terminate	#P2#=LiNNetWork/CWinHTTP/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081212154620	#P7#=0	#P8#=4	.
+65=#P0#=mb	#P1#=ContentType	#P2#=LiNNetWork/CWinHTTP/ContentType [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212154447	#P7#=0	#P8#=1	.
+66=#P0#=mb	#P1#=BytesDownloaded	#P2#=LiNNetWork/CWinHTTP/BytesDownloaded [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212154430	#P7#=0	#P8#=1	.
+67=#P0#=mb	#P1#=WaitForResponse	#P2#=LiNNetWork/CWinHTTP/WaitForResponse	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212153742	#P7#=0	#P8#=-2	.
+68=#P0#=mb	#P1#=SetTimeouts	#P2#=LiNNetWork/CWinHTTP/SetTimeouts	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081212153741	#P7#=0	#P8#=2	.
+69=#P0#=mb	#P1#=Method	#P2#=LiNNetWork/CWinHTTP/Method [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212153639	#P7#=0	#P8#=1	.
+70=#P0#=mb	#P1#=Destination	#P2#=LiNNetWork/CWinHTTP/Destination [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212153422	#P7#=0	#P8#=1	.
+71=#P0#=mb	#P1#=Url	#P2#=LiNNetWork/CWinHTTP/Url [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081212153356	#P7#=0	#P8#=5	.
+72=#P0#=mb	#P1#=ReleaseDownloader	#P2#=LiNNetWork/CWinHttpDownloadEx/ReleaseDownloader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081209004155	#P7#=0	#P8#=2	.
+73=#P0#=mb	#P1#=Connect	#P2#=LiNNetWork/CWinHttpDownloadEx/Connect	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081209001326	#P7#=0	#P8#=4	.
+74=#P0#=mb	#P1#=MaxConnection	#P2#=LiNNetWork/CWinHttpDownloadEx/MaxConnection [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081209001311	#P7#=0	#P8#=2	.
+75=#P0#=mb	#P1#=IsFree	#P2#=LiNNetWork/CWinHttpDownloadEx/IsFree [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081209001310	#P7#=0	#P8#=2	.
+76=#P0#=mb	#P1#=AbortAll	#P2#=LiNNetWork/CWinHttpDownloadEx/AbortAll	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081209000253	#P7#=0	#P8#=2	.
+77=#P0#=mb	#P1#=Abort	#P2#=LiNNetWork/CWinHttpDownloadEx/Abort	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081209000034	#P7#=0	#P8#=1	.
+78=#P0#=mb	#P1#=CheckId	#P2#=LiNNetWork/CWinHttpDownloadEx/CheckId	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208235838	#P7#=0	#P8#=5	.
+79=#P0#=mb	#P1#=CreateNewConnection	#P2#=LiNNetWork/CDownloadEx/CreateNewConnection	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208233642	#P7#=0	#P8#=18	.
+80=#P0#=mb	#P1#=Class_Initialize	#P2#=LiNNetWork/CHTTPConnection/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081208233201	#P7#=0	#P8#=-1	.
+81=#P0#=mb	#P1#=Url	#P2#=LiNNetWork/CHTTPConnection/Url [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208233050	#P7#=0	#P8#=2	.
+82=#P0#=mb	#P1#=Url	#P2#=LiNNetWork/CHTTPConnection/Url [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208233046	#P7#=0	#P8#=2	.
+83=#P0#=mb	#P1#=Destination	#P2#=LiNNetWork/CHTTPConnection/Destination [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208232958	#P7#=0	#P8#=4	.
+84=#P0#=mb	#P1#=Download	#P2#=LiNNetWork/CDownloadEx/Download	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208003759	#P7#=0	#P8#=33	.
+85=#P0#=mb	#P1#=m_Connection_ProgressChange	#P2#=LiNNetWork/CDownload/m_Connection_ProgressChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081208003723	#P7#=0	#P8#=5	.
+86=#P0#=mb	#P1#=ProgressCompleted	#P2#=LiNNetWork/IDownloadClient/ProgressCompleted	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208003716	#P7#=0	#P8#=2	.
+87=#P0#=mb	#P1#=NotifyClient	#P2#=LiNNetWork/CDownload/NotifyClient	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208003704	#P7#=0	#P8#=4	.
+88=#P0#=mb	#P1#=ProgressChanged	#P2#=LiNNetWork/IDownloadClient/ProgressChanged	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208003635	#P7#=0	#P8#=-1	.
+89=#P0#=mb	#P1#=ForceGetData	#P2#=LiNNetWork/CWinHTTP/ForceGetData [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208003249	#P7#=0	#P8#=-1	.
+90=#P0#=mb	#P1#=ArrayUbound	#P2#=LiNNetWork/CWinHTTP/ArrayUbound	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208002902	#P7#=0	#P8#=12	.
+91=#P0#=mb	#P1#=ContentType	#P2#=LiNNetWork/CHttpHeader/ContentType [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208002045	#P7#=0	#P8#=-1	.
+92=#P0#=mb	#P1#=HttpStatus	#P2#=LiNNetWork/CHttpHeader/HttpStatus [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208002040	#P7#=0	#P8#=0	.
+93=#P0#=mb	#P1#=ContentType	#P2#=LiNNetWork/CHttpHeader/ContentType [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208001958	#P7#=0	#P8#=4	.
+94=#P0#=mb	#P1#=ContentLocation	#P2#=LiNNetWork/CHttpHeader/ContentLocation [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208001951	#P7#=0	#P8#=2	.
+95=#P0#=mb	#P1#=ConentLength	#P2#=LiNNetWork/CHttpHeader/ConentLength [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208001922	#P7#=0	#P8#=-3	.
+96=#P0#=mb	#P1#=Status	#P2#=LiNNetWork/CWinHTTP/Status [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081208000234	#P7#=0	#P8#=0	.
+97=#P0#=mb	#P1#=StripString	#P2#=LiNNetWork/MHttpHeader/StripString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081208000215	#P7#=0	#P8#=15	.
+98=#P0#=mb	#P1#=Header	#P2#=LiNNetWork/CWinHTTP/Header [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081206014324	#P7#=0	#P8#=2	.

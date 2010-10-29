@@ -1,0 +1,18 @@
+[History]
+1=#P0#=mb	#P1#=QuoteString	#P2#=textPdgMerger/frmMain/QuoteString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219175545	#P7#=0	#P8#=0	.
+2=#P0#=mb	#P1#=CheckApp	#P2#=textPdgMerger/frmMain/CheckApp	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219181952	#P7#=0	#P8#=2	.
+3=#P0#=mb	#P1#=cmdProcess_Click	#P2#=textPdgMerger/frmMain/cmdProcess_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219175937	#P7#=0	#P8#=3	.
+4=#P0#=mb	#P1#=selectFile	#P2#=textPdgMerger/frmMain/selectFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219175027	#P7#=0	#P8#=5	.
+5=#P0#=mb	#P1#=cmdSelect_Click	#P2#=textPdgMerger/frmMain/cmdSelect_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219175326	#P7#=0	#P8#=-1	.
+6=#P0#=mb	#P1#=txtPath_Change	#P2#=textPdgMerger/frmMain/txtPath_Change	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219174609	#P7#=0	#P8#=0	.
+7=#P0#=mb	#P1#=FolderBrowser_Select	#P2#=textPdgMerger/MFolderBrowser/FolderBrowser_Select	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219174558	#P7#=0	#P8#=6	.
+8=#P0#=mb	#P1#=SelectDirectory	#P2#=textPdgMerger/MFolderBrowser/SelectDirectory	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219174539	#P7#=0	#P8#=0	.
+9=#P0#=mb	#P1#=UnqualifyPath	#P2#=textPdgMerger/MFolderBrowser/UnqualifyPath	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219174450	#P7#=0	#P8#=13	.
+10=#P0#=mb	#P1#=AppSetting_LoadAllTextBox	#P2#=textPdgMerger/MAppSetting/AppSetting_LoadAllTextBox	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219173947	#P7#=0	#P8#=9	.
+11=#P0#=mb	#P1#=AppSetting_LoadTextBox	#P2#=textPdgMerger/MAppSetting/AppSetting_LoadTextBox	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219174200	#P7#=0	#P8#=4	.
+12=#P0#=mb	#P1#=Form_Unload	#P2#=textPdgMerger/frmMain/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219175021	#P7#=0	#P8#=8	.
+13=#P0#=mb	#P1#=Form_Load	#P2#=textPdgMerger/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219174747	#P7#=0	#P8#=6	.
+14=#P0#=mb	#P1#=AppSettting_SaveAllTextBox	#P2#=textPdgMerger/MAppSetting/AppSettting_SaveAllTextBox	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219173800	#P7#=0	#P8#=0	.
+15=#P0#=mb	#P1#=AppSetting_SaveTextBox	#P2#=textPdgMerger/MAppSetting/AppSetting_SaveTextBox	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081219174156	#P7#=0	#P8#=8	.
+16=#P0#=mb	#P1#=SaveTextBox	#P2#=textPdgMerger/MAppSetting/SaveTextBox	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219173409	#P7#=0	#P8#=0	.
+17=#P0#=mb	#P1#=SaveAllTextBox	#P2#=textPdgMerger/MAppSetting/SaveAllTextBox	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081219173403	#P7#=0	#P8#=0	.

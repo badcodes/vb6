@@ -1,0 +1,23 @@
+VERSION 5.00
+Begin VB.UserDocument UserDocument1 
+   ClientHeight    =   3600
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4800
+   Height          =   3600
+   HScrollSmallChange=   225
+   ScaleHeight     =   3600
+   ScaleWidth      =   4800
+   VScrollSmallChange=   225
+   Width           =   4800
+End
+Attribute VB_Name = "UserDocument1"
+Attribute VB_Base = "0{AF990BB8-CB87-11CF-A520-00A0D1003923}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_TemplateDerived = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Attribute VB_Customizable = False
+Option Explicit
+

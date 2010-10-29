@@ -1,0 +1,19 @@
+[History]
+B0=artCorridor/MainFrm/GetView
+B1=artCorridor/MainFrm/AddImagebox
+B2=artCorridor/MainFrm
+B3=artCorridor/MainFrm/curFileIndex
+B4=artCorridor/MainFrm/getFreeImageBox
+B5=artCorridor/frmOptions/Form_Load
+B6=artCorridor/frmOptions/cmdClearRecent_Click
+B7=artCorridor/frmOptions/cmdBackColor_Click
+B8=artCorridor/frmOptions/cmdOK_Click
+B9=artCorridor/MainFrm/hboxscroll_change
+B10=artCorridor/MainFrm/mnuGo_Home_Click
+B11=artCorridor/MainFrm/HBoxScroll_Scroll
+B12=artCorridor/MainFrm/mnuBookmark_Click
+B13=artCorridor/MainFrm/list_NodeClick
+B14=artCorridor/MainFrm/ImageBox_MouseDown
+[Workbench]
+0=31   artCorridor/MainFrm/Form_Resize11   Form_Resize20   MembEventProcPrivate1    01    0
+1=27   artCorridor/MainFrm/GetView7    GetView17   MembMethodPrivate1    01    0

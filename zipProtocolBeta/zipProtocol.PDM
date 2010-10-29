@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=zhProtocol
+
+
+[Package|zhProtocol|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\WorkBench\VB\zipProtocol\Package
+
+[Package|zhProtocol|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zhProtocol|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zhProtocol|Files Found]
+
+[Package|zhProtocol|Files Released]
+
+[Package|zhProtocol|Missing Dependency Information]
+E:\WorkBench\VB\lUseZip\LUseZipDll.dll=
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=
+C:\WINDOWS\system32\olelib2.tlb=
+C:\WINDOWS\system32\olelib.tlb=
+E:\WorkBench\VB\zhReader\unzip32.dll=
+E:\WorkBench\VB\zhReader\zip32.dll=
+
+[Package|zhProtocol|Out-of-Date Dependency Information]
+
+[Package|zhProtocol|Files Added]
+e:\workbench\vb\zhreader\unzip32.dll=
+e:\workbench\vb\zhreader\zip32.dll=
+E:\WorkBench\VB\zipProtocol\protocolreg.reg=
+
+[Package|zhProtocol|Files Removed]
+c:\windows\system32\olelib.tlb=
+c:\windows\system32\olelib2.tlb=
+c:\windows\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|zhProtocol|Files In Project]
+E:\WorkBench\VB\zipProtocol\zipProtocol.dll=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\oleaut32.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\olepro32.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\asycfilt.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\stdole2.tlb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\comcat.dll=No
+C:\WINDOWS\system32\olelib.tlb=No
+C:\WINDOWS\system32\olelib2.tlb=No
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=Yes
+E:\WorkBench\VB\lUseZip\LUseZipDll.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup1.exe=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\St6unst.exe=Yes
+E:\WorkBench\VB\zhReader\unzip32.dll=Yes
+E:\WorkBench\VB\zhReader\zip32.dll=Yes
+E:\WorkBench\VB\zipProtocol\protocolreg.reg=Yes
+
+[Package|zhProtocol|Configure Registry Files]
+Applicable=Yes
+E:\WorkBench\VB\zipProtocol\protocolreg.reg=Register
+
+[Package|zhProtocol|Configure Remote Servers]
+Applicable=No
+
+[Package|zhProtocol|Install Locations]
+E:\WorkBench\VB\zipProtocol\zipProtocol.dll=$(AppPath)
+E:\WorkBench\VB\LiNVBLib\LiNVBLib.dll=$(WinSysPath)
+E:\WorkBench\VB\lUseZip\LUseZipDll.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Setup1.exe=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\St6unst.exe=$(WinPath)
+E:\WorkBench\VB\zhReader\unzip32.dll=$(WinSysPath)
+E:\WorkBench\VB\zhReader\zip32.dll=$(WinSysPath)
+
+[Package|zhProtocol|Configure Shared Files]
+Applicable=Yes
+E:\WorkBench\VB\zipProtocol\zipProtocol.dll=No
+
+[Package|zhProtocol|Distribution]
+Type=single
+Size=
+Title=zipProtocol
+
+[Package|zhProtocol|Package]
+PackageFolder=E:\WorkBench\VB\zipProtocol\Package
+ProjectFolder=E:\WorkBench\VB\zipProtocol
+ServerSideCab=
+File1=E:\WorkBench\VB\zipProtocol\Package\setup.exe
+File2=E:\WorkBench\VB\zipProtocol\Package\Setup.Lst
+File3=E:\WorkBench\VB\zipProtocol\Package\zipProtocol.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

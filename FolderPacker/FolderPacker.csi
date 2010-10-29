@@ -1,0 +1,26 @@
+[History]
+1=#P0#=mb	#P1#=ReadPropValue	#P2#=FolderPacker/CVBSetting/ReadPropValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183922	#P7#=0	#P8#=5	.
+2=#P0#=mb	#P1#=WritePropValue	#P2#=FolderPacker/CVBSetting/WritePropValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183908	#P7#=0	#P8#=-6	.
+3=#P0#=mb	#P1#=ISetting_ReadKey	#P2#=FolderPacker/CVBSetting/ISetting_ReadKey	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228183743	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=WritePropValues	#P2#=FolderPacker/CVBSetting/WritePropValues	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183709	#P7#=0	#P8#=2	.
+5=#P0#=mb	#P1#=WritePropTexts	#P2#=FolderPacker/CVBSetting/WritePropTexts	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183652	#P7#=0	#P8#=1	.
+6=#P0#=mb	#P1#=Form_Unload	#P2#=FolderPacker/frmMain/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228183615	#P7#=0	#P8#=7	.
+7=#P0#=mb	#P1#=Form_Load	#P2#=FolderPacker/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228183600	#P7#=0	#P8#=9	.
+8=#P0#=mb	#P1#=readObjectArray	#P2#=FolderPacker/CVBSetting/readObjectArray	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183522	#P7#=0	#P8#=-1	.
+9=#P0#=mb	#P1#=ReadPropTexts	#P2#=FolderPacker/CVBSetting/ReadPropTexts	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183433	#P7#=0	#P8#=8	.
+10=#P0#=mb	#P1#=ReadPropText	#P2#=FolderPacker/CVBSetting/ReadPropText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183402	#P7#=0	#P8#=-1	.
+11=#P0#=mb	#P1#=WriteObjectArray	#P2#=FolderPacker/CVBSetting/WriteObjectArray	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228183308	#P7#=0	#P8#=2	.
+12=#P0#=mb	#P1#=ISetting_CompareMethod	#P2#=FolderPacker/CVBSetting/ISetting_CompareMethod [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081228182900	#P7#=0	#P8#=-2	.
+13=#P0#=mb	#P1#=cmdProcess_Click	#P2#=FolderPacker/frmMain/cmdProcess_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228182128	#P7#=0	#P8#=52	.
+14=#P0#=mb	#P1#=RunOn	#P2#=FolderPacker/frmMain/RunOn	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228182021	#P7#=0	#P8#=-1	.
+15=#P0#=mb	#P1#=GetQTokenO	#P2#=FolderPacker/MStrings/GetQTokenO	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228175403	#P7#=0	#P8#=15	.
+16=#P0#=mb	#P1#=BuildRangeString	#P2#=FolderPacker/MStrings/BuildRangeString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228174814	#P7#=0	#P8#=5	.
+17=#P0#=mb	#P1#=GetQToken	#P2#=FolderPacker/MStrings/GetQToken	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228174432	#P7#=0	#P8#=982	.
+18=#P0#=mb	#P1#=subFolders	#P2#=FolderPacker/MFileSystem/subFolders	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228173254	#P7#=0	#P8#=10	.
+19=#P0#=mb	#P1#=subFiles	#P2#=FolderPacker/MFileSystem/subFiles	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228172938	#P7#=0	#P8#=9	.
+20=#P0#=mb	#P1#=chkSameDirectory_Click	#P2#=FolderPacker/frmMain/chkSameDirectory_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228171505	#P7#=0	#P8#=15	.
+21=#P0#=mb	#P1#=OptMode_Click	#P2#=FolderPacker/frmMain/OptMode_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228171452	#P7#=0	#P8#=1	.
+22=#P0#=mb	#P1#=txtPath_Change	#P2#=FolderPacker/frmMain/txtPath_Change	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228171242	#P7#=0	#P8#=1	.
+23=#P0#=mb	#P1#=cmdSelect_Click	#P2#=FolderPacker/frmMain/cmdSelect_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228170750	#P7#=0	#P8#=1	.
+24=#P0#=mb	#P1#=cmdClear_Click	#P2#=FolderPacker/frmMain/cmdClear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228162120	#P7#=0	#P8#=1	.
+25=#P0#=mb	#P1#=ReadKey	#P2#=FolderPacker/CVBSetting/ReadKey	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228161424	#P7#=0	#P8#=1	.

@@ -1,0 +1,107 @@
+
+BODY {
+	SCROLLBAR-FACE-COLOR: #d6c5a3;
+	BACKGROUND-IMAGE: url(images/bg01.jpg);
+	MARGIN: 20;
+	SCROLLBAR-HIGHLIGHT-COLOR: #d6c5a3;
+	SCROLLBAR-SHADOW-COLOR: #000000;
+	SCROLLBAR-3DLIGHT-COLOR: #c4af41;
+	SCROLLBAR-ARROW-COLOR: #000000;
+	SCROLLBAR-TRACK-COLOR: #330000;
+	FONT-FAMILY: Verdana,Helvetica;
+	SCROLLBAR-DARKSHADOW-COLOR: #000000;
+	BACKGROUND-COLOR: #000000
+}
+.menu{FONT-SIZE: 11px; }
+A.menu:link {
+	FONT-WEIGHT: bold; COLOR: #643102; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-WEIGHT: bold; COLOR: #330000; TEXT-DECORATION: none
+}
+A.menu:active {
+	FONT-WEIGHT: bold; COLOR: #cc3300; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cc3300; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #643102; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #330000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cc3300; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cc3300; TEXT-DECORATION: underline
+}
+.right A:link {
+	FONT-WEIGHT: bold; COLOR: #330000; TEXT-DECORATION: none
+}
+.right A:visited {
+	FONT-WEIGHT: bold; COLOR: #330000; TEXT-DECORATION: none
+}
+.right A:active {
+	FONT-WEIGHT: bold; COLOR: #330000; TEXT-DECORATION: none
+}
+.right A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #330000; TEXT-DECORATION: underline
+}
+
+TABLE.1 {
+	BACKGROUND-IMAGE: url(images/bg01.jpg)
+}
+TABLE.logo {
+	BACKGROUND-IMAGE: url(images/logo05.jpg)
+}
+TD.logo1 {
+	BACKGROUND-IMAGE: url(images/logo1.gif)
+}
+TD.1 {
+	BACKGROUND-IMAGE: url(images/bg01.jpg)
+}
+TD.2 {
+	BACKGROUND-IMAGE: url(images/barleft.gif)
+}
+TD.3 {
+	BACKGROUND-IMAGE: url(images/barright.gif)
+}
+TD.4 {
+	BACKGROUND-IMAGE: url(images/barshift.gif)
+}
+TD.t {
+	BACKGROUND-IMAGE: url(images/1t.gif)
+}
+TD.b {
+	BACKGROUND-IMAGE: url(images/1b.gif)
+}
+TD.r {
+	BACKGROUND-IMAGE: url(images/1r.gif)
+}
+TD.l {
+	BACKGROUND-IMAGE: url(images/1l.gif)
+}
+TD.c {
+	BACKGROUND-IMAGE: url(images/1c.gif)
+}
+TD.foot {
+	COLOR: white; BACKGROUND-COLOR: black
+}
+.title {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center;
+}
+.title_index{
+	text-align:center;
+	}
+.title_page{
+	text-align:left;
+	}
+.content {
+	font-family: "华文细黑", Verdana, Arial, Helvetica, sans-serif;
+	line-height:150%;
+}
+.sContent {
+	font-family: "华文细黑", Verdana, Arial, Helvetica, sans-serif;
+}

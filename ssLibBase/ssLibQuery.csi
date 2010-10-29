@@ -1,0 +1,18 @@
+[History]
+B0=ssLibBase/MainFrm/Form_Load
+B1=ssLibBase/MSSRLib/newTable
+B2=ssLibBase/MSSRLib/newField
+B3=ssLibBase/MSSRLib/pdgLibList
+B4=ssLibBase/MainFrm/txtDIRSearch_Click
+B5=ssLibBase/MainFrm/makeMDB
+B6=ssLibBase/MainFrm/cmdMakeMDB_Click
+B7=ssLibBase/MainFrm
+B8=ssLibBase/MSSRLib/l_CLong
+B9=ssLibBase/MSSRLib/l_CInt
+B10=ssLibBase/MSSRLib/pdgBookList
+B11=ssLibBase/MSSRLib/newMdb
+B12=ssLibBase/MSSRLib/MyInstr
+B13=ssLibBase/MainFrm/txtDIRSearch_Change
+B14=ssLibBase/MSSRLib
+[Workbench]
+0=27   ssLibBase/MainFrm/Form_Load9    Form_Load20   MembEventProcPrivate1    01    0

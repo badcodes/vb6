@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body         { line-height: 120%; padding-top: 10; padding-bottom: 0 }
+li           { list-style-type: none }
+</style>
+<title>LinNews V.1.0</title>
+<base target="news">
+<script language="Jscript" src="linrss.js"></script>
+</head>
+<body>
+<table border=0 width=100% cellpadding="0" cellspacing="0">
+<tr><td align=left><a href="" onclick="SwitchDisplay()" class="rss-url">Feeds List:</a></td>
+<td align=right>
+<img src="images\add.gif" onclick="addfeed()" class="imgcmd" width="13" height="11"></td>
+</tr>
+</table>
+<div id="feedtable" class="show"> 	
+</div>
+<hr width="100%">
+<iframe id="LiNRss" name="news" src="firstload.htm" width="100%" border="0" frameborder="0" scrolling="none">
+浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</iframe>
+<script language="JScript">
+getfeed(datafile);
+loadfeed();
+
+</script>
+</body>
+</html>

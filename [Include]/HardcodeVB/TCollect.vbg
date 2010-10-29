@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=TCollect.vbp
+Project=Components\vbcore.vbp

@@ -1,0 +1,16 @@
+[History]
+B0=FormatBlog/frmMain/cmdFilename_Click
+B1=FormatBlog/frmMain
+B2=FormatBlog/frmMain/cnweblog
+B3=FormatBlog/frmMain/TabStrip_Click
+B4=FormatBlog/frmMain/Text_Changed
+B5=FormatBlog/frmMain/txtShow_Change
+B6=FormatBlog/frmMain/qzone
+B7=FormatBlog/frmMain/tianya
+B8=FormatBlog/frmMain/Form_Load
+B9=FormatBlog/frmMain/GetTabIndex
+B10=FormatBlog/MLayout/PutControl
+B11=FormatBlog/MLayout/Init
+B12=FormatBlog/MLayout
+B13=FormatBlog/MLayout/perToDbl
+B14=FormatBlog/Form1

@@ -1,0 +1,6 @@
+cmdFrm = 135, 135, 619, 490, C, 81, 81, 633, 436, C
+MDAO = 0, 0, 0, 0, C
+MWindows = 0, 0, 0, 0, C
+MDlgOpenDir = 0, 0, 0, 0, C
+frmDirSelect = 81, 81, 578, 436, Z, 54, 54, 551, 409, C
+CDownLoad = 108, 108, 607, 546, C

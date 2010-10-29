@@ -1,0 +1,15 @@
+CDownload = 22, 25, 673, 332, C
+CDownloadProgress = 0, 0, 695, 435, C
+CDownloadEx = 44, 50, 713, 355, C
+CHTTPConnection = 66, 75, 735, 380, C
+CHttpHeader = 66, 87, 761, 522, C
+MFileSystem = 132, 174, 702, 662, 
+IDownloadClient = 0, 0, 0, 0, C
+CWinHTTP = 0, 0, 0, 0, C
+IWinHttpClient = 0, 0, 0, 0, C
+IWinHttp = 66, 87, 765, 570, 
+CWinHttpSimple = 44, 58, 743, 541, 
+MHttpHeader = 44, 58, 743, 541, 
+CWinHttpDownload = 0, 0, 0, 0, C
+CWinHttpDownloadEx = 110, 145, 809, 628, 
+MStrings = 110, 145, 816, 633, Z

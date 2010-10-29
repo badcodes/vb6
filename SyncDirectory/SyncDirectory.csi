@@ -1,0 +1,16 @@
+[History]
+B0=SyncDirectory/frmMain/Form_Load
+B1=SyncDirectory/frmMain/txtFilename_Change
+B2=SyncDirectory/MShell/GetCommandLine
+B3=SyncDirectory/frmMain
+B4=SyncDirectory/MFileSystem/testGetSubFilenames
+B5=SyncDirectory/MFileSystem/AppendSlash
+B6=SyncDirectory/MgCShell32/GetCommandLine
+B7=SyncDirectory/frmMain/cmdSync_Click
+B8=SyncDirectory/frmMain/Notify
+B9=SyncDirectory/frmMain/PushList
+B10=SyncDirectory/MFileSystem/SyncDirectory
+B11=SyncDirectory/MFileSystem/XDIR
+B12=SyncDirectory/MFileSystem
+B13=SyncDirectory/MFileSystem/subCount
+B14=SyncDirectory/MFileSystem/refAppendSlash

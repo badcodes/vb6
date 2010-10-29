@@ -1,0 +1,15 @@
+MDebug = 0, 0, 0, 0, C
+CModGlobDelFilter = 88, 116, 794, 604, 
+CGlobModFilter = 44, 58, 750, 546, 
+CModGlobFilter = 66, 87, 772, 575, C
+CPrivPubFilter = 0, 0, 0, 0, C
+CPubPrivFilter = 44, 58, 895, 431, 
+FGlobalWizard = 88, 116, 939, 489, Z, 22, 29, 728, 517, C
+MGlobWizMain = 0, 0, 0, 0, C
+MUtility = 66, 87, 772, 575, C
+IFilter = 0, 0, 0, 0, C
+MFilter = 0, 0, 0, 0, C
+MParse = 66, 87, 917, 460, 
+MErrors = 0, 0, 0, 0, C
+MIni = 22, 29, 728, 517, C
+MVBSource = 88, 116, 794, 604, 

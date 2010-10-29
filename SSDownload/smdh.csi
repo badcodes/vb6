@@ -1,0 +1,6 @@
+[History]
+B0=SMDH/MainFrm/cmdDownload_Click
+B1=SMDH/MainFrm/txtUrl_Change
+B2=SMDH/MainFrm/Timer_Timer
+B3=SMDH/MainFrm/Form_Load
+B4=SMDH/MainFrm

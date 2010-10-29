@@ -1,0 +1,711 @@
+Make My Manifest 0.7.300
+Wednesday, September 16, 2009 @ 9:58:08 AM
+
+Host OS = Windows 5.10 Service Pack 3 (Build 2600)
+Host = MYPLACE
+User = venus
+
+Project folder = P:\workspace\vb6\zhReader\Source\
+VB project file = zhSReader.vbp
+
+Project:
+  Name = zhSReader
+  Company = MYPLACE
+  Description = Zippacked Html Reader
+  EXE name = zhReader.exe
+  EXE path = ..\..\..\..\program\myplace\zhReader\
+  Version = 1.5.0.78
+
+Libraries: 8
+
+  SHDocVw
+    Description = Microsoft Internet Controls
+    File location = C:\WINDOWS\system32\ieframe.dll
+    Typlib ID = {EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}
+    Version = 1.1
+    Flags = *none*
+    *Excluded*
+
+  MSHTML
+    Description = Microsoft HTML Object Library
+    File location = C:\WINDOWS\system32\mshtml.tlb
+    Typlib ID = {3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}
+    Version = 4.0
+    Flags = *none*
+    *Excluded*
+
+  stdole
+    Description = OLE Automation
+    File location = C:\WINDOWS\system32\stdole2.tlb
+    Typlib ID = {00020430-0000-0000-C000-000000000046}
+    Version = 2.0
+    Flags = *none*
+    *Excluded*
+
+  Scripting
+    Description = Microsoft Scripting Runtime
+    File location = C:\WINDOWS\system32\scrrun.dll
+    Typlib ID = {420B2830-E718-11CF-893D-00A0C9054228}
+    Version = 1.0
+    Flags = *none*
+    *Excluded*
+
+  LiNVBLib
+    Description = Xiaoranzzz VB Library
+    File location = P:\program\MyPlace\Components\LiNVBLib.dll
+    Typlib ID = {D457CEE3-41E4-4619-9C8C-596682F1CC98}
+    Version = 2.0
+    Flags = *none*
+
+    CoClasses: 41
+
+      GFileSystem
+        Description = 
+        ProgID = LiNVBLib.GFileSystem
+        Threading model = Apartment
+        CLSID = {90AB63F4-2462-4338-B474-E4FDD99ECC0A}
+
+      GIni
+        Description = 
+        ProgID = LiNVBLib.GIni
+        Threading model = Apartment
+        CLSID = {42623B6A-8070-4926-8B27-77AA592A542C}
+
+      GShell32
+        Description = 
+        ProgID = LiNVBLib.GShell32
+        Threading model = Apartment
+        CLSID = {0F6F0813-5FC4-4CD9-B55D-41133FA56901}
+
+      CAppendString
+        Description = 
+        ProgID = LiNVBLib.CAppendString
+        Threading model = Apartment
+        CLSID = {F4AB2EB7-955C-4FB3-AD86-03B28B9CE93A}
+
+      CAutoSetting
+        Description = 
+        ProgID = LiNVBLib.CAutoSetting
+        Threading model = Apartment
+        CLSID = {B10D4DAB-8C80-47E0-818D-B014604E12D1}
+
+      CLiNInI
+        Description = 
+        ProgID = LiNVBLib.CLiNInI
+        Threading model = Apartment
+        CLSID = {63966C68-6AC9-483A-8B5D-78F07986E2E1}
+
+      CRegistry
+        Description = 
+        ProgID = LiNVBLib.CRegistry
+        Threading model = Apartment
+        CLSID = {861C5757-564F-4450-8BFE-EB35DD4A51B9}
+
+      CSetting
+        Description = 
+        ProgID = LiNVBLib.CSetting
+        Threading model = Apartment
+        CLSID = {3162C58B-F122-4E76-B7C4-B73FDB4361C6}
+
+      CStringBuilder
+        Description = 
+        ProgID = LiNVBLib.CStringBuilder
+        Threading model = Apartment
+        CLSID = {5041F09E-3651-456B-8602-A029D7FB98F6}
+
+      CIniText
+        Description = 
+        ProgID = LiNVBLib.CIniText
+        Threading model = Apartment
+        CLSID = {BF779A84-41F1-484A-A5A2-DF41D9B20707}
+
+      CArray
+        Description = 
+        ProgID = LiNVBLib.CArray
+        Threading model = Apartment
+        CLSID = {E10AFC1D-3C50-402B-A6A0-0E3D0EA10504}
+
+      CStringArray
+        Description = 
+        ProgID = LiNVBLib.CStringArray
+        Threading model = Apartment
+        CLSID = {0AF81524-28E8-4BCF-8F7B-AB4EFFB2D6A8}
+
+      CIndexTable
+        Description = 
+        ProgID = LiNVBLib.CIndexTable
+        Threading model = Apartment
+        CLSID = {0276E92A-66ED-4F94-B098-C6E06713FCA1}
+
+      CIntegerLink
+        Description = 
+        ProgID = LiNVBLib.CIntegerLink
+        Threading model = Apartment
+        CLSID = {8B330842-91D4-41F2-9C9F-C02C53AE6F14}
+
+      CIntegerMap
+        Description = 
+        ProgID = LiNVBLib.CIntegerMap
+        Threading model = Apartment
+        CLSID = {F330F501-95FD-4366-8D7E-233DFDF3594E}
+
+      CLink
+        Description = 
+        ProgID = LiNVBLib.CLink
+        Threading model = Apartment
+        CLSID = {F4994B51-F541-4677-BC23-4447E5A8B138}
+
+      CLongArray
+        Description = 
+        ProgID = LiNVBLib.CLongArray
+        Threading model = Apartment
+        CLSID = {0D38BF96-FBD3-4DBE-B1DD-05832A6DB9CF}
+
+      CLongLink
+        Description = 
+        ProgID = LiNVBLib.CLongLink
+        Threading model = Apartment
+        CLSID = {C936B2CF-96B8-4F3C-9413-AF5A388CA7B0}
+
+      CLongMap
+        Description = 
+        ProgID = LiNVBLib.CLongMap
+        Threading model = Apartment
+        CLSID = {56C9146F-C9B3-434C-AB9D-33700D16C0B8}
+
+      CLongStack
+        Description = 
+        ProgID = LiNVBLib.CLongStack
+        Threading model = Apartment
+        CLSID = {E23FF4EE-B1B8-461F-940F-F1DD80FC601E}
+
+      CLongVector
+        Description = 
+        ProgID = LiNVBLib.CLongVector
+        Threading model = Apartment
+        CLSID = {4693AD4B-4D9C-4591-B625-A04C9CFBD9E2}
+
+      CMap
+        Description = 
+        ProgID = LiNVBLib.CMap
+        Threading model = Apartment
+        CLSID = {24C022FA-5959-4A6B-B65A-F0C4271E79E3}
+
+      CObjectArray
+        Description = 
+        ProgID = LiNVBLib.CObjectArray
+        Threading model = Apartment
+        CLSID = {88FA3000-D432-43F3-B968-0D423DE60AE5}
+
+      CObjectLink
+        Description = 
+        ProgID = LiNVBLib.CObjectLink
+        Threading model = Apartment
+        CLSID = {9C691DFF-660E-47A0-99C5-1A0AEC187B78}
+
+      CObjectMap
+        Description = 
+        ProgID = LiNVBLib.CObjectMap
+        Threading model = Apartment
+        CLSID = {D46BE8D3-E0D3-48BC-BE7E-9D5F0433FC08}
+
+      CObjectStack
+        Description = 
+        ProgID = LiNVBLib.CObjectStack
+        Threading model = Apartment
+        CLSID = {95B9A565-E71F-493B-A520-75197E8E6D49}
+
+      CObjectVector
+        Description = 
+        ProgID = LiNVBLib.CObjectVector
+        Threading model = Apartment
+        CLSID = {64723979-3846-4530-99F4-745D1A06223A}
+
+      CStack
+        Description = 
+        ProgID = LiNVBLib.CStack
+        Threading model = Apartment
+        CLSID = {47C41307-D43E-4B4D-AAB4-A19B8DB80618}
+
+      CStringLink
+        Description = 
+        ProgID = LiNVBLib.CStringLink
+        Threading model = Apartment
+        CLSID = {A5296C6C-C6B0-4CB2-B06D-599A0A60DA54}
+
+      CStringMap
+        Description = 
+        ProgID = LiNVBLib.CStringMap
+        Threading model = Apartment
+        CLSID = {236D4618-DBC9-427D-B2CB-1D9E12149509}
+
+      CStringStack
+        Description = 
+        ProgID = LiNVBLib.CStringStack
+        Threading model = Apartment
+        CLSID = {52152710-CADC-419F-A2D2-C70C2437D8A6}
+
+      CStringVector
+        Description = 
+        ProgID = LiNVBLib.CStringVector
+        Threading model = Apartment
+        CLSID = {A0FE8C16-7616-4EE2-8C1F-3F925C64B9FB}
+
+      CVector
+        Description = 
+        ProgID = LiNVBLib.CVector
+        Threading model = Apartment
+        CLSID = {1B7259DA-E505-4107-996D-5E17EBFC1CA3}
+
+      GStrings
+        Description = 
+        ProgID = LiNVBLib.GStrings
+        Threading model = Apartment
+        CLSID = {73DC52F8-A6F1-4D23-B19A-9250E9212760}
+
+      CCommonDialogLite
+        Description = 
+        ProgID = LiNVBLib.CCommonDialogLite
+        Threading model = Apartment
+        CLSID = {BB1D205E-D03D-428F-BB31-BE6E6C81AD5A}
+
+      CFolderBrowser
+        Description = 
+        ProgID = LiNVBLib.CFolderBrowser
+        Threading model = Apartment
+        CLSID = {D021098D-37B8-4204-AA31-E5E9AEE6D2AD}
+
+      GZlib
+        Description = 
+        ProgID = LiNVBLib.GZlib
+        Threading model = Apartment
+        CLSID = {C58DFABF-C049-485C-8E72-528D345865D3}
+
+      cUnzip
+        Description = 
+        ProgID = LiNVBLib.cUnzip
+        Threading model = Apartment
+        CLSID = {B86C6C1B-6C5D-4502-8AF2-63C8089DCE8A}
+
+      cZip
+        Description = 
+        ProgID = LiNVBLib.cZip
+        Threading model = Apartment
+        CLSID = {5994F9A3-0428-4B28-9F8D-641F06341185}
+
+      CZipItem
+        Description = 
+        ProgID = LiNVBLib.CZipItem
+        Threading model = Apartment
+        CLSID = {46BAD259-4C55-42FB-8F73-F8976C71DBF5}
+
+      CZipItems
+        Description = 
+        ProgID = LiNVBLib.CZipItems
+        Threading model = Apartment
+        CLSID = {9A229BF1-28C8-47A6-931C-E4BF9F35E307}
+
+  MSWinsockLib
+    Description = Microsoft Winsock Control 6.0 (SP6)
+    File location = C:\WINDOWS\system32\MSWINSCK.ocx
+    Typlib ID = {248DD890-BB45-11CF-9ABC-0080C7E7B78D}
+    Version = 1.0
+    Flags = control
+
+    CoClasses: 3
+
+      Winsock
+        Description = Microsoft Winsock Control
+        ProgID = MSWinsock.Winsock.1
+        Threading model = Apartment
+        CLSID = {248DD896-BB45-11CF-9ABC-0080C7E7B78D}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  invisibleatruntime,
+                  setclientsitefirst"
+
+      Winsock2
+        Description = Microsoft Winsock Control
+        ProgID = MSWinsock.Winsock.1
+        Threading model = Apartment
+        CLSID = {39977C62-C383-463D-AF61-C71220634656}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  invisibleatruntime,
+                  setclientsitefirst"
+
+      Winsock3
+        Description = Microsoft Winsock Control
+        ProgID = MSWinsock.Winsock.1
+        Threading model = Apartment
+        CLSID = {6E5311A1-325D-4FFD-9AF4-B373F02AE458}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  invisibleatruntime,
+                  setclientsitefirst"
+
+  ComCat
+    Description = <Standard or unregistered DLL/OCX>
+    File location = C:\WINDOWS\system32\ComCat.dll
+    Typlib ID = n/a
+    Version = 0.0
+    Flags = *none*
+    *Excluded*
+
+  ComctlLib
+    Description = Microsoft Windows Common Controls 5.0 (SP2)
+    File location = C:\WINDOWS\system32\comctl32.Ocx
+    Typlib ID = {6B7E6392-850A-101B-AFC0-4210102A8DA7}
+    Version = 1.3
+    Flags = control
+
+    CoClasses: 33
+
+      DataObject
+        Description = 
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2334D2B2-713E-11CF-8AE5-00AA00C00905}
+
+      DataObjectFiles
+        Description = 
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {2334D2B4-713E-11CF-8AE5-00AA00C00905}
+
+      TabStrip
+        Description = Microsoft TabStrip Control
+        ProgID = COMCTL.TabStrip.1
+        Threading model = Apartment
+        CLSID = {9ED94440-E5E8-101B-B9B5-444553540000}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      TabStrip2
+        Description = Microsoft TabStrip Control
+        ProgID = COMCTL.TabStrip.1
+        Threading model = Apartment
+        CLSID = {44E266A2-CD46-47A0-9ED5-EEEC5F0C2A6E}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Tabs
+        Description = Returns a reference to a collection of Tab objects in the TabStrip control.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E432-850A-101B-AFC0-4210102A8DA7}
+
+      Tab
+        Description = Returns a reference to a collection of Tab objects in the TabStrip control.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713F341-850A-101B-AFC0-4210102A8DA7}
+
+      Toolbar
+        Description = Microsoft Toolbar Control
+        ProgID = COMCTL.Toolbar.1
+        Threading model = Apartment
+        CLSID = {612A8624-0FB3-11CE-8747-524153480004}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  simpleframe,
+                  setclientsitefirst"
+
+      Toolbar2
+        Description = Microsoft Toolbar Control
+        ProgID = COMCTL.Toolbar.1
+        Threading model = Apartment
+        CLSID = {97992019-74A6-46C7-9CA3-7F8C0D39940B}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  simpleframe,
+                  setclientsitefirst"
+
+      Buttons
+        Description = ToolBar Buttons
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E452-850A-101B-AFC0-4210102A8DA7}
+
+      Button
+        Description = ToolBar Button
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713F354-850A-101B-AFC0-4210102A8DA7}
+
+      StatusBar
+        Description = Microsoft StatusBar Control
+        ProgID = COMCTL.SBarCtrl.1
+        Threading model = Apartment
+        CLSID = {6B7E638F-850A-101B-AFC0-4210102A8DA7}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      StatusBar2
+        Description = Microsoft StatusBar Control
+        ProgID = COMCTL.SBarCtrl.1
+        Threading model = Apartment
+        CLSID = {E8F8E80F-02EB-44CC-ABB5-6E5132BA6B24}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      Panels
+        Description = StatusBar Panels collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E89E-850A-101B-AFC0-4210102A8DA7}
+
+      Panel
+        Description = StatusBar Panel
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E89F-850A-101B-AFC0-4210102A8DA7}
+
+      ProgressBar
+        Description = Microsoft ProgressBar Control
+        ProgID = COMCTL.ProgCtrl.1
+        Threading model = Apartment
+        CLSID = {0713E8D2-850A-101B-AFC0-4210102A8DA7}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      ProgressBar2
+        Description = Microsoft ProgressBar Control
+        ProgID = COMCTL.ProgCtrl.1
+        Threading model = Apartment
+        CLSID = {612685EF-57C8-469F-88AB-E4E0B595C5AB}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  actslikelabel,
+                  alignable,
+                  setclientsitefirst"
+
+      TreeView
+        Description = Displays a hierarchical list of Node objects, each of which consists of a label and an optional bitmap.
+        ProgID = COMCTL.TreeCtrl.1
+        Threading model = Apartment
+        CLSID = {0713E8A2-850A-101B-AFC0-4210102A8DA7}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      TreeView2
+        Description = Displays a hierarchical list of Node objects, each of which consists of a label and an optional bitmap.
+        ProgID = COMCTL.TreeCtrl.1
+        Threading model = Apartment
+        CLSID = {E44F7BD4-3AB1-4D55-9190-FC53343AD2D2}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Nodes
+        Description = Treeview Nodes collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C0-850A-101B-AFC0-4210102A8DA7}
+
+      Node
+        Description = An object in a TreeView control that can contain images and text.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C1-850A-101B-AFC0-4210102A8DA7}
+
+      ListView
+        Description = Displays a collection of ListItems such as files or folders.
+        ProgID = COMCTL.ListViewCtrl.1
+        Threading model = Apartment
+        CLSID = {58DA8D8A-9D6A-101B-AFC0-4210102A8DA7}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      ListView2
+        Description = Displays a collection of ListItems such as files or folders.
+        ProgID = COMCTL.ListViewCtrl.1
+        Threading model = Apartment
+        CLSID = {79C784C5-8F0D-4A55-ADB3-590CCFC8EB0D}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      ListItems
+        Description = ListView Item collection
+        ProgID = MSDataListLib.RowSource.1
+        Threading model = Apartment
+        CLSID = {0713E8C4-850A-101B-AFC0-4210102A8DA7}
+
+      ListItem
+        Description = An item in a ListView control that contains the index of icons associated with it, text, and an array of strings representing subitems that are displayed in Report view.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C5-850A-101B-AFC0-4210102A8DA7}
+
+      ColumnHeaders
+        Description = ListView Column Header collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C6-850A-101B-AFC0-4210102A8DA7}
+
+      ColumnHeader
+        Description = ListView Column Header
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C7-850A-101B-AFC0-4210102A8DA7}
+
+      ImageList
+        Description = Contains a collection of ListImage objects, each of which can be referred to by its index or key
+        ProgID = COMCTL.ImageListCtrl.1
+        Threading model = Apartment
+        CLSID = {58DA8D8F-9D6A-101B-AFC0-4210102A8DA7}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  invisibleatruntime,
+                  alignable,
+                  setclientsitefirst"
+
+      ImageList2
+        Description = Contains a collection of ListImage objects, each of which can be referred to by its index or key
+        ProgID = COMCTL.ImageListCtrl.1
+        Threading model = Apartment
+        CLSID = {53749718-F78D-4A67-8703-8AE050075170}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  invisibleatruntime,
+                  alignable,
+                  setclientsitefirst"
+
+      ListImages
+        Description = A bitmap or icon of any size that can be used in other controls.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C2-850A-101B-AFC0-4210102A8DA7}
+
+      ListImage
+        Description = A bitmap or icon of any size that can be used in other controls.
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {0713E8C3-850A-101B-AFC0-4210102A8DA7}
+
+      Slider
+        Description = A calibrated control with a slider for setting or selecting values.
+        ProgID = COMCTL.Slider.1
+        Threading model = Apartment
+        CLSID = {373FF7F0-EB8B-11CD-8820-08002B2F4F5A}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Slider2
+        Description = A calibrated control with a slider for setting or selecting values.
+        ProgID = COMCTL.Slider.1
+        Threading model = Apartment
+        CLSID = {2B577565-36F7-4351-B2E7-DAFC75E9D72A}
+        VB6 KB 828629 remediation:
+          miscStatusIcon = 
+                  "recomposeonresize,
+                  cantlinkinside,
+                  insideout,
+                  activatewhenvisible,
+                  setclientsitefirst"
+
+      Controls
+        Description = Controls collection
+        Threading model = Not registered, Class will be skipped.
+        CLSID = {01D1F0A0-DE88-11CF-89B6-00AA00688B10}
+
+MMM project settings:
+  Embed manifest in EXE = True
+  Save MMM log to disk = True
+  Common Controls 6.0 manifest node = True
+  VB 6.0 ActiveX control KB 828629 remediation = False
+  DPI Aware manifest node = False
+  Compatibility manifest node = False
+  TrustInfo manifest node = False
+
+MMMPack package folder exists:
+    P:\workspace\vb6\zhReader\Source\MMMPack
+        Replacing package folder contents.
+
+Copying dependencies:
+  P:\program\MyPlace\Components\LiNVBLib.dll to MMMPack
+
+Copying EXE:
+  P:\program\myplace\zhReader\zhReader.exe
+Embedding application manifest in:
+  zhReader.exe
+
+Writing MMM package project file:
+  P:\workspace\vb6\zhReader\Source\MMMPack.mmmp
+
+Complete!
+

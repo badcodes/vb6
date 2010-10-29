@@ -1,0 +1,14 @@
+[History]
+B0=ARCore/CDocument/OpenEntry
+B1=ARCore/CDocument/Handler
+B2=ARCore/CDocument
+B3=ARCore/CReader/OpenHistory
+B4=ARCore/CReader/OpenDocument
+B5=ARCore/CReader/CloseDocument
+B6=ARCore/CReader/OpenFile
+B7=ARCore/CReader/SelectHandlerForDocument
+B8=ARCore/CReader
+B9=ARCore/IDocumentHandler
+B10=ARCore/MDefinition
+B11=ARCore/CDocument/ContentList
+B12=ARCore/Class1

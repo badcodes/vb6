@@ -1,0 +1,58 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{2FE02733-E254-4B2E-AC69-A20AFBC0A92F}#1.1#0#D:\MYPLACE\DLL\LUseZip.dll#LUseZipDll
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#C:\WINDOWS\system32\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{CAE7F99C-62D6-4767-8C0C-D7C516518C4D}#1.1#0#D:\MYPLACE\DLL\LiNVBLib.dll#LiNVBLib:VB Library Made by LiN
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Form=Mainfrm.frm
+Form=frmOptions.frm
+Module=MainMOD; Main.bas
+Form=frmBookmark.frm
+Class=CRecentFile; ..\..\[CLASS]\CRecentFile.cls
+Module=MAlgorithms; ..\..\[Code]\MAlgorithms.bas
+Class=CLocalize; ..\..\[CLASS]\CLocalize.cls
+Module=MWindows; ..\..\[Code]\MWindows.bas
+Class=CCommonDialogLite; ..\..\[CLASS]\CCommonDialogLite.cls
+Class=CMenuArrHandle; ..\..\[CLASS]\CMenuArrHandle.cls
+IconForm="MainFrm"
+Startup="Sub Main"
+HelpFile=""
+Title="zhReader"
+ExeName32="zpShower.exe"
+Path32="D:\MYPLACE\zpShower"
+Command32=""
+Name="zpShower"
+HelpContextID="0"
+Description="Zippacked pictures shower"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=3
+RevisionVer=35
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="MYPLACE"
+VersionLegalCopyright="CopyRight(C) 2004 LiN MYPLACE"
+VersionProductName="zpShower"
+CondComp="LDebug = 0 : CCEncrypted = 0"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[CodeSMART]
+Task_UID=13_05_06_02_56_55

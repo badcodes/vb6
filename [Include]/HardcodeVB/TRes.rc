@@ -1,0 +1,81 @@
+// TRES.RC - Resource script for Test Resources program
+
+//$ Const ordAppBmp = 101
+#if defined(US)
+101     BITMAP  "MANHEAD.BMP"
+#elif defined(SW)
+101     BITMAP  "PIGHEAD.BMP"
+#else
+#error "No language"
+#endif
+
+//$ Const ordAppIcon   = 301
+#if defined(US)
+301     ICON    "FLGUSA.ICO"
+#elif defined(SW)
+301     ICON    "FLGSWI.ICO"
+#endif
+
+//$ Const ordAppCursor = 401
+#if defined(US)
+401     CURSOR  "MANHAND.CUR"
+#elif defined(SW)
+401     CURSOR  "PIGTAIL.CUR"
+#endif
+
+//$ Const ordWavGrunt  = 501
+#if defined(US)
+501     WAVE    "GRUNT.WAV"
+#elif defined(SW)
+501     WAVE    "OINK.WAV"
+#endif
+
+//$ Const ordTxtData   = 601
+601     OURDATA
+BEGIN
+#if defined(US)
+       0x7550, 0x6572, 0x7220, 0x7761
+       0x6420, 0x7461, 0x2061
+#elif defined(SW)
+       0x7255, 0x7065, 0x7961, 0x6120
+       0x7277, 0x6965, 0x6120, 0x6174
+       0x6564, 0x2079
+#endif
+END
+
+//$ Const ordFrmTitle  = 1001
+//$ Const ordMnuFile   = 1101
+//$ Const ordMnuGrunt  = 1102
+//$ Const ordMnuExit   = 1103
+//$ Const ordLstTitle  = 1201
+//$ Const ordLstWhat   = 1301
+//$ Const ordLstWhy    = 1302
+//$ Const ordLstWhere  = 1303
+//$ Const ordLstWho    = 1304
+//$ Const ordLstWhen   = 1305
+STRINGTABLE
+BEGIN
+#if defined(US)
+    1001    "Test Resources"
+    1101    "&File"
+    1102    "&Grunt"
+    1103    "E&xit"
+    1201    "Strings:"
+    1301    "What's the story?"
+    1302    "Why are we here?"
+    1303    "Where are they now?"
+    1304    "Who's got the ball?"
+    1305    "When do we eat?"
+#elif defined(SW)
+    1001    "Estay Esourcesrei"
+    1101    "&IleFey"
+    1102    "&UntGray"
+    1103    "ItE&xeigh"
+    1201    "Ingstray:"
+    1301    "At'swhay ethei orystay?"
+    1302    "Ywhay rahey ewey erehay?"
+    1303    "Erewhay rahey eythey ouney?"
+    1304    "Oosway otgay ethei allbay?"
+    1305    "Enwhey oodae eway teeay?"
+#endif
+END

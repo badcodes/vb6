@@ -1,0 +1,13 @@
+[History]
+B0=LEmptyProject/Module1
+B3=LEmptyProject/MMain
+B5=LEmptyProject/THash/ComputeIndex
+B6=LEmptyProject/THash/Add
+B7=LEmptyProject/MTemplateType
+B8=LEmptyProject/MTemplateType/PrintLine
+B9=LEmptyProject/MMain/Main
+B10=LEmptyProject/CApp/Class_Initialize
+B11=LEmptyProject/CApp
+B12=LEmptyProject/CApp/SetWindow
+B13=LEmptyProject/CApp/Run
+B14=LEmptyProject/CApp/Class_Terminate

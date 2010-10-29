@@ -1,0 +1,25 @@
+<script language="JavaScript">
+
+function OnContextMenu()
+{
+	var curDoc=external.menuArguments.document;
+	var RangeSelected=curDoc.selection.createRange();
+	var sText=RangeSelected.text;
+	var sHtml=RangeSelected.htmlText;
+	var fso=new ActiveXObject("Scripting.FileSystemObject");
+	var TemporaryFolder = 2;
+	var ftmp=fso.BuildPath(fso.GetSpecialFolder(TemporaryFolder),fso.GetTempName());
+	var ts=fso.CreateTextFile(ftmp + ".txt", true,true);
+	ts.Write(sText);
+	ts.Close();
+	ts=fso.CreateTextFile(ftmp+ ".htm",true,true);
+	ts.Write(sHtml);
+	ts.Close();
+	var istl = new ActiveXObject("IeSaveText.loader");
+	istl.saveit(ftmp);
+	return;
+}
+
+OnContextMenu();
+
+</script>

@@ -1,0 +1,18 @@
+[History]
+B0=pBookUrl/cmdFrm/cmdDownload_Click
+B1=pBookUrl/cmdFrm/downloadLog
+B2=pBookUrl/CbookUrl/Author
+B3=pBookUrl/cmdFrm/parseText
+B4=pBookUrl/cmdFrm/Form_Load
+B5=pBookUrl/CbookUrl/Page
+B6=pBookUrl/CbookUrl/Pages
+B7=pBookUrl/cmdFrm/Form_Terminate
+B8=pBookUrl/cmdFrm
+B9=pBookUrl/MWindows
+B10=pBookUrl/CbookUrl/realSS
+B11=pBookUrl/CbookUrl/Initialize
+B12=pBookUrl/CbookUrl
+B13=pBookUrl/CbookUrl/SS
+B14=pBookUrl/MDAO/addTable
+[Workbench]
+0=25   pBookUrl/cmdFrm/Form_Load9    Form_Load20   MembEventProcPrivate1    01    0

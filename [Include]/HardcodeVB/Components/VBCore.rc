@@ -1,0 +1,47 @@
+// VBCore.RC - Resource script for VBCore
+
+STRINGTABLE
+BEGIN
+#if !defined(idLang)
+    13000    "Utility"
+    13001    "HourGlass: Object doesn't have mouse pointer"
+    13002    "GetOption: None of the options are True"
+    13003    "GetOption: Not a control array of OptionButtons"
+    13004    "InStrR: One or more parameters are missing"
+    13005    "WordWrap: Words are longer than lines"
+
+    13130    "CPalette"
+    13131    "Create: Invalid palette"
+    13132    "Palette not initialized with Create"
+    13133    "Create: Bitmap has no palette"
+    13134    "Create: Invalid first or last index"
+    13135    "Create: Input array must be resizable"
+
+    13140    "CPictureGlass"
+    13141    "Create: Picture must contain bitmap"
+    13142    "Canvas: Drawing surface lacks required properties"
+
+    13220    "CSortHelper"
+    13221    "CollectionSwap: Key is missing"
+
+    13240    "CSysMenu"
+    13241    "Add/RemoveItem: Handle not initialized"
+    13242    "AddItem: Too many menu items"
+    13243    "Create: Can't get system window"
+
+    13580    "Random"
+    13581    "Random: Range can't be greater than 2147483645"
+
+    13660     "CAbout"
+    13661     "Load: Client must be initialized with App object"
+
+    13690     "CSplitter"
+    13691     "Create: Invalid controls or container"
+    13692     "Create splitter before using members"
+
+// #elif idLang == idOtherLang
+    // Add other languages here
+#endif
+END
+
+

@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\LiNVBLib\LiNVBLib.vbp
+Project=LTest.vbp

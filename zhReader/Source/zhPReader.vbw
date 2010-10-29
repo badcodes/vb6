@@ -1,0 +1,14 @@
+MainFrm = 93, 42, 486, 389, , 54, 58, 447, 405, C
+frmOptions = 44, 54, 611, 384, C, 108, 116, 501, 463, C
+MFont = 22, 27, 589, 357, C
+MZHTM = 27, 28, 611, 346, C
+CZhComment = 54, 56, 638, 374, C
+frmBookmark = 110, 135, 677, 465, C, 108, 116, 610, 453, C
+MWindows = 22, 27, 750, 252, C
+MUseZipProtocol = 22, 28, 675, 379, 
+MAlgorithms = 0, 0, 728, 225, C
+MZTxt = 0, 0, 0, 0, C
+MZhReaderViaProtocol = 54, 58, 487, 395, 
+CLocalize = 22, 27, 589, 357, C
+CCommonDialogLite = 0, 0, 467, 426, C
+CMenuArrHandle = 110, 140, 759, 437, C

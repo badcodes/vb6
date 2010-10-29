@@ -1,0 +1,16 @@
+MainFrm = 0, 0, 421, 346, C, 54, 58, 447, 405, C
+frmOptions = 44, 56, 754, 394, C, 108, 116, 501, 463, C
+MFont = 44, 56, 692, 367, C
+MZHTM = 0, 0, 578, 296, C
+CZhComment = -343, 165, 488, 594, 
+frmBookmark = 88, 112, 755, 435, C, 27, 29, 531, 365, C
+CRecentFile = 22, 28, 645, 197, 
+MAlgorithms = 22, 28, 670, 339, C
+modZhReaderViaHtml = 66, 84, 600, 394, C
+CLocalize = -5, 112, 662, 435, 
+MWindows = 0, 0, 0, 0, C
+CCommonDialogLite = 44, 56, 711, 379, 
+CMenuArrHandle = 44, 56, 708, 375, 
+MClassicIO = 88, 112, 832, 418, C
+IReader = 66, 84, 732, 354, C
+CReaderViaHtml = 20, 112, 686, 382, Z

@@ -1,0 +1,16 @@
+[History]
+B0=toolkitIDLgen/IUnzip/Filename
+B1=toolkitIDLgen/IArchiveItem/Size
+B2=toolkitIDLgen/IUnzip/MessageLevel
+B3=toolkitIDLgen/IArchiveItems/Add
+B4=toolkitIDLgen/IArchiveItems/NewEnum
+B5=toolkitIDLgen/IArchiveItems/Clear
+B6=toolkitIDLgen/IArchiveItems/Count
+B7=toolkitIDLgen/IArchiveItems/ItembyKey
+B8=toolkitIDLgen/IArchiveItems/ItembyIndex
+B9=toolkitIDLgen/IArchiveItems
+B10=toolkitIDLgen/MTest/Main
+B11=toolkitIDLgen/CTest/IUnzip_getZipItems
+B12=toolkitIDLgen/IUnzip/getZipItems
+B13=toolkitIDLgen/IArchiveItem/Filename
+B14=toolkitIDLgen/IArchiveItem/Encrypted

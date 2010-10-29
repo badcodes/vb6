@@ -1,0 +1,350 @@
+94
+**
+ab
+As Boolean
+**
+aby
+As Byte
+**
+ad
+As Double
+**
+ai
+As Integer
+**
+al
+As Long
+**
+ao
+As Object
+**
+asi
+As Single
+**
+ast
+As String
+**
+av
+As Variant
+**
+br
+ByRef
+**
+bv
+ByVal
+**
+ce
+Case Else
+    #CURSOR#
+**
+center
+Move (Screen.Width - Width) / 2 , (Screen.Height - Height) / 2
+**
+comm
+'==========================
+'    #STARTSEL#comment#ENDSEL#
+'==========================
+**
+cr
+vbCrLf
+**
+da
+Debug.Assert
+**
+dd
+Do
+    #CURSOR#
+Loop
+**
+di
+Dim i As Long
+**
+dp
+Debug.Print
+**
+ds
+Dim strTemp  As String
+**
+dw
+Do While #CURSOR#
+    
+Loop
+**
+ed
+Exit Do
+**
+ee
+End Enum
+**
+ef
+Exit For
+**
+efu
+Exit Function
+**
+ei
+End If
+**
+eif
+ElseIf #CURSOR# Then
+    
+**
+el
+Else
+**
+en
+Enum #STARTSEL#Enum#ENDSEL#
+    
+End Enum
+**
+ep
+Exit Property
+**
+es
+End Select
+**
+esu
+Exit Sub
+**
+et
+End Type
+**
+ew
+End With
+**
+f1
+SendKeys "{F1}", True
+**
+fa
+False
+**
+fe
+For Each #CURSOR# In 
+    
+Next
+**
+fi
+For i = 1 To #CURSOR#
+    
+Next i
+**
+fj
+For j = 1 To #CURSOR#
+    
+Next j
+**
+fu
+Function
+**
+gl
+Global
+**
+gs
+ = GetSetting(App.Title, "Main", "#LASTWORD#", #STARTSEL#Default#ENDSEL#)
+**
+hd
+'====================================================
+' Author: #PROGRAMMERNAME#
+' Date:   #DATE# #TIME#
+'====================================================
+' Procedure: #PROCNAME#
+' Description: #PROCDESCRIPTION#
+' Usage: #CURSOR#
+'====================================================
+**
+hda
+'====================================================
+' Author: #PROGRAMMERNAME#
+' Date:   #DATE# #TIME#
+'====================================================
+' Procedure: #PROCNAME#
+' Description: #PROCDESCRIPTION#
+' Usage: #CURSOR#
+' #PROCARG#:
+'====================================================
+**
+hl
+HelpContextID =
+**
+ie
+If #CURSOR# Then
+    
+End If
+**
+iee
+If #CURSOR# Then
+    
+Else
+    
+End If
+**
+ieee
+If #CURSOR# Then
+    
+ElseIf  Then
+    
+Else
+    
+End If
+**
+ii
+If #CURSOR# Then 
+**
+iin
+If #CURSOR# Is Nothing Then
+    
+End If
+**
+iinn
+If Not #CURSOR# Is Nothing Then
+    
+End If
+**
+lb
+Lbound
+**
+lc
+LCase$
+**
+li
+Line Input #ff,
+**
+lp
+LoadPicture
+**
+lu
+Loop Until
+**
+lw
+Loop While
+**
+msg
+= MsgBox("#CURSOR#", vbOKOnly vbOKCancel vbAbortRetryIgnore vbYesNoCancel vbYesNo vbRetryCancel +vbCritical +vbQuestion +vbExclamation +vbInformation )
+**
+ni
+Next i
+**
+nj
+Next j
+**
+oe
+On Error Resume Next
+**
+oeg
+On Error GoTo
+**
+oex
+Option Explicit
+**
+op
+Optional
+**
+opin
+Dim ff As Long
+ff = FreeFile
+Open #CURSOR# For Input As #ff
+    Do While Not EOF(ff)
+        Input #ff,
+    Loop
+Close #ff
+**
+opout
+Dim ff As Long
+ff = FreeFile
+Open #CURSOR# For Output As #ff
+    Print #ff,
+Close #ff
+**
+pa
+ParamArray
+**
+pg
+Property Get
+**
+pl
+Property Let
+**
+pr
+Private
+**
+ps
+Property Set
+**
+pu
+Public
+**
+ran
+Randomize
+**
+rd
+ReDim
+**
+ret
+Return
+**
+rev
+RaiseEvent
+**
+rnd
+= Int(Rnd * #CURSOR# ) + 1
+**
+rp
+Redim Preserve #CURSOR#( To )
+**
+sc
+Select Case
+**
+scc
+Select Case #CURSOR#
+    Case
+        
+    Case Else
+        
+End Select
+**
+sk
+SendKeys "{#CURSOR#}", True '  +:SHIFT ^:CTRL %:ALT
+**
+sn
+Set #STARTSEL#Me#ENDSEL# = Nothing
+**
+ss
+SaveSetting App.Title, "Main", #STARTSEL#Key#ENDSEL#,
+**
+st
+Static
+**
+tr
+True
+**
+tt
+Then
+**
+twx
+Screen.TwipsPerPixelX
+**
+twy
+Screen.TwipsPerPixelY
+**
+ty
+Type #STARTSEL#Type#ENDSEL#
+    
+End Type
+**
+ub
+Ubound
+**
+uc
+UCase$
+**
+um
+Unload Me
+**
+wev
+WithEvents
+**
+ww
+With #CURSOR#
+    
+End With
+**

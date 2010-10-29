@@ -1,0 +1,7 @@
+MainFrm = -19, 104, 567, 236, , 27, 29, 534, 339, C
+frmOptions = 16, 109, 613, 467, C, 54, 58, 561, 368, C
+MFont = 0, 0, 0, 0, C
+frmBookmark = 57, 167, 510, 592, C, 81, 87, 588, 397, C
+MDlgOpenDir = 81, 87, 701, 269, C
+CRecentFile = 27, 29, 615, 163, C
+MLanguage = 108, 116, 705, 474, C

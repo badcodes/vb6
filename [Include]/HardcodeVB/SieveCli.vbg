@@ -1,0 +1,8 @@
+VBGROUP 5.0
+StartupProject=SieveCli.vbp
+Project=Sieve\SieveBasDllN.vbp
+Project=Sieve\SieveBasDllP.vbp
+Project=Sieve\SieveBasCtlN.vbp
+Project=Sieve\SieveBasCtlP.vbp
+Project=Sieve\SieveBasGlobalN.vbp
+Project=Sieve\SieveBasGlobalP.vbp

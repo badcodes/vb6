@@ -1,0 +1,7 @@
+[History]
+1=#P0#=mb	#P1#=GetJpgBook	#P2#=renamePDGDirs/MSSReader/GetJpgBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228180619	#P7#=0	#P8#=-1	.
+2=#P0#=mb	#P1#=cmdProcess_Click	#P2#=renamePDGDirs/Mainfrm/cmdProcess_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126081328	#P7#=0	#P8#=6	.
+3=#P0#=mb	#P1#=Form_Load	#P2#=renamePDGDirs/Mainfrm/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228180851	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=pdgformat	#P2#=renamePDGDirs/MSSReader/pdgformat	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081228180530	#P7#=0	#P8#=38	.
+5=#P0#=mb	#P1#=GETpdginfo	#P2#=renamePDGDirs/MSSReader/GETpdginfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081126060536	#P7#=0	#P8#=6	.
+6=#P0#=mb	#P1#=SSLIB_ParseInfoRule	#P2#=renamePDGDirs/MSSReader/SSLIB_ParseInfoRule	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081126055902	#P7#=0	#P8#=5	.

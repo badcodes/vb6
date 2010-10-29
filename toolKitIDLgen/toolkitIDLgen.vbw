@@ -1,0 +1,5 @@
+CDummy = 54, 54, 619, 492, C
+IUnzip = 162, 174, 700, 628, Z
+MTest = 81, 87, 619, 541, C
+IArchiveItem = 108, 116, 700, 436, 
+IArchiveItems = 81, 87, 673, 407, 

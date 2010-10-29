@@ -1,0 +1,20 @@
+body {
+        background-color: #000000;
+        margin-left:8;
+        margin-top:8;
+        margin-right:8;
+        margin-bottom:8;
+        font-family:"华文细黑";
+        color: #FFFFFF;
+        line-height: 140%;
+     }
+.m_text {
+        font-family:"华文细黑";
+        color: #FFFFFF;
+        line-height: 140%;
+}
+A {
+        font-family:"华文细黑";
+        color: #FFFFFF;
+        line-height: 140%;
+}

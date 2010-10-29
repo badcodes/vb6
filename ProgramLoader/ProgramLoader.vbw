@@ -1,0 +1,4 @@
+frmMain = 22, 29, 754, 406, Z, 44, 58, 772, 409, C
+CCommonDialogLite = 0, 0, 0, 0, C
+MShell32 = 0, 0, 0, 0, C
+ProgressDialog = 92, 92, 706, 631, , 69, 69, 683, 608, C

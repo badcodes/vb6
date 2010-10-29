@@ -1,0 +1,5 @@
+MainFrm = 45, 51, 629, 397, C, 135, 145, 617, 491, C
+frmOptions = -73, 80, 600, 283, C, 27, 29, 509, 375, C
+frmBookmark = 54, 60, 700, 375, C, 27, 29, 531, 365, C
+MZhReaderViaHttpServer = 54, 58, 558, 394, Z
+frmServer = 108, 116, 612, 452, C, 54, 58, 558, 394, C

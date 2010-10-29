@@ -1,0 +1,76 @@
+[History]
+1=#P0#=mb	#P1#=UIndex	#P2#=ClassTemplate/TArray/UIndex [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081228164204	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=Class_Initialize	#P2#=ClassTemplate/TArray/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081228164252	#P7#=0	#P8#=0	.
+3=#P0#=mb	#P1#=LIndex	#P2#=ClassTemplate/TArray/LIndex [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081228164241	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=UIndex	#P2#=ClassTemplate/TArray/UIndex [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081228164150	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=Item	#P2#=ClassTemplate/TArray/Item [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081228164012	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=BuildClass	#P2#=ClassTemplate/MTest/BuildClass	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225061555	#P7#=0	#P8#=8	.
+7=#P0#=mb	#P1#=ValueOf	#P2#=ClassTemplate/TMap/ValueOf	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225061416	#P7#=0	#P8#=3	.
+8=#P0#=mb	#P1#=item	#P2#=ClassTemplate/TVector/item [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225060909	#P7#=0	#P8#=-2	.
+9=#P0#=mb	#P1#=item	#P2#=ClassTemplate/TVector/item [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225060906	#P7#=0	#P8#=2	.
+10=#P0#=mb	#P1#=item	#P2#=ClassTemplate/TVector/item [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225060613	#P7#=0	#P8#=-2	.
+11=#P0#=mb	#P1#=testStringMap	#P2#=ClassTemplate/MTest/testStringMap	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225055501	#P7#=0	#P8#=7	.
+12=#P0#=mb	#P1#=KeyOf	#P2#=ClassTemplate/TMap/KeyOf	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225055041	#P7#=0	#P8#=-1	.
+13=#P0#=mb	#P1#=Map	#P2#=ClassTemplate/TMap/Map	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225055005	#P7#=0	#P8#=7	.
+14=#P0#=mb	#P1#=Item	#P2#=ClassTemplate/TMap/Item [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225054858	#P7#=0	#P8#=1	.
+15=#P0#=mb	#P1#=Item	#P2#=ClassTemplate/TMap/Item [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225054853	#P7#=0	#P8#=5	.
+16=#P0#=mb	#P1#=item	#P2#=ClassTemplate/TMap/item [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225054828	#P7#=0	#P8#=2	.
+17=#P0#=mb	#P1#=Map	#P2#=ClassTemplate/TMap/Map [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225054802	#P7#=0	#P8#=0	.
+18=#P0#=mb	#P1#=Map	#P2#=ClassTemplate/TMap/Map [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225054738	#P7#=0	#P8#=0	.
+19=#P0#=mb	#P1#=Remove	#P2#=ClassTemplate/TMap/Remove	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225054603	#P7#=0	#P8#=8	.
+20=#P0#=mb	#P1#=HashTableAdd	#P2#=ClassTemplate/CIndexTable/HashTableAdd	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225054421	#P7#=0	#P8#=8	.
+21=#P0#=mb	#P1#=SearchIndex	#P2#=ClassTemplate/CIndexTable/SearchIndex	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225054346	#P7#=0	#P8#=14	.
+22=#P0#=mb	#P1#=Add	#P2#=ClassTemplate/CIndexTable/Add	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225054139	#P7#=0	#P8#=13	.
+23=#P0#=mb	#P1#=TestStack	#P2#=ClassTemplate/MTest/TestStack	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053944	#P7#=0	#P8#=3	.
+24=#P0#=mb	#P1#=Values	#P2#=ClassTemplate/TMap/Values [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225053828	#P7#=0	#P8#=6	.
+25=#P0#=mb	#P1#=Keys	#P2#=ClassTemplate/CIndexTable/Keys [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225053801	#P7#=0	#P8#=3	.
+26=#P0#=mb	#P1#=Keys	#P2#=ClassTemplate/CIndexTable/Keys	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053800	#P7#=0	#P8#=0	.
+27=#P0#=mb	#P1#=Remove	#P2#=ClassTemplate/CIndexTable/Remove	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053556	#P7#=0	#P8#=4	.
+28=#P0#=mb	#P1#=Keys	#P2#=ClassTemplate/TMap/Keys [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225053531	#P7#=0	#P8#=2	.
+29=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/TMap/ChunkSize [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225053251	#P7#=0	#P8#=0	.
+30=#P0#=mb	#P1#=Class_Initialize	#P2#=ClassTemplate/TMap/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225053217	#P7#=0	#P8#=-1	.
+31=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/CIndexTable/ChunkSize [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225053201	#P7#=0	#P8#=0	.
+32=#P0#=mb	#P1#=ItemOf	#P2#=ClassTemplate/CIndexTable/ItemOf	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053125	#P7#=0	#P8#=1	.
+33=#P0#=mb	#P1#=WriteOperator	#P2#=ClassTemplate/CFilterTypeOP/WriteOperator	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053111	#P7#=0	#P8#=25	.
+34=#P0#=mb	#P1#=Find	#P2#=ClassTemplate/CArray/Find	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053100	#P7#=0	#P8#=6	.
+35=#P0#=mb	#P1#=Add	#P2#=ClassTemplate/TMap/Add	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225053014	#P7#=0	#P8#=4	.
+36=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/TMap/ChunkSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225052914	#P7#=0	#P8#=5	.
+37=#P0#=mb	#P1#=Init	#P2#=ClassTemplate/CIndexTable/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225051500	#P7#=0	#P8#=5	.
+38=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/CIndexTable/ChunkSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225051440	#P7#=0	#P8#=5	.
+39=#P0#=mb	#P1#=HashTableSize	#P2#=ClassTemplate/CIndexTable/HashTableSize [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225045955	#P7#=0	#P8#=2	.
+40=#P0#=mb	#P1#=RehashData	#P2#=ClassTemplate/CIndexTable/RehashData	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225045844	#P7#=0	#P8#=7	.
+41=#P0#=mb	#P1#=Class_Initialize	#P2#=ClassTemplate/CIndexTable/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225045545	#P7#=0	#P8#=-2	.
+42=#P0#=mb	#P1#=Reset	#P2#=ClassTemplate/CIndexTable/Reset	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225045520	#P7#=0	#P8#=1	.
+43=#P0#=mb	#P1#=HashTableSize	#P2#=ClassTemplate/CIndexTable/HashTableSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225045456	#P7#=0	#P8#=8	.
+44=#P0#=mb	#P1#=IndexOf	#P2#=ClassTemplate/CIndexTable/IndexOf	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225045309	#P7#=0	#P8#=1	.
+45=#P0#=mb	#P1#=HashTableCompute	#P2#=ClassTemplate/CIndexTable/HashTableCompute	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225045048	#P7#=0	#P8#=0	.
+46=#P0#=mb	#P1#=AppendNext	#P2#=ClassTemplate/TLink/AppendNext	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225033128	#P7#=0	#P8#=8	.
+47=#P0#=mb	#P1#=Add	#P2#=ClassTemplate/TVector/Add	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023730	#P7#=0	#P8#=1	.
+48=#P0#=mb	#P1#=Class_Terminate	#P2#=ClassTemplate/TVector/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225023703	#P7#=0	#P8#=0	.
+49=#P0#=mb	#P1#=Shink	#P2#=ClassTemplate/TVector/Shink	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023646	#P7#=0	#P8#=1	.
+50=#P0#=mb	#P1#=Reset	#P2#=ClassTemplate/TVector/Reset	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023639	#P7#=0	#P8#=1	.
+51=#P0#=mb	#P1#=Remove	#P2#=ClassTemplate/TVector/Remove	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023635	#P7#=0	#P8#=1	.
+52=#P0#=mb	#P1#=Insert	#P2#=ClassTemplate/TVector/Insert	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023424	#P7#=0	#P8#=1	.
+53=#P0#=mb	#P1#=Init	#P2#=ClassTemplate/TVector/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023418	#P7#=0	#P8#=1	.
+54=#P0#=mb	#P1#=Find	#P2#=ClassTemplate/TVector/Find	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225023407	#P7#=0	#P8#=1	.
+55=#P0#=mb	#P1#=Count	#P2#=ClassTemplate/TVector/Count [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225023357	#P7#=0	#P8#=2	.
+56=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/TVector/ChunkSize [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225023351	#P7#=0	#P8#=2	.
+57=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/TVector/ChunkSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225023346	#P7#=0	#P8#=0	.
+58=#P0#=mb	#P1#=Class_Initialize	#P2#=ClassTemplate/TVector/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225023246	#P7#=0	#P8#=0	.
+59=#P0#=mb	#P1#=AssignString	#P2#=ClassTemplate/MFilterHelper/AssignString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225022811	#P7#=0	#P8#=1	.
+60=#P0#=mb	#P1#=ITemplateFilter_Process	#P2#=ClassTemplate/CFilterTypeOP/ITemplateFilter_Process	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081225022800	#P7#=0	#P8#=5	.
+61=#P0#=mb	#P1#=Push	#P2#=ClassTemplate/TStack/Push	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224190145	#P7#=0	#P8#=4	.
+62=#P0#=mb	#P1#=Peek	#P2#=ClassTemplate/TStack/Peek	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224180511	#P7#=0	#P8#=6	.
+63=#P0#=mb	#P1#=Pop	#P2#=ClassTemplate/TStack/Pop	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224180416	#P7#=0	#P8#=4	.
+64=#P0#=mb	#P1#=DeleteArray	#P2#=ClassTemplate/MTemplateHelper/DeleteArray	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224180329	#P7#=0	#P8#=1	.
+65=#P0#=mb	#P1#=Class_Initialize	#P2#=ClassTemplate/TStack/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224175645	#P7#=0	#P8#=0	.
+66=#P0#=mb	#P1#=TestStringArray	#P2#=ClassTemplate/MTest/TestStringArray	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224175414	#P7#=0	#P8#=-1	.
+67=#P0#=mb	#P1#=TestClassBuilder	#P2#=ClassTemplate/MTest/TestClassBuilder	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224175107	#P7#=0	#P8#=8	.
+68=#P0#=mb	#P1#=Process	#P2#=ClassTemplate/CTemplateBuilder/Process	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224174323	#P7#=0	#P8#=10	.
+69=#P0#=mb	#P1#=Reportor	#P2#=ClassTemplate/CTemplateBuilder/Reportor [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081224174119	#P7#=0	#P8#=-1	.
+70=#P0#=mb	#P1#=IFilterReporter_RequestChange	#P2#=ClassTemplate/CTemplateBuilder/IFilterReporter_RequestChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224174117	#P7#=0	#P8#=1	.
+71=#P0#=mb	#P1#=IFilterReporter_NotifyChange	#P2#=ClassTemplate/CTemplateBuilder/IFilterReporter_NotifyChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224174110	#P7#=0	#P8#=2	.
+72=#P0#=mb	#P1#=Class_Terminate	#P2#=ClassTemplate/TStack/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224172729	#P7#=0	#P8#=2	.
+73=#P0#=mb	#P1#=ChunkSize	#P2#=ClassTemplate/TStack/ChunkSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081224172715	#P7#=0	#P8#=4	.
+74=#P0#=mb	#P1#=Init	#P2#=ClassTemplate/TStack/Init	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224172606	#P7#=0	#P8#=3	.
+75=#P0#=mb	#P1#=Reset	#P2#=ClassTemplate/TStack/Reset	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224172045	#P7#=0	#P8#=-1	.

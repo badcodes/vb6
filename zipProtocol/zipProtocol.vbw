@@ -1,0 +1,5 @@
+clsZipHandler = -89, 110, 512, 374, 
+modReturnfunc = -9, 147, 547, 502, 
+MUseZipProtocol = 44, 56, 615, 355, 
+MString = 108, 120, 687, 443, 
+MFileSystem = 27, 30, 606, 353, Z

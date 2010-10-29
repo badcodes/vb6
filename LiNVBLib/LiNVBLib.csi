@@ -1,0 +1,11 @@
+[History]
+1=#P0#=mb	#P1#=PathType	#P2#=LiNVBLib/GFileSystem/PathType	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090912123328	#P7#=0	#P8#=9	.
+2=#P0#=mb	#P1#=VBChooseFont	#P2#=LiNVBLib/CCommonDialogLite/VBChooseFont	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225063324	#P7#=0	#P8#=-1	.
+3=#P0#=mb	#P1#=ValueOf	#P2#=LiNVBLib/CIntegerMap/ValueOf	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225061306	#P7#=0	#P8#=4	.
+4=#P0#=mb	#P1#=Item	#P2#=LiNVBLib/CLongVector/Item [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225060850	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=item	#P2#=LiNVBLib/CStringVector/item [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081225060452	#P7#=0	#P8#=1	.
+6=#P0#=mb	#P1#=iniDeleteSection	#P2#=LiNVBLib/GIni/iniDeleteSection	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081225060350	#P7#=0	#P8#=1	.
+7=#P0#=mb	#P1#=Remove	#P2#=LiNVBLib/CStringArray/Remove	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081019180713	#P7#=0	#P8#=0	.
+8=#P0#=mb	#P1#=Class_Initialize	#P2#=LiNVBLib/CArray/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081019175853	#P7#=0	#P8#=1	.
+9=#P0#=mb	#P1#=Item	#P2#=LiNVBLib/CArray/Item [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019175836	#P7#=0	#P8#=0	.
+10=#P0#=mb	#P1#=ChunkSize	#P2#=LiNVBLib/CArray/ChunkSize [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081019175759	#P7#=0	#P8#=2	.

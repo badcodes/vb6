@@ -1,0 +1,5 @@
+[History]
+B0=zipProtocol/modReturnfunc/MimeType
+B1=zipProtocol/clsZipHandler/Start
+B2=zipProtocol/clsZipHandler/Read
+B3=zipProtocol/clsZipHandler

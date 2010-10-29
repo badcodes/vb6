@@ -1,0 +1,10 @@
+frmMain = 44, 58, 606, 412, , 22, 29, 570, 380, C
+MForms = 0, 0, 853, 387, 
+MFileSystem = 66, 87, 628, 441, 
+MStrings = 66, 87, 628, 441, 
+CCommonDialogLite = 0, 0, 0, 0, C
+CFolderBrowser = 44, 58, 606, 412, C
+MFolderBrowser = 0, 0, 0, 0, C
+CVBSetting = 0, 0, 562, 354, 
+MShell32 = 88, 116, 1096, 530, 
+M7zip = 132, 174, 1065, 562, Z

@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=Components\VBCore.vbp
+StartupProject=hardcore.vbp
+Project=Components\VisualCore.vbp

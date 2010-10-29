@@ -1,0 +1,36 @@
+Type=OleDll
+Class=loader; IeSaveText.cls
+Startup="(None)"
+HelpFile=""
+Title="DllIST"
+ExeName32="IeSavetext.dll"
+Command32=""
+Name="IeSaveText"
+HelpContextID="0"
+CompatibleMode="1"
+CompatibleEXE32="IeSavetext.dll"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="MYPLACE"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1

@@ -1,0 +1,8 @@
+frmServer = -70, 141, 544, 457, , 23, 11, 534, 327, C
+MSystem = -25, 63, 589, 379, C
+modHttpServer = 88, 100, 447, 425, Z
+frmOptions = 22, 25, 636, 341, C, 66, 75, 577, 391, C
+MDlgOpenDir = 0, 0, 0, 0, C
+MApp = 0, 0, 0, 0, C
+MAlgorithms = 0, 0, 0, 0, C
+CTempFile = 0, 0, 0, 0, C

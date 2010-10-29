@@ -1,0 +1,2 @@
+typedef [public] long HKEY;
+typedef [public] long 

@@ -1,0 +1,19 @@
+[History]
+B0=ssLibQuery/MainFrm
+B1=ssLibQuery/MainFrm/Form_Load
+B2=ssLibQuery/MainFrm/lvResultItemClick
+B3=ssLibQuery/MainFrm/queryPdgLib
+B4=ssLibQuery/MainFrm/match
+B5=ssLibQuery/MSSRLib/parentCata
+B6=ssLibQuery/MgCString/MyInstr
+B7=ssLibQuery/MainFrm/Form_Resize
+B8=ssLibQuery/CAutoSetting/Add
+B9=ssLibQuery/CAutoSetting/Class_Terminate
+B10=ssLibQuery/CAutoSetting
+B11=ssLibQuery/Dialog/OKButton_Click
+B12=ssLibQuery/Dialog/cmdOpenSS_Click
+B13=ssLibQuery/Dialog
+B14=ssLibQuery/Dialog/Form_Terminate
+[Workbench]
+0=28   ssLibQuery/MainFrm/Form_Load9    Form_Load20   MembEventProcPrivate1    01    0
+1=36   ssLibQuery/MainFrm/lvResultItemClick17   lvResultItemClick17   MembMethodPrivate1    01    0

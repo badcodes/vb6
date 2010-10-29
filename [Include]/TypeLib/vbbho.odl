@@ -1,0 +1,34 @@
+[
+uuid(CF9D9B76-EC4B-470D-99DC-AEC6F36A9261),
+helpstring("VB IObjectWithSite Interface"),
+version(1.0)
+]
+library IObjectWithSiteTLB
+{
+importlib("stdole2.tlb");
+typedef [public] long GUIDPtr;
+typedef [public] long VOIDPtr;
+[
+uuid(00000000-0000-0000-C000-000000000046),
+odl
+]
+interface IUnknownVB
+{
+HRESULT QueryInterface(
+[in] GUIDPtr priid,
+[out] VOIDPtr *pvObj
+);
+long AddRef();
+long Release();
+}
+[
+uuid(FC4801A3-2BA9-11CF-A229-00AA003D7352),
+odl
+]
+interface IObjectWithSite:IUnknown
+{
+typedef IObjectWithSite *LPOBJECTWITHSITE;
+HRESULT SetSite([in] IUnknownVB* pSite);
+HRESULT GetSite([in] GUIDPtr priid, [in, out] VOIDPtr* ppvObj);
+}
+}; 

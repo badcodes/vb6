@@ -1,0 +1,5 @@
+VBGROUP 5.0
+Project=Controls\Editor.vbp
+StartupProject=Edwina.vbp
+Project=Components\VBCore.vbp
+Project=Controls\DropStack.vbp

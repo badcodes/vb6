@@ -1,0 +1,69 @@
+.contentTable
+{
+    COLOR: black;
+}
+BODY
+{
+    MARGIN:20px;
+	FONT-FAMILY:宋体;
+}
+.title_index
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15pt;
+    LINE-HEIGHT: 150%;
+	FONT-FAMILY:宋体;
+}
+.title_page
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15pt;
+    LINE-HEIGHT: 150%;
+	FONT-FAMILY:宋体;
+}
+.content
+{
+    LINE-HEIGHT: 140%;
+	FONT-FAMILY:宋体;
+}
+.content IMG
+{
+    MARGIN: 7px
+}
+.9
+{
+    FONT-SIZE: 9pt
+}
+.TitleLinks
+{
+    TEXT-ALIGN: center
+}
+.TitleLinks .content
+{
+    LINE-HEIGHT: 20pt
+}
+.TitleLinks .content IMG
+{
+    MARGIN-TOP: 7px;
+    MARGIN-BOTTOM: 7px
+}
+A:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}

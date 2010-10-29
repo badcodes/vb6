@@ -1,0 +1,100 @@
+[History]
+1=#P0#=mb	#P1#=taskTimer_ThatTime	#P2#=GetSSLibX/CTaskDownloader2/taskTimer_ThatTime	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907153835	#P7#=0	#P8#=15	.
+2=#P0#=mb	#P1#=StartDownload	#P2#=GetSSLibX/CTaskDownloader2/StartDownload	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907153548	#P7#=0	#P8#=18	.
+3=#P0#=mb	#P1#=TestComplete	#P2#=GetSSLibX/CTaskDownloader2/TestComplete	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907153510	#P7#=-2147483640	#P8#=59	.
+4=#P0#=mb	#P1#=StartTimer	#P2#=GetSSLibX/CTaskDownloader2/StartTimer	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907153457	#P7#=0	#P8#=7	.
+5=#P0#=mb	#P1#=GetTextPdg2	#P2#=GetSSLibX/CTaskDownloader2/GetTextPdg2	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907152450	#P7#=0	#P8#=8	.
+6=#P0#=mb	#P1#=TaskComplete	#P2#=GetSSLibX/CTaskDownloader2/TaskComplete	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907152159	#P7#=0	#P8#=19	.
+7=#P0#=mb	#P1#=mTester_TestCompleted	#P2#=GetSSLibX/CTaskDownloader2/mTester_TestCompleted	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907151410	#P7#=0	#P8#=8	.
+8=#P0#=mb	#P1#=Class_Initialize	#P2#=GetSSLibX/CTaskDownloader2/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907151113	#P7#=0	#P8#=5	.
+9=#P0#=mb	#P1#=UrlCompleted	#P2#=GetSSLibX/CTaskDownloader2/UrlCompleted	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907144617	#P7#=0	#P8#=-2	.
+10=#P0#=mb	#P1#=DownloadNextURL	#P2#=GetSSLibX/CTaskDownloader2/DownloadNextURL	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907070725	#P7#=0	#P8#=43	.
+11=#P0#=mb	#P1#=StartTest	#P2#=GetSSLibX/CBookTester/StartTest	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907070633	#P7#=0	#P8#=2	.
+12=#P0#=mb	#P1#=GetNextUrl	#P2#=GetSSLibX/CBookURL/GetNextUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907070513	#P7#=0	#P8#=18	.
+13=#P0#=mb	#P1#=UserControl_Resize	#P2#=GetSSLibX/KeyValueEditor/UserControl_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907070320	#P7#=0	#P8#=99	.
+14=#P0#=mb	#P1#=ObjectsVisible	#P2#=GetSSLibX/KeyValueEditor/ObjectsVisible	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907070223	#P7#=0	#P8#=1	.
+15=#P0#=mb	#P1#=LoadObject	#P2#=GetSSLibX/KeyValueEditor/LoadObject	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907065934	#P7#=0	#P8#=1	.
+16=#P0#=mb	#P1#=SetValueObject	#P2#=GetSSLibX/KeyValueEditor/SetValueObject	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907065853	#P7#=0	#P8#=8	.
+17=#P0#=mb	#P1#=GetValueObject	#P2#=GetSSLibX/KeyValueEditor/GetValueObject	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907065838	#P7#=0	#P8#=3	.
+18=#P0#=mb	#P1#=GetText	#P2#=GetSSLibX/KeyValueEditor/GetText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907065804	#P7#=0	#P8#=9	.
+19=#P0#=mb	#P1#=StripString	#P2#=GetSSLibX/MHttpHeader/StripString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907065416	#P7#=0	#P8#=1	.
+20=#P0#=mb	#P1#=SSLIB_ChnFieldName	#P2#=GetSSLibX/MSSReader/SSLIB_ChnFieldName	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907065016	#P7#=0	#P8#=4	.
+21=#P0#=mb	#P1#=cmdOK_Click	#P2#=GetSSLibX/frmTask/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907064942	#P7#=0	#P8#=14	.
+22=#P0#=mb	#P1#=CheckValue	#P2#=GetSSLibX/frmTask/CheckValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907064648	#P7#=0	#P8#=1	.
+23=#P0#=mb	#P1#=Form_Activate	#P2#=GetSSLibX/frmTask/Form_Activate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907064518	#P7#=0	#P8#=1	.
+24=#P0#=mb	#P1#=LoadFromArray	#P2#=GetSSLibX/CBookInfo/LoadFromArray	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907063430	#P7#=0	#P8#=1	.
+25=#P0#=mb	#P1#=cmdEdit_Click	#P2#=GetSSLibX/frmMain/cmdEdit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907063339	#P7#=0	#P8#=1	.
+26=#P0#=mb	#P1#=AddTask	#P2#=GetSSLibX/frmMain/AddTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907063315	#P7#=0	#P8#=1	.
+27=#P0#=mb	#P1#=SSLIB_UpdateTaskOnNeed	#P2#=GetSSLibX/MSSReader/SSLIB_UpdateTaskOnNeed	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907062950	#P7#=0	#P8#=1	.
+28=#P0#=mb	#P1#=mDownloader_ProgressError	#P2#=GetSSLibX/CTaskRunner/mDownloader_ProgressError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907062523	#P7#=0	#P8#=4	.
+29=#P0#=mb	#P1#=Execute	#P2#=GetSSLibX/CTaskRunner/Execute	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907062458	#P7#=0	#P8#=33	.
+30=#P0#=mb	#P1#=UpdateDownloadInfo	#P2#=GetSSLibX/frmMain/UpdateDownloadInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907062400	#P7#=0	#P8#=1	.
+31=#P0#=mb	#P1#=ITaskNotify_DownloadStatusChange	#P2#=GetSSLibX/frmMain/ITaskNotify_DownloadStatusChange	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907062338	#P7#=0	#P8#=1	.
+32=#P0#=mb	#P1#=ProcessQueue	#P2#=GetSSLibX/frmMain/ProcessQueue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907061804	#P7#=0	#P8#=23	.
+33=#P0#=mb	#P1#=main_loop	#P2#=GetSSLibX/frmMain/main_loop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907061750	#P7#=0	#P8#=8	.
+34=#P0#=mb	#P1#=Download	#P2#=GetSSLibX/CTaskDownloader2/Download	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907055839	#P7#=0	#P8#=-13	.
+35=#P0#=mb	#P1#=mDownloader_Finish	#P2#=GetSSLibX/CTaskRunner/mDownloader_Finish	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907055638	#P7#=0	#P8#=13	.
+36=#P0#=mb	#P1#=Class_Terminate	#P2#=GetSSLibX/CTaskDownloader2/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090907055529	#P7#=0	#P8#=1	.
+37=#P0#=mb	#P1#=Execute2	#P2#=GetSSLibX/CTaskRunner/Execute2	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090907045924	#P7#=0	#P8#=0	.
+38=#P0#=mb	#P1#=IEURL_To_BookInfo	#P2#=GetSSLibX/MSSReader/IEURL_To_BookInfo	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906064630	#P7#=0	#P8#=4	.
+39=#P0#=mb	#P1#=SSID_To_BookInfo	#P2#=GetSSLibX/MSSReader/SSID_To_BookInfo	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20090906064617	#P7#=0	#P8#=3	.
+40=#P0#=mb	#P1#=UpdateJpgBook	#P2#=GetSSLibX/frmMain/UpdateJpgBook	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906064435	#P7#=0	#P8#=10	.
+41=#P0#=mb	#P1#=ActionOnSingleItem	#P2#=GetSSLibX/frmMain/ActionOnSingleItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20090906064358	#P7#=0	#P8#=54	.
+42=#P0#=mb	#P1#=OpenExplorer	#P2#=GetSSLibX/frmMain/OpenExplorer	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081229093353	#P7#=0	#P8#=3	.
+43=#P0#=mb	#P1#=ListItemToTask	#P2#=GetSSLibX/frmMain/ListItemToTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081229092247	#P7#=0	#P8#=1	.
+44=#P0#=mb	#P1#=ConfigLoad	#P2#=GetSSLibX/frmMain/ConfigLoad	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081229084351	#P7#=0	#P8#=0	.
+45=#P0#=mb	#P1#=mnuImportList_Click	#P2#=GetSSLibX/frmMain/mnuImportList_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081229084339	#P7#=0	#P8#=1	.
+46=#P0#=mb	#P1#=mDownloader_OnError	#P2#=GetSSLibX/CTaskRunner/mDownloader_OnError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081229080342	#P7#=0	#P8#=8	.
+47=#P0#=mb	#P1#=Test	#P2#=GetSSLibX/CBookTester/Test	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226210537	#P7#=0	#P8#=11	.
+48=#P0#=mb	#P1#=Report	#P2#=GetSSLibX/CBookTester/Report	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226210418	#P7#=0	#P8#=47	.
+49=#P0#=mb	#P1#=mRealHttp_OnTestCompleted	#P2#=GetSSLibX/CBookTester/mRealHttp_OnTestCompleted	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226210045	#P7#=0	#P8#=-16	.
+50=#P0#=mb	#P1#=IsJpgBook	#P2#=GetSSLibX/CBookTester/IsJpgBook [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226205354	#P7#=0	#P8#=-1	.
+51=#P0#=mb	#P1#=testFile	#P2#=GetSSLibX/CBookTester/testFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226205243	#P7#=0	#P8#=5	.
+52=#P0#=mb	#P1#=IsTextPdg	#P2#=GetSSLibX/CBookTester/IsTextPdg [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226204941	#P7#=0	#P8#=-1	.
+53=#P0#=mb	#P1#=Form_Resize	#P2#=GetSSLibX/frmInputBox/Form_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226190446	#P7#=0	#P8#=9	.
+54=#P0#=mb	#P1#=Form_Activate	#P2#=GetSSLibX/frmInputBox/Form_Activate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226185946	#P7#=0	#P8#=1	.
+55=#P0#=mb	#P1#=Text_KeyDown	#P2#=GetSSLibX/frmInputBox/Text_KeyDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226185643	#P7#=0	#P8#=3	.
+56=#P0#=mb	#P1#=Form_Load	#P2#=GetSSLibX/frmInputBox/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226185634	#P7#=0	#P8#=2	.
+57=#P0#=mb	#P1#=LstTasks_KeyDown	#P2#=GetSSLibX/frmMain/LstTasks_KeyDown	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226185425	#P7#=0	#P8#=2	.
+58=#P0#=mb	#P1#=Popup	#P2#=GetSSLibX/frmInputBox/Popup	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226185400	#P7#=0	#P8#=6	.
+59=#P0#=mb	#P1#=mNet_OnError	#P2#=GetSSLibX/CWinHttpSimple/mNet_OnError	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226072754	#P7#=0	#P8#=9	.
+60=#P0#=mb	#P1#=mNet_OnResponseStart	#P2#=GetSSLibX/CWinHttpSimple/mNet_OnResponseStart	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226072735	#P7#=0	#P8#=21	.
+61=#P0#=mb	#P1#=SSLIB_HTMLContentToBookContent	#P2#=GetSSLibX/MSSReader/SSLIB_HTMLContentToBookContent	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226070223	#P7#=0	#P8#=0	.
+62=#P0#=mb	#P1#=ParseJPGBookInfoText	#P2#=GetSSLibX/MSSReader/ParseJPGBookInfoText	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226070211	#P7#=0	#P8#=0	.
+63=#P0#=mb	#P1#=SSLIB_UpdateTaskFolder	#P2#=GetSSLibX/MSSReader/SSLIB_UpdateTaskFolder	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226070134	#P7#=0	#P8#=6	.
+64=#P0#=mb	#P1#=GetJpgBookParamA	#P2#=GetSSLibX/MSSReader/GetJpgBookParamA	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226070121	#P7#=0	#P8#=0	.
+65=#P0#=mb	#P1#=SSLIB_GetReadBookURL	#P2#=GetSSLibX/MSSReader/SSLIB_GetReadBookURL	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226070023	#P7#=0	#P8#=0	.
+66=#P0#=mb	#P1#=GetJpgBookInfoUrl	#P2#=GetSSLibX/MSSReader/GetJpgBookInfoUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226070000	#P7#=0	#P8#=0	.
+67=#P0#=mb	#P1#=ActionOnTaskItem	#P2#=GetSSLibX/frmMain/ActionOnTaskItem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226061911	#P7#=0	#P8#=1	.
+68=#P0#=mb	#P1#=Directory	#P2#=GetSSLibX/CTask/Directory [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226061317	#P7#=0	#P8#=3	.
+69=#P0#=mb	#P1#=TaskNewFromDirectory	#P2#=GetSSLibX/frmMain/TaskNewFromDirectory	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226061044	#P7#=0	#P8#=8	.
+70=#P0#=mb	#P1#=AutoLoad	#P2#=GetSSLibX/CTask/AutoLoad	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226060917	#P7#=0	#P8#=4	.
+71=#P0#=mb	#P1#=ConfigSave	#P2#=GetSSLibX/frmMain/ConfigSave	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226060457	#P7#=0	#P8#=4	.
+72=#P0#=mb	#P1#=IsJpgBook	#P2#=GetSSLibX/CTask/IsJpgBook [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226055847	#P7#=0	#P8#=2	.
+73=#P0#=mb	#P1#=TaskNewFromFile	#P2#=GetSSLibX/frmMain/TaskNewFromFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226040125	#P7#=0	#P8#=4	.
+74=#P0#=mb	#P1#=TaskListReadFrom	#P2#=GetSSLibX/frmMain/TaskListReadFrom	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226040113	#P7#=0	#P8#=28	.
+75=#P0#=mb	#P1#=Directory	#P2#=GetSSLibX/CTask/Directory [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226040045	#P7#=0	#P8#=0	.
+76=#P0#=mb	#P1#=UpdateFolder	#P2#=GetSSLibX/CTask/UpdateFolder	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226035951	#P7#=0	#P8#=4	.
+77=#P0#=mb	#P1#=Form_Load	#P2#=GetSSLibX/frmMain/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226024503	#P7#=0	#P8#=27	.
+78=#P0#=mb	#P1#=OpenInSSReader	#P2#=GetSSLibX/frmMain/OpenInSSReader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226023319	#P7#=0	#P8#=6	.
+79=#P0#=mb	#P1#=StartProcess	#P2#=GetSSLibX/frmMain/StartProcess	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226015820	#P7#=0	#P8#=-1	.
+80=#P0#=mb	#P1#=ActionOnAllTask	#P2#=GetSSLibX/frmMain/ActionOnAllTask	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226015716	#P7#=0	#P8#=15	.
+81=#P0#=mb	#P1#=cmd_Click	#P2#=GetSSLibX/frmMain/cmd_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226015648	#P7#=0	#P8#=1	.
+82=#P0#=mb	#P1#=StopProcess	#P2#=GetSSLibX/frmMain/StopProcess	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226015549	#P7#=0	#P8#=4	.
+83=#P0#=mb	#P1#=SSLIB_Init	#P2#=GetSSLibX/MSSReader/SSLIB_Init	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081226012613	#P7#=0	#P8#=66	.
+84=#P0#=mb	#P1#=IWinHttp_ResponseText	#P2#=GetSSLibX/CWinHttpSimple/IWinHttp_ResponseText [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226012341	#P7#=0	#P8#=2	.
+85=#P0#=mb	#P1#=UnescapeUrl	#P2#=GetSSLibX/MStrings/UnescapeUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226012316	#P7#=0	#P8#=15	.
+86=#P0#=mb	#P1#=REsponseText	#P2#=GetSSLibX/IWinHttp/REsponseText [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226011739	#P7#=0	#P8#=1	.
+87=#P0#=mb	#P1#=BufferSize	#P2#=GetSSLibX/IWinHttp/BufferSize [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20081226011736	#P7#=0	#P8#=4	.
+88=#P0#=mb	#P1#=GetJpgBookInfo	#P2#=GetSSLibX/MSSReader/GetJpgBookInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226011610	#P7#=0	#P8#=26	.
+89=#P0#=mb	#P1#=SSLibraryLogin	#P2#=GetSSLibX/MSSReader/SSLibraryLogin	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226010906	#P7#=0	#P8#=0	.
+90=#P0#=mb	#P1#=Runonce	#P2#=GetSSLibX/CTaskRunner/Runonce	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081226010210	#P7#=0	#P8#=4	.
+91=#P0#=mb	#P1#=GetJpgBookPageUrl	#P2#=GetSSLibX/MSSReader/GetJpgBookPageUrl	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224170412	#P7#=0	#P8#=0	.
+92=#P0#=mb	#P1#=SSLIB_ParseHTMLContent	#P2#=GetSSLibX/MSSReader/SSLIB_ParseHTMLContent	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224170153	#P7#=0	#P8#=31	.
+93=#P0#=mb	#P1#=IWinHttp_OpenConnect	#P2#=GetSSLibX/CWinHttpSimple/IWinHttp_OpenConnect	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224165839	#P7#=0	#P8#=1	.
+94=#P0#=mb	#P1#=SetHttpHeader	#P2#=GetSSLibX/CWinHttpSimple/SetHttpHeader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224165808	#P7#=0	#P8#=1	.
+95=#P0#=mb	#P1#=IWinHttp_Init	#P2#=GetSSLibX/CWinHttpSimple/IWinHttp_Init	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224165750	#P7#=0	#P8#=1	.
+96=#P0#=mb	#P1#=IWinHttp_ResetHeader	#P2#=GetSSLibX/CWinHttpSimple/IWinHttp_ResetHeader	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224165728	#P7#=0	#P8#=0	.
+97=#P0#=mb	#P1#=mNet_OnResponseDataAvailable	#P2#=GetSSLibX/CWinHttpSimple/mNet_OnResponseDataAvailable	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20081224165428	#P7#=0	#P8#=31	.
+98=#P0#=mb	#P1#=ResetStatus	#P2#=GetSSLibX/CWinHttpSimple/ResetStatus	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224165406	#P7#=0	#P8#=7	.
+99=#P0#=mb	#P1#=GetNewDownloader	#P2#=GetSSLibX/CWinHttpDownloadEx/GetNewDownloader	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20081224165300	#P7#=0	#P8#=22	.
