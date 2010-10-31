@@ -1,9 +1,0 @@
-MacroPopup.bmp		10001
-stackLeft.bmp		10002
-stackLeftDis.bmp	10003
-stackRight.bmp		10004
-stackRightDis.bmp	10005
-Debug.bmp		10006
-frameDesigner.bmp	10007
-framePane.bmp		10008
-frameNo.bmp		10009
