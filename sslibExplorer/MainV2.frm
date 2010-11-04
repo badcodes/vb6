@@ -120,7 +120,7 @@ Begin VB.Form frmMain
          NoFolders       =   0   'False
          Transparent     =   0   'False
          ViewID          =   "{0057D0E0-3573-11CF-AE69-08002B2E1262}"
-         Location        =   ""
+         Location        =   "http:///"
       End
    End
    Begin VB.Frame fraBookList 
@@ -818,8 +818,8 @@ On Error Resume Next
     
     Dim vDocument As HTMLDocument
     Dim vBody As IHTMLBodyElement2
-    Dim vLocation As HTMLLocation
-    Dim vDocElement As HTMLHtmlElement
+    Dim vLocation As IHTMLLocation
+    Dim vDocElement As IHTMLHtmlElement
     
     Set vDocument = vWindow.Document
     Set vBody = vDocument.body
